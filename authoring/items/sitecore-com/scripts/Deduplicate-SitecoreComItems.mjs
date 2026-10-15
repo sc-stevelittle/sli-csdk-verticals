@@ -26,6 +26,7 @@ for (const file of files) {
   const id = yaml.match(/^ID: "([^"]+)"/m)?.[1];
   if (pathValue && id) records.push({ file, path: pathValue, id });
   for (const match of yaml.matchAll(/s:ds="([0-9a-f-]{36})"/gi)) referencedIds.add(match[1].toLowerCase());
+  for (const match of yaml.matchAll(/<link\b[^>]*\bid="\{?([0-9a-f-]{36})\}?"/gi)) referencedIds.add(match[1].toLowerCase());
 }
 
 const groups = new Map();

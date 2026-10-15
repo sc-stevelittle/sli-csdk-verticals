@@ -11,10 +11,10 @@ Languages:
     - ID: "c441b258-5cfa-4d67-ad08-b85f7da1d978"
       Hint: Image
       Value: |
-        <image mediaid="c13dbe90-84f5-4478-8585-f00cfd83d3ea" />
+        <image mediaid="c75fecff-fc32-4191-aff8-499254d8974c" />
     - ID: "514a2b49-54f7-4390-82d5-7ef7fbaed2b5"
       Hint: AltText
-      Value: "CMS Critic award badge"
+      Value: "TrustRadius award badge"
     - ID: "3225a141-0be6-4e9c-a16e-f48c369b1639"
       Hint: Link
       Value: |

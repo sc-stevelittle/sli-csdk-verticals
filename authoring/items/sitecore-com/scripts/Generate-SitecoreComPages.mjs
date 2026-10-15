@@ -298,7 +298,7 @@ function pageSlug(page) {
   return page.captureSlug ?? (page.routePath.replace(/^\//, '').replaceAll('/', '-') || 'home');
 }
 
-async function buildRenderings(page, content) {
+async function buildRenderings(page, content, mode = 'page') {
   const instances = [];
   const lastByPlaceholder = new Map();
   let dynamicPlaceholderId = 0;
@@ -330,9 +330,13 @@ async function buildRenderings(page, content) {
     }
   };
 
-  for (const node of globalChrome.slice(0, 3)) await addNode(node, 'headless-header');
-  for (const node of content ?? []) await addNode(node, 'headless-main');
-  await addNode(globalChrome[3], 'headless-footer');
+  if (mode === 'header') {
+    for (const node of globalChrome.slice(0, 3)) await addNode(node, 'headless-header');
+  } else if (mode === 'footer') {
+    await addNode(globalChrome[3], 'headless-footer');
+  } else {
+    for (const node of content ?? []) await addNode(node, 'headless-main');
+  }
   return `<r xmlns:p="p" xmlns:s="s" p:p="1">\n  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">\n${instances.join('\n')}\n  </d>\n</r>`;
 }
 
@@ -353,6 +357,76 @@ function setSharedField(yaml, fieldId, hint, value) {
   return `${yaml.slice(0, sharedIndex + 'SharedFields:\n'.length)}${fieldBlock}${yaml.slice(sharedIndex + 'SharedFields:\n'.length)}`;
 }
 
+async function ensurePageDesignWiring() {
+  const partialDesignsFolderPath = path.join(siteRoot, 'Presentation/Partial Designs.yml');
+  const placeholderFolderPath = path.join(siteRoot, 'Presentation/Placeholder Settings/Partial Design.yml');
+  const pageDesignsFolderPath = path.join(siteRoot, 'Presentation/Page Designs.yml');
+  const partialDesignsFolderId = guidFromYaml(await readFile(partialDesignsFolderPath, 'utf8'));
+  const placeholderFolderId = guidFromYaml(await readFile(placeholderFolderPath, 'utf8'));
+  const pageDesignsFolderId = guidFromYaml(await readFile(pageDesignsFolderPath, 'utf8'));
+  if (!partialDesignsFolderId || !placeholderFolderId || !pageDesignsFolderId) {
+    throw new Error('Could not resolve generated presentation folder IDs.');
+  }
+
+  const pageDesignPath = path.join(siteRoot, 'Presentation/Page Designs/Default.yml');
+  const headerDesignPath = path.join(siteRoot, 'Presentation/Partial Designs/Header.yml');
+  const footerDesignPath = path.join(siteRoot, 'Presentation/Partial Designs/Footer.yml');
+  const headerPlaceholderPath = path.join(siteRoot, 'Presentation/Placeholder Settings/Partial Design/Header.yml');
+  const footerPlaceholderPath = path.join(siteRoot, 'Presentation/Placeholder Settings/Partial Design/Footer.yml');
+
+  const loadOrCreate = async (filePath, createYaml) => {
+    try {
+      return await readFile(filePath, 'utf8');
+    } catch {
+      await mkdir(path.dirname(filePath), { recursive: true });
+      const yaml = createYaml();
+      await writeFile(filePath, yaml);
+      return yaml;
+    }
+  };
+
+  const headerId = guidFromYaml(await loadOrCreate(headerDesignPath, () => {
+    const id = randomUUID();
+    const xml = '';
+    let yaml = `---\nID: "${id}"\nParent: "${partialDesignsFolderId}"\nTemplate: "fd2059fd-6043-4dfe-8c04-e2437ce87634"\nPath: "${sitePath}/Presentation/Partial Designs/Header"\nSharedFields:\nLanguages:\n- Language: en\n  Versions:\n  - Version: 1\n    Fields: []\n`;
+    yaml = setSharedField(yaml, '55faae90-3bba-4f7f-96fe-13c3f40055ff', 'Signature', 'header');
+    return setSharedField(yaml, 'f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e', '__Renderings', xml);
+  }));
+  const footerId = guidFromYaml(await loadOrCreate(footerDesignPath, () => {
+    const id = randomUUID();
+    const xml = '';
+    let yaml = `---\nID: "${id}"\nParent: "${partialDesignsFolderId}"\nTemplate: "fd2059fd-6043-4dfe-8c04-e2437ce87634"\nPath: "${sitePath}/Presentation/Partial Designs/Footer"\nSharedFields:\nLanguages:\n- Language: en\n  Versions:\n  - Version: 1\n    Fields: []\n`;
+    yaml = setSharedField(yaml, '55faae90-3bba-4f7f-96fe-13c3f40055ff', 'Signature', 'footer');
+    return setSharedField(yaml, 'f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e', '__Renderings', xml);
+  }));
+  if (!headerId || !footerId) throw new Error('Could not resolve partial design IDs.');
+
+  const headerXml = await buildRenderings({ routePath: '/', captureSlug: 'sitecore-com--home' }, [], 'header');
+  const footerXml = await buildRenderings({ routePath: '/', captureSlug: 'sitecore-com--home' }, [], 'footer');
+  let headerYaml = await readFile(headerDesignPath, 'utf8');
+  let footerYaml = await readFile(footerDesignPath, 'utf8');
+  headerYaml = setSharedField(headerYaml, 'f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e', '__Renderings', headerXml);
+  footerYaml = setSharedField(footerYaml, 'f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e', '__Renderings', footerXml);
+  await writeFile(headerDesignPath, headerYaml);
+  await writeFile(footerDesignPath, footerYaml);
+
+  await loadOrCreate(headerPlaceholderPath, () => `---\nID: "${randomUUID()}"\nParent: "${placeholderFolderId}"\nTemplate: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"\nPath: "${sitePath}/Presentation/Placeholder Settings/Partial Design/Header"\nSharedFields:\n- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"\n  Hint: Placeholder Key\n  Value: "sxa-header"\nLanguages:\n- Language: en\n  Versions:\n  - Version: 1\n    Fields: []\n`);
+  await loadOrCreate(footerPlaceholderPath, () => `---\nID: "${randomUUID()}"\nParent: "${placeholderFolderId}"\nTemplate: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"\nPath: "${sitePath}/Presentation/Placeholder Settings/Partial Design/Footer"\nSharedFields:\n- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"\n  Hint: Placeholder Key\n  Value: "sxa-footer"\nLanguages:\n- Language: en\n  Versions:\n  - Version: 1\n    Fields: []\n`);
+
+  const pageDesignId = guidFromYaml(await loadOrCreate(pageDesignPath, () => `---\nID: "${randomUUID()}"\nParent: "${pageDesignsFolderId}"\nTemplate: "1105b8f8-1e00-426b-bf1f-c840742d827b"\nPath: "${sitePath}/Presentation/Page Designs/Default"\nSharedFields:\n- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"\n  Hint: PartialDesigns\n  Value: "${headerId}|${footerId}"\nLanguages:\n- Language: en\n  Versions:\n  - Version: 1\n    Fields: []\n`));
+  if (!pageDesignId) throw new Error('Could not resolve the Default Page Design ID.');
+
+  const mapping = `%7b${pageTemplateId.toUpperCase()}%7d%3d%257B${pageDesignId.toUpperCase()}%257D`;
+  let pageDesignsYaml = await readFile(pageDesignsFolderPath, 'utf8');
+  if (!pageDesignsYaml.includes('Hint: TemplatesMapping')) {
+    pageDesignsYaml = setSharedField(pageDesignsYaml, 'ba1f60d6-3deb-40cc-bb61-eec772279ee1', 'TemplatesMapping', mapping);
+    await writeFile(pageDesignsFolderPath, pageDesignsYaml);
+  }
+  return pageDesignId;
+}
+
+const defaultPageDesignId = await ensurePageDesignWiring();
+
 for (const page of pageRows) {
   const record = pageYamlByRoute.get(page.routePath);
   const parentSitecorePath = page.sitecorePath.slice(0, page.sitecorePath.lastIndexOf('/'));
@@ -366,6 +440,7 @@ for (const page of pageRows) {
   } else {
     yaml = `---\nID: "${record.id}"\nParent: "${parentId}"\nTemplate: "${pageTemplateId}"\nPath: "${page.sitecorePath}"\nLanguages:\n- Language: en\n  Versions:\n  - Version: 1\n    Fields:\n    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"\n      Hint: Title\n      Value: ${JSON.stringify(page.title ?? page.itemName)}\n    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"\n      Hint: NavigationTitle\n      Value: ${JSON.stringify(page.navigationTitle ?? page.title ?? page.itemName)}\n`;
   }
+  yaml = setSharedField(yaml, '24171bf1-c0e1-480e-be76-4c0a1876f916', 'Page Design', `{${defaultPageDesignId.toUpperCase()}}`);
   yaml = setSharedField(yaml, 'f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e', '__Renderings', xml);
   await mkdir(path.dirname(record.filePath), { recursive: true });
   await writeFile(record.filePath, yaml);

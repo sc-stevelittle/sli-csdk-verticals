@@ -11,10 +11,10 @@ Languages:
     - ID: "4c2695e8-9739-4943-94a3-1e8b52621114"
       Hint: Image
       Value: |
-        <image mediaid="2136f570-ae7d-461b-8987-8061517c15dc" />
+        <image mediaid="bc805acf-4052-41e6-8afc-2d8e6f3caf4f" />
     - ID: "d232808e-abc0-4046-a5b0-f5c1be5b99f1"
       Hint: AltText
-      Value: "Sitecore customer 1"
+      Value: "Sitecore customer 5"
     - ID: "50a4a627-20fd-4ba3-adae-b8b983868ee2"
       Hint: Link
       Value: |

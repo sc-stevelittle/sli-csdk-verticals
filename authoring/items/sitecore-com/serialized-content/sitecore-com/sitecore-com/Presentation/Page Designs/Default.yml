@@ -1,0 +1,14 @@
+---
+ID: "6234809f-6674-4f94-9485-76d9d4ce045b"
+Parent: "fcb99c11-985a-40ae-ba66-2701d6cf1020"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Presentation/Page Designs/Default"
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "f23dce11-fc9d-4f05-97c2-fd14f5119703|b3e57117-9192-44c5-adcb-5db9e39f8e1a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields: []

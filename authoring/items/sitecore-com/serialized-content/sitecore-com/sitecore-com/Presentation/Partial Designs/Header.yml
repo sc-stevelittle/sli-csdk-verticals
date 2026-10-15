@@ -1,0 +1,27 @@
+---
+ID: "f23dce11-fc9d-4f05-97c2-fd14f5119703"
+Parent: "b26148f6-8c66-4f9a-9931-7b41bb6af575"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Presentation/Partial Designs/Header"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{FB04FCA9-5C89-44C6-93CD-3706F577B9CD}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{5D56DE6F-4C5D-406D-AF79-E06D835092BA}" p:after="r[@uid='{FB04FCA9-5C89-44C6-93CD-3706F577B9CD}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{734DF435-1638-400B-932B-33E555BDC20B}" p:after="r[@uid='{5D56DE6F-4C5D-406D-AF79-E06D835092BA}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{5214F98D-10AE-48D9-8FB6-0418C205039D}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+      </d>
+    </r>
+
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: |
+    header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields: []

@@ -10,11 +10,11 @@ Languages:
     Fields:
     - ID: "3b06530f-07a6-4110-86ee-a1dcd0bc76cb"
       Hint: Title
-      Value: "Personalization"
+      Value: "Integrations"
     - ID: "c53705a4-dde3-409a-9c82-5a362b3d16dd"
       Hint: Description
-      Value: "Deliver relevant experiences to every audience."
+      Value: "Connect the systems behind your experiences."
     - ID: "85875cd0-21b7-435b-8f69-4aab0edcfd70"
       Hint: Icon
       Value: |
-        <image mediaid="0687ad07-ae12-4c9c-9b66-31932ba82cb6" />
+        <image mediaid="3a41e90c-b002-42c7-aed3-8228b9e2f659" />

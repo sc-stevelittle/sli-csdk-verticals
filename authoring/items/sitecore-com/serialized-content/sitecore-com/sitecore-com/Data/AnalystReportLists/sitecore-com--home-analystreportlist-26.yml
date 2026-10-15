@@ -1,0 +1,23 @@
+---
+ID: "356788b6-a706-497a-8952-758dc3d39426"
+Parent: "ef31fb03-82a3-44e8-8822-d044e1b61c25"
+Template: "5248b26b-a0c9-402a-b0b9-d3031aea60d3"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/AnalystReportLists/sitecore-com--home-analystreportlist-26"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2aaa7587-f79f-43a2-9073-4cecd1ad6190"
+      Hint: Eyebrow
+      Value: "Industry perspective"
+    - ID: "e8a1c15a-d977-4969-a384-bb51dfd403cb"
+      Hint: Title
+      Value: "Independent insight for what comes next"
+    - ID: "caa8a888-426a-4de1-a6a2-17ef681e08cf"
+      Hint: Intro
+      Value: "Explore research and guidance from leading analysts."
+    - ID: "222c6a43-710b-4627-87a4-5badef6d3f0b"
+      Hint: ViewAllLink
+      Value: |
+        <link class="" querystring="" id="{D6013514-4D5C-4B00-A015-0DD778A2A7DC}" anchor="" target="" title="" linktype="internal" text="View all reports" url="/solutions/analyst-reports" />

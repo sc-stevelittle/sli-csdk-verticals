@@ -1,0 +1,27 @@
+---
+ID: "d7073d99-0d62-4f90-90b7-f0cdce3a1898"
+Parent: "bdb871a3-0716-4f4c-95df-80ece489d760"
+Template: "8ed75b9e-ac43-4f2a-b1fd-e96685e1dca3"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductContentCards/sitecore-com--platform-productcontentcard-27"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b08f303b-a41d-4ba3-8b77-2d9ec81b944f"
+      Hint: Image
+      Value: |
+        <image mediaid="b633a05d-e229-4148-bcc3-13786140bbfc" />
+    - ID: "103dbeb3-8337-492a-85e0-8a02bc069ea7"
+      Hint: Eyebrow
+      Value: "Create"
+    - ID: "361de208-efc4-4b68-b9ea-0c96fc5c56a8"
+      Hint: Title
+      Value: "Content management"
+    - ID: "6b54943d-0e7e-4e8f-bba9-e8ddf959d186"
+      Hint: Description
+      Value: "Plan and publish content across every channel."
+    - ID: "3ff52233-b80e-4f49-b567-74cd5d32ee15"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{5C77BB64-2942-492B-ADA7-6635C51F28A3}" anchor="" target="" title="" linktype="internal" text="Explore content management" url="/platform/content-management-system" />

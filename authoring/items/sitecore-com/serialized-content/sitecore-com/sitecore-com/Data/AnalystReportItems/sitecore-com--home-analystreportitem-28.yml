@@ -1,0 +1,20 @@
+---
+ID: "f9a638e3-f00f-468e-9c4e-2ef124ada7aa"
+Parent: "e00067d2-3456-4740-905b-fe3838fe7d87"
+Template: "6d88951c-dd70-4d62-87b1-95f9f5f3bced"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/AnalystReportItems/sitecore-com--home-analystreportitem-28"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "e61289cc-ceed-479e-97e9-d430c51d008c"
+      Hint: Title
+      Value: "The Forrester Wave: Digital Experience Platforms"
+    - ID: "0751e61d-5c35-4d3a-aba7-944fb2ce8e7a"
+      Hint: DownloadLink
+      Value: |
+        <link class="" querystring="" id="{D6013514-4D5C-4B00-A015-0DD778A2A7DC}" anchor="" target="" title="" linktype="internal" text="Access the report" url="/solutions/analyst-reports" />
+    - ID: "3a58d034-f7a5-40cd-a11f-b81b38c827f6"
+      Hint: LinkLabel
+      Value: "Read the report"

@@ -1,0 +1,21 @@
+---
+ID: "55fb13f2-0df0-4acb-8e2f-21c5627a465b"
+Parent: "ac05507d-580d-4765-aef4-460d8b83239f"
+Template: "e96333ba-aed6-4c77-9f61-a157e49982fb"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerLogoItems/sitecore-com--platform-customerlogoitem-5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4c2695e8-9739-4943-94a3-1e8b52621114"
+      Hint: Image
+      Value: |
+        <image mediaid="1a082d12-ee71-4937-a33f-1dd806101f5d" />
+    - ID: "d232808e-abc0-4046-a5b0-f5c1be5b99f1"
+      Hint: AltText
+      Value: "Sitecore customer 3"
+    - ID: "50a4a627-20fd-4ba3-adae-b8b983868ee2"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{E7B8828A-D8E0-4D73-B3E6-DF1982F5A8B8}" anchor="" target="" title="" linktype="internal" text="Customer story" url="/solutions/customers" />

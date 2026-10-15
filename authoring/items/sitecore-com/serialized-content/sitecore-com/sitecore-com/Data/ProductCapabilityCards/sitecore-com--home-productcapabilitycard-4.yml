@@ -1,0 +1,27 @@
+---
+ID: "f98c721f-647a-4e52-80a0-579f346a9044"
+Parent: "d7eb86e8-5ab8-4175-8a9c-ae17c098e21b"
+Template: "9295e16f-2c60-4d49-9b82-c49bad78b0ab"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductCapabilityCards/sitecore-com--home-productcapabilitycard-4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "cb1a91ea-9bb9-4935-9995-7a8cd7f972dc"
+      Hint: Icon
+      Value: |
+        <image mediaid="6ab37e06-dfbc-4bb9-81fa-9580d5638d84" />
+    - ID: "5de2304d-1883-4ba8-949b-2a17fe373663"
+      Hint: Eyebrow
+      Value: "Orchestrate"
+    - ID: "8ef6fd1a-c41d-47e8-afa1-5ff49f4124cd"
+      Hint: Title
+      Value: "AI and agents"
+    - ID: "7575cd08-f259-4ad2-94f6-94175f0aded8"
+      Hint: Description
+      Value: "Bring brand-aware AI into the work your teams do every day."
+    - ID: "e818a0f7-f79d-48aa-a734-735357c799ee"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{98BE438D-7FE3-46CF-9570-28647ED89F53}" anchor="" target="" title="" linktype="internal" text="Explore AI and agents" url="/platform/ai-and-agents" />

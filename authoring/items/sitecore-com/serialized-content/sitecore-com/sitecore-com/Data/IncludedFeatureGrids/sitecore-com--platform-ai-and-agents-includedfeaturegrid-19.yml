@@ -1,0 +1,16 @@
+---
+ID: "e465c1a6-4508-414f-861c-abf195fb1492"
+Parent: "92012164-7451-483e-bb19-68700e0533fd"
+Template: "b1e1e1b7-b4a2-4776-9360-5cbfc53917ae"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/IncludedFeatureGrids/sitecore-com--platform-ai-and-agents-includedfeaturegrid-19"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "a16b7641-3daa-48d4-9ec7-a71f059515d1"
+      Hint: Title
+      Value: "Everything teams need to move forward"
+    - ID: "4de5a5ea-7db5-44c5-bd14-f16ed036d5d9"
+      Hint: Intro
+      Value: "Start with the essentials and extend as your needs grow."

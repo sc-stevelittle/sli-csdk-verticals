@@ -1,0 +1,13 @@
+---
+ID: "2b98a59e-838a-4ead-aca4-46353f652e8a"
+Parent: "1798471b-9ec6-47aa-b027-06e493e21822"
+Template: "6b4fb7c0-687a-4d33-ba2c-86614c82ea4f"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/FaqAccordions/sitecore-com--platform-faqaccordion-34"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "7a2c7159-fbc8-4da4-b8d6-6b2b5477463c"
+      Hint: Title
+      Value: "Frequently asked questions"

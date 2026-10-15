@@ -1,0 +1,13 @@
+---
+ID: "bf732d9c-dfcc-48a3-8b6d-fe72d27935cd"
+Parent: "c7274614-0853-404a-bd09-e6b1009444e1"
+Template: "79b89ba8-e5fe-438e-854a-1d7f74975936"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/MetricStatGrids/sitecore-com--platform-ai-and-agents-metricstatgrid-9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e5ae377-131e-4583-b0ad-2b64c8d15946"
+      Hint: Title
+      Value: "Experience that makes a measurable difference"

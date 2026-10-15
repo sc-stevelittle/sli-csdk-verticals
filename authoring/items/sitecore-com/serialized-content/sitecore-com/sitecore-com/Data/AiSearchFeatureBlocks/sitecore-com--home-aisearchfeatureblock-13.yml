@@ -1,0 +1,28 @@
+---
+ID: "8c2701e4-3f93-4cce-925d-430d7344aa69"
+Parent: "77e306bc-303f-4dcb-a44f-fab370a5691a"
+Template: "2674ebfc-4d95-4b42-aac3-6d23bb2d09f6"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/AiSearchFeatureBlocks/sitecore-com--home-aisearchfeatureblock-13"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "92e4e61a-e5d0-40be-b027-606330a04690"
+      Hint: Title
+      Value: "AI is deciding who gets discovered."
+    - ID: "3088100d-328e-457e-b13b-3f0fd49af126"
+      Hint: Body
+      Value: "Make your brand easier to find, understand, and trust across the new landscape of AI answers."
+    - ID: "4592c640-e7d0-4515-84ea-70eefd7c2946"
+      Hint: Image
+      Value: |
+        <image mediaid="062b6492-1593-4500-90f5-8bd02a63f1e9" />
+    - ID: "488087c9-7605-4b55-9241-f4bbb8510da6"
+      Hint: VideoLink
+      Value: |
+        <link class="" querystring="" id="{654E0AB1-ACFC-4FB1-913E-AD95ADBC7B2B}" anchor="" target="" title="" linktype="internal" text="Watch the overview" url="/platform/ai-search" />
+    - ID: "71f7a53f-0133-4ea2-96cf-a47585206311"
+      Hint: Cta
+      Value: |
+        <link class="" querystring="" id="{654E0AB1-ACFC-4FB1-913E-AD95ADBC7B2B}" anchor="" target="" title="" linktype="internal" text="Discover AI Search" url="/platform/ai-search" />

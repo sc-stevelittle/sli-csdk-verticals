@@ -1,0 +1,27 @@
+---
+ID: "e11a6381-45d5-44cc-94ae-932271ac2c62"
+Parent: "3eade775-e9b9-43b4-a8dc-67c906d25955"
+Template: "49d76175-3d1c-42d6-a301-851c57b2e1b2"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/EventCards/sitecore-com--home-eventcard-21"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "826a0695-658c-46f3-90af-4d8ca0594087"
+      Hint: Image
+      Value: |
+        <image mediaid="96f5f33f-28d3-42d4-899a-809ca5452e39" />
+    - ID: "a079db98-1cfe-4105-aad3-1b9d3ef66b94"
+      Hint: Date
+      Value: "On demand"
+    - ID: "a76182ee-9cad-4603-949d-4babb6beaef1"
+      Hint: Title
+      Value: "Build better digital experiences"
+    - ID: "12a77185-58e4-4ffc-a932-cdb9ff5d15ad"
+      Hint: Description
+      Value: "Watch a session on connected content operations."
+    - ID: "9646a3fb-300b-403d-ad75-6114cc2ec38c"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{B083F0A7-8879-4171-8924-423220362B78}" anchor="" target="" title="" linktype="internal" text="Watch now" url="/resources/events-webinars" />

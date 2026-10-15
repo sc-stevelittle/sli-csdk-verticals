@@ -5,6 +5,10 @@ Template: "7b6b8ad8-7bc6-4cb4-a2c1-64c5efcc8a8a"
 Path: "/sitecore/content/sitecore-com/sitecore-com/Presentation/Page Designs"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: |
+    %7b9EFEDBAE-DBE3-472F-8280-89EE1AF16E93%7d%3d%257B6234809F-6674-4F94-9485-76D9D4CE045B%257D
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"

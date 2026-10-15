@@ -1,0 +1,27 @@
+---
+ID: "29001743-0ecf-46e2-88cc-7ad7b4347a50"
+Parent: "bdb871a3-0716-4f4c-95df-80ece489d760"
+Template: "8ed75b9e-ac43-4f2a-b1fd-e96685e1dca3"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductContentCards/sitecore-com--platform-ai-and-agents-productcontentcard-29"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b08f303b-a41d-4ba3-8b77-2d9ec81b944f"
+      Hint: Image
+      Value: |
+        <image mediaid="2ed2f223-ad1f-42e6-8942-703c98499513" />
+    - ID: "103dbeb3-8337-492a-85e0-8a02bc069ea7"
+      Hint: Eyebrow
+      Value: "Manage"
+    - ID: "361de208-efc4-4b68-b9ea-0c96fc5c56a8"
+      Hint: Title
+      Value: "Digital Asset Management"
+    - ID: "6b54943d-0e7e-4e8f-bba9-e8ddf959d186"
+      Hint: Description
+      Value: "Keep every approved asset ready for use."
+    - ID: "3ff52233-b80e-4f49-b567-74cd5d32ee15"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{1B2C61E5-EC51-4247-8002-8C2667149A3A}" anchor="" target="" title="" linktype="internal" text="Explore DAM" url="/platform/digital-asset-management" />

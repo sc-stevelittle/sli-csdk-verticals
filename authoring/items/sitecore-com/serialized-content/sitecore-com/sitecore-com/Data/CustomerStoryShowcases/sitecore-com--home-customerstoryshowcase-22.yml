@@ -1,0 +1,29 @@
+---
+ID: "a89c17de-bc34-43d9-9f79-782bcaad1f6a"
+Parent: "7341de65-16dc-4bef-b0ec-04d855d82011"
+Template: "75c5ec8d-d97d-4752-9d7a-9a7e09d83363"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryShowcases/sitecore-com--home-customerstoryshowcase-22"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "5633cae6-4ab9-4844-8d1f-a95d7254fb19"
+      Hint: Eyebrow
+      Value: "Customer stories"
+    - ID: "23433cf6-601a-4b8d-8e81-7c80bf1b0165"
+      Hint: Title
+      Value: "Ideas in action"
+    - ID: "fa1bce53-8bd9-4aae-84d2-3da665a633a4"
+      Hint: Intro
+      Value: "See how ambitious teams bring their digital experiences to life."
+    - ID: "8c9271ec-4b86-4dad-b77f-5b88eef2426e"
+      Hint: FeaturedStory
+      Value: "Featured customer story"
+    - ID: "50d164d6-128e-4d9c-98a5-1fc0749f0928"
+      Hint: CustomerLogos
+      Value: "Trusted by experience makers"
+    - ID: "1e9b95f2-8346-4a1b-a7cc-3da5f11a41d7"
+      Hint: ViewAllLink
+      Value: |
+        <link class="" querystring="" id="{E7B8828A-D8E0-4D73-B3E6-DF1982F5A8B8}" anchor="" target="" title="" linktype="internal" text="See all customers" url="/solutions/customers" />

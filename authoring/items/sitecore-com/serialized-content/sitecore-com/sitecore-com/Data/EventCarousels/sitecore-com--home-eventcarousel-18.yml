@@ -1,0 +1,23 @@
+---
+ID: "883bb048-e21f-4646-ad92-e2eb3f85d46c"
+Parent: "030359ec-46f0-415d-b032-52dabb7e5f9f"
+Template: "bceb40cc-f639-4007-8a45-1eca65892820"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/EventCarousels/sitecore-com--home-eventcarousel-18"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2f6b1b75-e2cb-40ba-a57d-5bfb9a6751e9"
+      Hint: Eyebrow
+      Value: "Join the conversation"
+    - ID: "04b23e4c-765d-4721-a5bc-d07f31a38d4f"
+      Hint: Title
+      Value: "Meet us where ideas move forward"
+    - ID: "eb485091-1318-466c-a2bd-42d232c8c405"
+      Hint: Intro
+      Value: "Explore upcoming events, webinars, and community sessions."
+    - ID: "07b0faba-4e43-4243-b872-002470d95331"
+      Hint: ViewAllLink
+      Value: |
+        <link class="" querystring="" id="{B083F0A7-8879-4171-8924-423220362B78}" anchor="" target="" title="" linktype="internal" text="View all events" url="/resources/events-webinars" />

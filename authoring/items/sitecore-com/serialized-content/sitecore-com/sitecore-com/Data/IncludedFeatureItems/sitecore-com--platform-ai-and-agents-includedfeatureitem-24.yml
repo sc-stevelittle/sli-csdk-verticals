@@ -10,11 +10,11 @@ Languages:
     Fields:
     - ID: "3b06530f-07a6-4110-86ee-a1dcd0bc76cb"
       Hint: Title
-      Value: "Content workflows"
+      Value: "AI assistance"
     - ID: "c53705a4-dde3-409a-9c82-5a362b3d16dd"
       Hint: Description
-      Value: "Plan, create, approve, and publish content."
+      Value: "Help teams work faster with brand-aware tools."
     - ID: "85875cd0-21b7-435b-8f69-4aab0edcfd70"
       Hint: Icon
       Value: |
-        <image mediaid="7c8df9ff-934f-4f26-802f-79e00b6539c2" />
+        <image mediaid="623dbeef-4242-4cdf-abb8-98f6735990c6" />
