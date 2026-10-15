@@ -1,0 +1,29 @@
+---
+ID: "aeb510d1-e542-4153-8bc1-2b9017cc4d41"
+Parent: "5fc1834c-620c-4031-b84d-7b56aefe1633"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Legal/Privacy Policy"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{604AEC94-2E90-4E97-9EF6-3F4AC0B232E9}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{5658F2D3-3D4D-4CC9-95B5-0C695A92D7F3}" p:after="r[@uid='{604AEC94-2E90-4E97-9EF6-3F4AC0B232E9}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{23462AB5-B46F-409A-BB0B-BEE408E4F5B0}" p:after="r[@uid='{5658F2D3-3D4D-4CC9-95B5-0C695A92D7F3}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{01586A2D-9251-42B6-A5FC-A73ED1DE7468}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{2F2B63D9-9C39-47EC-AC73-C4F6B358C70A}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Privacy Policy"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Privacy Policy"

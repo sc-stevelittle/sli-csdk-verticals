@@ -1,0 +1,209 @@
+{
+  "url": "https://www.sitecore.com/platform",
+  "slug": "sitecore-com--platform",
+  "sectionOrder": [
+    "CookieBanner",
+    "TopBar",
+    "Header",
+    "EventDetailHeroSection",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "EventDetailHeroSection",
+      "folderName": "event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Turn discovery into experiences that convert",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "html > body > div:nth-of-type(3) > footer",
+      "reason": "Site footer with links and legal",
+      "order": 1,
+      "heading": "Stand out in AI search",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "CookieBanner",
+        "captured": false,
+        "skipped": true
+      },
+      {
+        "cmsName": "TopBar",
+        "captured": true,
+        "recaptured": true
+      },
+      {
+        "cmsName": "Header",
+        "captured": true,
+        "recaptured": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "count": 222,
+        "sources": [
+          "https://www.sitecore.com/_next/static/media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2",
+          "https://www.sitecore.com/_next/static/media/c3cb240f9c892514-s.163v2i5cux7-c.woff2"
+        ]
+      },
+      {
+        "family": "DM Sans Fallback",
+        "count": 3,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [
+          "#170697",
+          "#1d08bd",
+          "#4300ad",
+          "#5f25e7",
+          "#8629ff"
+        ],
+        "gradients": [
+          "linear-gradient(90deg, #0000 -10%, #8629ff4d 20%, #ff1f384d 50%, #8629ff4d 80%, #0000 100%)",
+          "linear-gradient(90deg, #0000 0%, #8629ff4d 20%, #ff1f384d 50%, #8629ff4d 80%, #0000 100%)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#090342",
+          "#0d045e"
+        ],
+        "gradients": []
+      },
+      "accent": {
+        "hex": [
+          "#4e06c2"
+        ],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#1e1c22",
+          "#4c4b4e",
+          "#746f7b",
+          "#c1bdc7",
+          "#d6d3da",
+          "#e4e2e8",
+          "#f1f0f3",
+          "#f9f9fa",
+          "#ffffff",
+          "#ffffff59"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": "#038a00",
+        "error": "#cc0017",
+        "warning": "#ff1f38",
+        "info": "#00aeff"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": [
+        {
+          "file": "css/177gtvreanjof.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/177gtvreanjof.css",
+          "score": 35
+        },
+        {
+          "file": "css/0usl6uc77qtp4.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/0usl6uc77qtp4.css",
+          "score": 35
+        },
+        {
+          "file": "css/13r.f-0bha91d.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/13r.f-0bha91d.css",
+          "score": 35
+        },
+        {
+          "file": "css/0rkm_qs_0iizy.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/0rkm_qs_0iizy.css",
+          "score": 35
+        },
+        {
+          "file": "css/10m66_k2zjlhe.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/10m66_k2zjlhe.css",
+          "score": 35
+        },
+        {
+          "file": "css/0sm__g4m4krfo.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/0sm~_g4m4krfo.css",
+          "score": 35
+        },
+        {
+          "file": "css/05hmk5f0apzpl.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/05hmk5f0apzpl.css",
+          "score": 35
+        },
+        {
+          "file": "css/185romse.safj.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/185romse.safj.css",
+          "score": 35
+        }
+      ]
+    }
+  },
+  "newSections": {
+    "pageSlug": "sitecore-com--platform",
+    "pageDir": "sitecore-com--platform",
+    "pageSectionsRoot": "sitecore-com--platform/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-10-15T14:54:39.957Z",
+    "sections": [
+      {
+        "action": "promoted",
+        "cmsName": "EventDetailHeroSection",
+        "sourceCmsName": "EventDetailHeroSection",
+        "domainFolder": "event-detail-hero-section",
+        "pageSectionFolder": "sitecore-com--platform/sections/event-detail-hero-section",
+        "fingerprint": "df94f4690c17b6aa",
+        "existingDomainCmsName": null,
+        "buildComponent": true
+      }
+    ],
+    "componentsToBuild": [
+      "EventDetailHeroSection"
+    ]
+  }
+}

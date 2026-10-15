@@ -1,0 +1,36 @@
+---
+ID: "423df277-b94c-4b32-b243-c9721daf5aa7"
+Parent: "7d6baa71-d95b-4431-902e-7a8ccb55d747"
+Template: "1edc05db-a1c1-4bab-b79f-abeb7a10aa8f"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/Footers/global-footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "9f5ba095-1985-48ad-a23c-e03c6d38a147"
+      Hint: ClosingTitle
+      Value: "Own the moments that matter."
+    - ID: "069dcdde-b062-44cc-aab3-d97cef4e1529"
+      Hint: ClosingBody
+      Value: "Build connected digital experiences with SitecoreAI."
+    - ID: "aac13a57-9080-4fdc-a55a-e6ce8b05a1af"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Request a demo" url="/request-a-demo" />
+    - ID: "d3a262dd-5042-4998-81f6-8148c1a122f4"
+      Hint: SecondaryCta
+      Value: |
+        <link class="" querystring="" id="{5CB1AAE2-0A31-459A-9E54-662B415BD4EE}" anchor="" target="" title="" linktype="internal" text="Explore the platform" url="/platform" />
+    - ID: "be5c073f-e35b-4625-acd1-251324ce1014"
+      Hint: QuickLinks
+      Value: "Products\nSolutions\nResources\nCompany"
+    - ID: "628157aa-9e1d-4d85-bd9e-ee7c646417d6"
+      Hint: LinkColumns
+      Value: "Platform\nSolutions\nPartners\nResources\nCompany"
+    - ID: "97646bf5-8cf4-42f9-ac7a-edb6293e6a51"
+      Hint: LegalLinks
+      Value: "Privacy\nTerms\nCookie preferences"
+    - ID: "a1ea7888-54dc-4e26-a9d0-f5907e1e7cb1"
+      Hint: Copyright
+      Value: "Copyright Sitecore"

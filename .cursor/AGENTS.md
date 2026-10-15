@@ -129,6 +129,7 @@ Shared rules and the map of industry type → host are in [industry-verticals](.
 | **[industry-healthcare](./skills/industry-healthcare/SKILL.md)** | Nova Medical. Person listing and detail, reviews. Also the pattern for consultants or lawyers. |
 | **[industry-travel](./skills/industry-travel/SKILL.md)** | Skywings. Destinations, articles, deals. |
 | **[industry-energy](./skills/industry-energy/SKILL.md)** | Gridwell. Articles plus grid status. |
+| **[industry-software](./skills/industry-software/SKILL.md)** | Sitecore.com. B2B software platform pages, product features, FAQs, and conversion bands. |
 
 ### Cloud SDK
 

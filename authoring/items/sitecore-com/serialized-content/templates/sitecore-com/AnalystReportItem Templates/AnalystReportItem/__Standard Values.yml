@@ -1,0 +1,17 @@
+---
+ID: "76249fa4-e39d-47e4-b53b-66eee6ca2dc4"
+Parent: "6d88951c-dd70-4d62-87b1-95f9f5f3bced"
+Template: "6d88951c-dd70-4d62-87b1-95f9f5f3bced"
+Path: "/sitecore/templates/Project/sitecore-com/AnalystReportItem Templates/AnalystReportItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

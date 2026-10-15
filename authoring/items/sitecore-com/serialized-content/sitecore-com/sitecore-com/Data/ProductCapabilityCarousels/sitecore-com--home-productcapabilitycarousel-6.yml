@@ -1,0 +1,13 @@
+---
+ID: "a951afed-be80-4328-8998-ba41a3ee06bd"
+Parent: "5ecc2500-c169-4acb-80e9-3096577b2e36"
+Template: "d08b97ba-64bb-4cc1-89ca-1a30e62baa0a"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductCapabilityCarousels/sitecore-com--home-productcapabilitycarousel-6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "5111fc0c-128b-4034-855d-50a39fe62e9f"
+      Hint: Title
+      Value: "One platform. Every digital experience."

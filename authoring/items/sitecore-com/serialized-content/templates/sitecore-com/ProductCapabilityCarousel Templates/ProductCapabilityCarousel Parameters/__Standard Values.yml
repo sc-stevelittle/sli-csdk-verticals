@@ -1,0 +1,17 @@
+---
+ID: "9514462a-041b-45c1-a618-ceddbe7c8e0d"
+Parent: "1f3226bc-f02c-4107-8013-1e402b8412dc"
+Template: "1f3226bc-f02c-4107-8013-1e402b8412dc"
+Path: "/sitecore/templates/Project/sitecore-com/ProductCapabilityCarousel Templates/ProductCapabilityCarousel Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

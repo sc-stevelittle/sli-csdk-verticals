@@ -1,0 +1,19 @@
+---
+ID: "83bbebc4-36e7-4e31-aabf-6f6c62c1ad41"
+Parent: "26030e5b-d927-408a-a657-330f5dc1bb28"
+Template: "a2d85dfe-386b-42df-a7b0-823d8a90c74f"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ValuePropositionCards/sitecore-com--home-valuepropositioncard-19"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "428f0bd9-d7e7-45e8-a07b-8c1a062b47af"
+      Hint: Eyebrow
+      Value: "Connect"
+    - ID: "8dd14675-f354-4aeb-93b9-e30bb8e1b3ee"
+      Hint: Title
+      Value: "One connected platform"
+    - ID: "7e649997-f8b2-4dca-b7e0-eaf341695423"
+      Hint: Description
+      Value: "Bring customer data and content workflows into one operating model."

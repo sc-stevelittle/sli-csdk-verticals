@@ -1,0 +1,17 @@
+---
+ID: "10af5653-7ea8-436d-9d82-7e1d3acbc481"
+Parent: "e96333ba-aed6-4c77-9f61-a157e49982fb"
+Template: "e96333ba-aed6-4c77-9f61-a157e49982fb"
+Path: "/sitecore/templates/Project/sitecore-com/CustomerLogoItem Templates/CustomerLogoItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

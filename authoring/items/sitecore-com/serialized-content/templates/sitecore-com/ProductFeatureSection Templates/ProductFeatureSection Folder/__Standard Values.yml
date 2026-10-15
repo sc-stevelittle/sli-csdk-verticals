@@ -1,0 +1,23 @@
+---
+ID: "a5b3f13d-7b5d-442e-b2f4-18b094e94476"
+Parent: "5141c09a-8ca2-4626-9eb2-d725a5c5e26d"
+Template: "5141c09a-8ca2-4626-9eb2-d725a5c5e26d"
+Path: "/sitecore/templates/Project/sitecore-com/ProductFeatureSection Templates/ProductFeatureSection Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {37DC8C1F-7BB9-45F1-8362-AE54B86CD210}
+    {5141C09A-8CA2-4626-9EB2-D725A5C5E26D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

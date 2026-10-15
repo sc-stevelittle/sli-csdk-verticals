@@ -1,0 +1,29 @@
+---
+ID: "e5edeaed-9296-43ea-a6d0-d4c6169a1beb"
+Parent: "5cb1aae2-0a31-459a-9e54-662b415bd4ee"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Send"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{8B5A1373-9AE1-446B-B832-485D249C62C8}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{D46844CC-756B-4C79-9F26-3F85EF11FDEE}" p:after="r[@uid='{8B5A1373-9AE1-446B-B832-485D249C62C8}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{76F72E52-C04A-4AAA-AAC1-69649FCC29FB}" p:after="r[@uid='{D46844CC-756B-4C79-9F26-3F85EF11FDEE}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{80B01AB9-E2B9-43B7-8792-E9ACD22DE519}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{764A8D98-4AA7-49A9-B201-E36096171C8E}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Send"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Send"

@@ -1,0 +1,36 @@
+---
+ID: "6e46363c-df81-44c8-b503-1c97c1c87a9c"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/6b3ebe50dab04bc1b837ccd2bbe384f6"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 144
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "db57ef26-0978-4d20-a974-2f146d826782"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDE0NC40IDQ1LjQiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMDAwO3N0cm9rZS13aWR0aDowfTwvc3R5bGU+PC9kZWZzPjxwYXRoIGQ9Im02NS4yIDE4LTUuMyA5LjZoNi43ek02MSA2LjRoMTIuMmw3LjMgMzUuNEg2OC43bC0uOC01LjVINTUuMWwtMyA1LjVIMzkuNHpNODguMSA2LjRoMjkuMmwtMS45IDkuMkg5Ny45bC0xLjIgNS45aDE0LjdsLTEuOCA4LjlIOTQuOWwtMi4zIDExLjRIODF6TTExOS41IDYuNGgxMS43TDEyNiAzMi4zaDE4LjRsLTEuOSA5LjVoLTMwLjF6IiBjbGFzcz0iY2xzLTEiLz48cGF0aCBkPSJNMTEuMiA0NS40YzIgMCAzLjctMS4zIDQuMy0zbDUtMTMuN2g4LjljMy45IDAgNy4xLTMuMiA3LjEtNy4xdi02SDE2LjZjLTMuNiAwLTYuNiAyLjItNy43IDUuNEwwIDQ1LjR6IiBzdHlsZT0ic3Ryb2tlLXdpZHRoOjA7ZmlsbDojMWQ0NDgwIi8+PHBhdGggZD0iTTExLjkgMEM1LjMgMCAwIDUuMyAwIDExLjl2MjIuN2w1LjQtMTQuOWMxLjctNC42IDYtNy44IDExLjItNy44aDE2LjFjMy45IDAgNy4xLTMuMiA3LjEtNy4xVjB6IiBzdHlsZT0ic3Ryb2tlLXdpZHRoOjA7ZmlsbDojMDZiZmYxIi8+PC9zdmc+
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 681
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 144 x 45
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 45
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "AFL logo"

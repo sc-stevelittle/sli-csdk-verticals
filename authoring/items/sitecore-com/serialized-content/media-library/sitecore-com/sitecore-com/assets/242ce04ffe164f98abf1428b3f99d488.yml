@@ -1,0 +1,36 @@
+---
+ID: "7c8df9ff-934f-4f26-802f-79e00b6539c2"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/242ce04ffe164f98abf1428b3f99d488"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 21
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "4890ad82-037a-48cd-b8e1-522b370ff95e"
+  Value: iVBORw0KGgoAAAANSUhEUgAAABUAAAAiCAQAAAAaYVoIAAAACXBIWXMAD0JAAA9CQAE0jWzJAAABbUlEQVQ4je2SvUoEMRSFv8mMu7L4U2glKvhT2IgKWllY2AqC72JrY+Mz+AQWYu0LKNhpIwqLsCxbiBYuCK7DZCI3m5lJBoStxXshmSTnnpx7MhFhJGgidjlkh1VmaDLgnR5tjkNgDKxxjamlxrBVB+7Rx5CTockdUFaGjQqogGV6GHsQphRtJoGAE+bIqPYEFNk5rkCyseAur7hyX2tS6szYZwpd1hsi3rjk3hJM0C2gBlh3s0SO4pkD2kTlnifgymtJrjwCWjRp2Ix81tmiDoPigxvgq+JU5TE0HPuw8JXP+kNGrpGhLVXIWhE7VoNOrL7i0A9N5swqWZc4JbV9rpQCZJznnMx+5bR44Ay2Xb+/p7hyIawSmW0vDtQKQSElFjeG0CRwonC6MFIInkZhNST0eRmFVUzr0RXQNx0Glm+RcQ+a0rFGaaa5JRUyqZZU3JVeyPjIJIoxe2aFJd4ThH+QqT+BYuRQ/1D+pFk/jMmqUTaW26kAAAAASUVORK5CYII=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 443
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 21 x 34
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 34
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "facebook-f.svg"

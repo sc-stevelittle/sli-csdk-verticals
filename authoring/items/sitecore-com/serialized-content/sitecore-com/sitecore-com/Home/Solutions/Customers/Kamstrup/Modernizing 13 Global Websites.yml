@@ -1,0 +1,29 @@
+---
+ID: "ba8f5941-02d4-428f-9b1b-a45c910f6e54"
+Parent: "5f20727f-c625-4c2a-8fdb-9dd21e50464d"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Kamstrup/Modernizing 13 Global Websites"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{DCDF01B3-0610-4B82-81D6-01F48EAC8DED}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{4A1F028D-5272-4271-840B-CFD58823C303}" p:after="r[@uid='{DCDF01B3-0610-4B82-81D6-01F48EAC8DED}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{18E4CFE4-55E4-4292-B648-42AC3BB9A715}" p:after="r[@uid='{4A1F028D-5272-4271-840B-CFD58823C303}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{F0286F9B-D185-44A6-A9D2-D7292D077E35}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{425D8E65-720A-40FF-A9BE-103492BDF9EF}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Manufacturing Kamstrup modernizes 13 global websites and lifts customer satisfaction with SitecoreAI One modern foundation for every channel."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Manufacturing Kamstrup modernizes 13 global websites and lifts customer satisfaction with SitecoreAI One modern foundation for every channel."

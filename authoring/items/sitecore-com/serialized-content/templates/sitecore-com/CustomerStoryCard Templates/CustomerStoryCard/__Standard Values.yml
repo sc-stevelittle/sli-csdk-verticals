@@ -1,0 +1,17 @@
+---
+ID: "aac774f1-4f5d-4f62-972d-3f4730e2a288"
+Parent: "5cd41ad2-6160-4bbd-bc5e-039aee21e0d6"
+Template: "5cd41ad2-6160-4bbd-bc5e-039aee21e0d6"
+Path: "/sitecore/templates/Project/sitecore-com/CustomerStoryCard Templates/CustomerStoryCard/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

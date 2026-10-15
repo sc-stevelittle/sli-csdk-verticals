@@ -1,0 +1,17 @@
+---
+ID: "c74f862a-5336-4181-a923-ec9fe037bb55"
+Parent: "55491891-2fb3-40a9-baba-ac82a4abbbe3"
+Template: "18a409ff-eb98-402d-b0bf-604e63a20fc5"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductCardGrids/sitecore-com--platform-ai-search-productcardgrid-30"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6001f533-55f5-426b-9b72-8fad837c690e"
+      Hint: Title
+      Value: "Explore more from Sitecore"
+    - ID: "0ed551b0-669e-4dc0-9743-2ff3a3b066c0"
+      Hint: ViewAllLink
+      Value: |
+        <link class="" querystring="" id="{5CB1AAE2-0A31-459A-9E54-662B415BD4EE}" anchor="" target="" title="" linktype="internal" text="Explore all products" url="/platform" />

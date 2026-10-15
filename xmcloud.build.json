@@ -49,6 +49,16 @@
       "type": "sxa",
       "buildCommand": "build",
       "runCommand": "next:start"
+    },
+    "sitecore-com": {
+      "path": "./industry-verticals/sitecore-com",
+      "nodeVersion": "24.18.0",
+      "packageManager": "npm",
+      "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
     }
   },
   "deployItems": {
@@ -68,7 +78,8 @@
           "Project.Travel-Media",
           "Project.Travel-Content",
           "Project.Energy-Media",
-          "Project.Energy-Content"
+          "Project.Energy-Content",
+          "sitecore-com-scs"
         ]
       },
       "warmUpCm": {

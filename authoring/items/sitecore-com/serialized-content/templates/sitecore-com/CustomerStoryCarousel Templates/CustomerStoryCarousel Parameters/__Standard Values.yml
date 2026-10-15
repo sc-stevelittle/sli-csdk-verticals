@@ -1,0 +1,17 @@
+---
+ID: "83265fe7-6df0-4a07-a391-b4225622b6e7"
+Parent: "c7aa2d2d-0aea-45cd-868c-2fe8d0f5113b"
+Template: "c7aa2d2d-0aea-45cd-868c-2fe8d0f5113b"
+Path: "/sitecore/templates/Project/sitecore-com/CustomerStoryCarousel Templates/CustomerStoryCarousel Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

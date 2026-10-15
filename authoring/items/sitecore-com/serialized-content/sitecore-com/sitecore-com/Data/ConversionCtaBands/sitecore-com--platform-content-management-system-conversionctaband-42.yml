@@ -1,0 +1,20 @@
+---
+ID: "942d1b74-f2be-42f6-ac69-5e1540bbbb22"
+Parent: "48079c83-2d49-4def-aae8-79208674bc00"
+Template: "cc1dd240-04bf-4be6-ae16-f8f3405e7206"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ConversionCtaBands/sitecore-com--platform-content-management-system-conversionctaband-42"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6dfaafe8-d3b1-434a-8b36-ca9093785bcf"
+      Hint: Title
+      Value: "Ready to create your next great experience?"
+    - ID: "cdefeb08-b804-4eeb-a72f-050d4fada6da"
+      Hint: Body
+      Value: "Talk with our team about your goals."
+    - ID: "46afaef4-6892-4f05-8559-47e85892c28b"
+      Hint: Cta
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Request a demo" url="/request-a-demo" />

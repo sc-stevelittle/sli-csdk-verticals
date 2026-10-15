@@ -1,0 +1,9 @@
+---
+ID: "c1f619f1-0cd3-48ab-9f60-6231f136dd60"
+Parent: "4e48aa65-3f69-4842-9a99-9ef09d0afaaf"
+Template: "c29c6b32-ab87-42fc-92fe-91937f4a24bd"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductHeros"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

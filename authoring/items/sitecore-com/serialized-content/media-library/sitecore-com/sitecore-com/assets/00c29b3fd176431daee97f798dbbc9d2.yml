@@ -1,0 +1,36 @@
+---
+ID: "2f084726-fb65-4100-af1b-3fa054644e5a"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/00c29b3fd176431daee97f798dbbc9d2"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 567
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "1567edb6-b9cf-4b03-a57e-2c5f05af89cd"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NjcuMiAxNzciPjxwYXRoIGQ9Ik0wIDkuNGg2OWw3LjYuMyA3LjIuNiA2LjkgMS42IDYuNiAxLjYgNiAyLjUgNS43IDIuNSA1LjQgMy4yIDUgMy41IDQuNCAzLjggNC40IDQuMSAzLjggNC40IDMuNSA0LjcgMi44IDUgMi44IDUgMi4yIDUuNCAxLjkgNS40IDk3LjktNjMgMzUuNiAyMy45TDIwMi41IDczbDEyLjMgOC4yIDc2LjgtNDguOCAzMy4xIDIyLTc1LjkgNTAuMSAxMi45IDcuOSA3Ny4yLTQ5LjFWOS40aDU2Ljd2MTA3LjRINDQ2djUwLjRIMzM4Ljl2LTUxLjdsLTk1LjQgNjEuNC05Ny4zLTY1LjgtMS45IDUuNy0xLjkgNS40LTIuOCA1LjQtMi44IDUuNC0zLjUgNC43LTMuOCA0LjctNC4xIDQuNC00LjcgMy44LTQuNyAzLjgtNS43IDMuMi01LjcgMi44LTYuMyAyLjUtNi42IDEuOS02LjkgMS4zLTcuMi45LTcuOS4zSDB6bTU0LjIgNDkuNUg2OWw2LjYuNiA1LjQgMS45IDQuNyAyLjggNC4xIDMuOCAyLjggNC40IDIuMiA0LjcgMS4zIDUuNC4zIDUuNC0uMyA1LjQtMS4zIDUuNC0yLjIgNC43LTMuMiA0LjQtMy44IDMuOC00LjcgMi44LTUuNyAxLjktNi4zLjZINTQuMXYtNThaTTQ2MC4xIDkuNGg1N3YxMDcuNGg1MC4xdjUwLjRINDYwLjF6IiBzdHlsZT0iZmlsbDojMDM4MmM3O2ZpbGwtcnVsZTpldmVub2RkIi8+PC9zdmc+
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 693
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 567 x 177
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 177
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "Dell"

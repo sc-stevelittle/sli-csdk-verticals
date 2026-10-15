@@ -1,0 +1,20 @@
+---
+ID: "9ca63ec2-f5b1-4560-83cc-2a7de07a2385"
+Parent: "4cea5c90-f595-4495-a1ea-2abf3b84098a"
+Template: "aa86678e-2a77-4538-a423-065425a57eb8"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/IncludedFeatureItems/sitecore-com--platform-ai-search-includedfeatureitem-26"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3b06530f-07a6-4110-86ee-a1dcd0bc76cb"
+      Hint: Title
+      Value: "Digital assets"
+    - ID: "c53705a4-dde3-409a-9c82-5a362b3d16dd"
+      Hint: Description
+      Value: "Keep approved assets easy to find and reuse."
+    - ID: "85875cd0-21b7-435b-8f69-4aab0edcfd70"
+      Hint: Icon
+      Value: |
+        <image mediaid="82a10a18-f4bc-40e7-800e-22b399bc5a8b" />

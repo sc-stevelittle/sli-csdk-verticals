@@ -1,0 +1,18 @@
+---
+ID: "1bfbb5df-04bc-4f0f-ae9c-e696368331b5"
+Parent: "71bdd472-1294-44bf-b98a-0c758fd1ffc2"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/sitecore-com/Capability Cards"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "capability-cards-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {69EC1912-8153-4132-8172-A63A0731CC93}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields: []

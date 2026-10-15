@@ -1,0 +1,29 @@
+---
+ID: "b99325c7-c49e-49f5-8c55-a0a4e10f2ee1"
+Parent: "e7b8828a-d8e0-4d73-b3e6-df1982f5a8b8"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Foodstuffs Nz"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{365F563D-8CE9-4D9D-8D41-EEB7FB4116B5}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{A60B8A76-9B20-4376-98F2-AB6020C7AA81}" p:after="r[@uid='{365F563D-8CE9-4D9D-8D41-EEB7FB4116B5}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{03FEF0B2-33DF-47C5-8FBB-DE4A864B492F}" p:after="r[@uid='{A60B8A76-9B20-4376-98F2-AB6020C7AA81}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{2B359850-3CA3-47F1-94FD-3B75E8F5CBE6}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{FCAB3B25-46B9-4147-8D2B-00C2D80BDAB7}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Foodstuffs Nz"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Foodstuffs Nz"

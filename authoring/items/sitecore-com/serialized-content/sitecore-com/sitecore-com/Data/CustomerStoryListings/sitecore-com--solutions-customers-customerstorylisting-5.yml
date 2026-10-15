@@ -1,0 +1,37 @@
+---
+ID: "9652b263-383f-4c29-b3da-37ae8165269f"
+Parent: "e725d2e5-05dd-483d-8eff-52a00706a60f"
+Template: "f5aa1754-594d-4194-93d6-c183998cbd61"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryListings/sitecore-com--solutions-customers-customerstorylisting-5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "59deac38-d702-4095-ac3e-d5e1e3176e7a"
+      Hint: Eyebrow
+      Value: "Customer stories"
+    - ID: "5c67dbd3-e8ef-41cc-9be9-0e8ae03c4ec5"
+      Hint: Title
+      Value: "Stories of digital experience in action"
+    - ID: "8076b3b4-737c-4620-bdce-6b1bf6b19c73"
+      Hint: Intro
+      Value: "Explore how organizations are creating more connected customer experiences."
+    - ID: "b8bf0b2c-fcf4-473b-9357-b9baddab27f6"
+      Hint: SearchPlaceholder
+      Value: "Search customer stories"
+    - ID: "89a65245-148b-41b4-9162-5831d86607f8"
+      Hint: FilterOptions
+      Value: "Industry\nProduct\nRegion"
+    - ID: "b0b3ac30-af21-4a51-8627-589a84b56cdf"
+      Hint: SortOptions
+      Value: "Most relevant\nNewest"
+    - ID: "9ca01bb7-8b73-4416-93cd-1ffe7d18c0f3"
+      Hint: ResultCount
+      Value: "Showing customer stories"
+    - ID: "97e99f77-a82a-4330-943a-c7c14e0bbb73"
+      Hint: ViewMode
+      Value: "Grid"
+    - ID: "1bc6a3f8-cef5-494f-af2a-ec9f80647b06"
+      Hint: Pagination
+      Value: "Load more"

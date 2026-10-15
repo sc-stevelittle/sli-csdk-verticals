@@ -1,0 +1,29 @@
+---
+ID: "4ca49145-5f4c-49e6-994c-b23eed59a7ea"
+Parent: "c7e3c6a3-71de-447c-bf4e-8d0b058da61a"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Worldstrides/Content Hub"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{615F1674-BDA6-44B4-A9E2-7FB319DA9705}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{9F7767D3-3697-4276-AE59-C46761F2D1F2}" p:after="r[@uid='{615F1674-BDA6-44B4-A9E2-7FB319DA9705}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{A786DD0F-D6FB-4649-842C-A06C4DE11D45}" p:after="r[@uid='{9F7767D3-3697-4276-AE59-C46761F2D1F2}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{A0CE4BD3-E42C-42B5-B840-C8A22F989278}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{D02D138A-9867-46B1-985B-0ED50FCD7F8A}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Education How WorldStrides unified 30+ websites without slowing enrollment A content model built for every brand."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Education How WorldStrides unified 30+ websites without slowing enrollment A content model built for every brand."

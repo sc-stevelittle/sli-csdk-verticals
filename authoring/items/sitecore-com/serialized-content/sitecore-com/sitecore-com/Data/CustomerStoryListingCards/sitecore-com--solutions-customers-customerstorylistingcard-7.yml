@@ -1,0 +1,30 @@
+---
+ID: "3a2b0365-6caf-4a27-8a5b-71b945b8731f"
+Parent: "99940d6f-4eb2-4321-8f6f-cd9e1c0f9ef8"
+Template: "c8e2c278-63f8-4c94-9413-99ccf94e4b98"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryListingCards/sitecore-com--solutions-customers-customerstorylistingcard-7"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "ecafd09b-ce60-49d5-9324-7ce14cfafd60"
+      Hint: Image
+      Value: |
+        <image mediaid="c8d75e04-daa6-4f29-866c-9651de9e832e" />
+    - ID: "b28f2856-3237-4df3-8ba8-8f99f02c35e9"
+      Hint: Type
+      Value: "Customer story"
+    - ID: "30f14049-b599-4f06-b7f3-bc3dca962039"
+      Hint: Title
+      Value: "Bring content into focus"
+    - ID: "0afb372b-1fcd-4882-bb54-7bcb90db6715"
+      Hint: Description
+      Value: "A customer team built a more connected digital experience with Sitecore."
+    - ID: "82370fa8-0ff9-457a-980f-06900cd6500b"
+      Hint: Tags
+      Value: "Customer story"
+    - ID: "50488d17-60ed-47dc-a70d-10067a57d089"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{E7B8828A-D8E0-4D73-B3E6-DF1982F5A8B8}" anchor="" target="" title="" linktype="internal" text="Read the story" url="/solutions/customers" />

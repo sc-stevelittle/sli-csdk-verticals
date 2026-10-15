@@ -1,0 +1,29 @@
+---
+ID: "c7f168bf-4fd4-46c4-aa51-c12973bb32f5"
+Parent: "2a9700a0-c6f5-4903-9275-bfde96f6ba8f"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Michelin Guides/Michelin Guides Speeds Time To Market With Sitecore Saas Solution"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{F4523BC8-7823-4EF4-BE9A-EC0306DBFC82}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{DFEADC4D-9A2A-4913-AC41-2E5C48B138A5}" p:after="r[@uid='{F4523BC8-7823-4EF4-BE9A-EC0306DBFC82}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{D56048C4-7A94-4494-9145-801EFAD407EE}" p:after="r[@uid='{DFEADC4D-9A2A-4913-AC41-2E5C48B138A5}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{585283C0-65C2-4DD4-B210-12F73B393622}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{7E881A1D-CDA8-4DBB-89A1-BB41508600D3}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Travel and Hospitality Michelin Experiences makes content instantly usable across channels with SitecoreAI DAM Seamless and automated image processing."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Travel and Hospitality Michelin Experiences makes content instantly usable across channels with SitecoreAI DAM Seamless and automated image processing."

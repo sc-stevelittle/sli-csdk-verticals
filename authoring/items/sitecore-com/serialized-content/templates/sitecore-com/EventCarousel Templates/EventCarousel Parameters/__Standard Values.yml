@@ -1,0 +1,17 @@
+---
+ID: "16bf5735-fb22-46b1-8d1c-772f265c2742"
+Parent: "e82ec7fa-b7fa-42bc-aab9-a8a010e2bd03"
+Template: "e82ec7fa-b7fa-42bc-aab9-a8a010e2bd03"
+Path: "/sitecore/templates/Project/sitecore-com/EventCarousel Templates/EventCarousel Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,9 @@
+---
+ID: "ef31fb03-82a3-44e8-8822-d044e1b61c25"
+Parent: "4e48aa65-3f69-4842-9a99-9ef09d0afaaf"
+Template: "e7785bcf-ebfa-4086-87aa-201f6264c92b"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/AnalystReportLists"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

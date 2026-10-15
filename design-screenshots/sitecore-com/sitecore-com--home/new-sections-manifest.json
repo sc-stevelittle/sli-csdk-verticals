@@ -1,0 +1,22 @@
+{
+  "pageSlug": "sitecore-com--home",
+  "pageDir": "sitecore-com--home",
+  "pageSectionsRoot": "sitecore-com--home/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-10-15T14:54:03.974Z",
+  "sections": [
+    {
+      "action": "variant",
+      "cmsName": "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection",
+      "sourceCmsName": "AiIsDecidingWhoRichTextImageBlock",
+      "domainFolder": "home-ai-is-deciding-who-rich-text-image-block-alt",
+      "pageSectionFolder": "sitecore-com--home/sections/ai-is-deciding-who-rich-text-image-block",
+      "fingerprint": "a0634fd61ec9e2df",
+      "existingDomainCmsName": "AiIsDecidingWhoRichTextImageBlock",
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection"
+  ]
+}

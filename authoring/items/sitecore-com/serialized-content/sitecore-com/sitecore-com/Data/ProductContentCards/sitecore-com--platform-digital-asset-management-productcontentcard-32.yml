@@ -1,0 +1,27 @@
+---
+ID: "39d3ed5f-f8a9-4689-846b-326074a3f95c"
+Parent: "bdb871a3-0716-4f4c-95df-80ece489d760"
+Template: "8ed75b9e-ac43-4f2a-b1fd-e96685e1dca3"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductContentCards/sitecore-com--platform-digital-asset-management-productcontentcard-32"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b08f303b-a41d-4ba3-8b77-2d9ec81b944f"
+      Hint: Image
+      Value: |
+        <image mediaid="eb473f4c-4f84-47c0-ae88-c5f0c39d8e5d" />
+    - ID: "103dbeb3-8337-492a-85e0-8a02bc069ea7"
+      Hint: Eyebrow
+      Value: "Discover"
+    - ID: "361de208-efc4-4b68-b9ea-0c96fc5c56a8"
+      Hint: Title
+      Value: "AI Search"
+    - ID: "6b54943d-0e7e-4e8f-bba9-e8ddf959d186"
+      Hint: Description
+      Value: "Improve your brand visibility in AI discovery."
+    - ID: "3ff52233-b80e-4f49-b567-74cd5d32ee15"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{654E0AB1-ACFC-4FB1-913E-AD95ADBC7B2B}" anchor="" target="" title="" linktype="internal" text="Explore AI Search" url="/platform/ai-search" />

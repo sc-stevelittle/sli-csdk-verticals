@@ -1,0 +1,9 @@
+---
+ID: "4cea5c90-f595-4495-a1ea-2abf3b84098a"
+Parent: "4e48aa65-3f69-4842-9a99-9ef09d0afaaf"
+Template: "bdb6f689-3d34-4c10-bbfd-a5c6526c869d"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/IncludedFeatureItems"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

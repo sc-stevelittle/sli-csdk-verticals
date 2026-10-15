@@ -1,0 +1,35 @@
+{
+  "slug": "sitecore-com--platform-ai-and-agents",
+  "url": "https://www.sitecore.com/platform/ai-and-agents",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "TopBar",
+      "scope": "site",
+      "sectionFolder": "top-bar"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "platform-ai-and-agents-event-detail-hero-section",
+      "sectionScreenshotName": "AgentsThatUnderstandEventDetailHeroSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

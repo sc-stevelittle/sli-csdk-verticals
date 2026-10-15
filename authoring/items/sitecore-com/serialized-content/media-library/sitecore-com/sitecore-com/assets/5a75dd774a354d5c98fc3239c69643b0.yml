@@ -1,0 +1,36 @@
+---
+ID: "82a10a18-f4bc-40e7-800e-22b399bc5a8b"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/5a75dd774a354d5c98fc3239c69643b0"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 30
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "bc5a0bee-b2f2-4560-ab23-f02f6ca765d5"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAQAAADigaH/AAAACXBIWXMAD0JAAA9CQAE0jWzJAAADPElEQVRIiY2V229MURTGf2fOTBWl0krqgQd6ibi01UhdQ3hpG1406vYHiH8CTbxIiHceeMOLF/QW0jZaUSE0QYREaFKiREtLqenMlv3tc86cmWjafXLm7L3XZc/61rfW9giHh48PZMkCJtoPpZAgAWTIhFK7aYePkZEbCXy8SGYwZPKkHpmcsU8Gjwaa2Ug5i0mR1DleZDpLmt984xXdPMPIIjCFTXQzK8X5nll6qHVWHgmyHOQGJRg8vvOZKWbkKHcyJFnEMlaxQlo/OcEdIUAdE1Lp5xBVlFFUAJYLr4iV1NBKr3S/U+8E3VpezFNNFDwheB5wXvo9drmNGQy9Ukjh6+sSk1TyLHQ2jVDFda5RAdzH8JcdcFp+2oBUdLJFOz6SCuWWNK8ChzVrT7ITmOSJ0h+inybFHvaxBhilj0ekgWWSFgNP+UEpu+A1ho/aCnMODfSTjaVngEZgKw+5R6UcjGB4C58wvJCJixSOMi2+ZRhjTGQ0/OZEILVanogyhtL0OCKe9W9NDZ00U0klTdwNzLcremWXQQxTSHUwxnOLpKE9WttfB2pfTKtfeJNWTGG0u8StDq1SyrBD/rYC2RtoIarMuvTnztgt4RWt0ipPizNc1s7uWGUF5RVMxeG12ECGY4lzs2F+AesKjRc2QnrmjYTOy0YK74ElbIliI5jVsxR4F7nJFhrb2YD+5EmtQsDs/intDEYNKugr0xHazuc9peVcHoxn50rVBIahKAhLzV9ByR2gmipa6NJ6WhQNMQpI4ugZEs9+22Ru0/SVL/pafh3Lo+dzDF9cYYwWFEY9vbHCyNJPQwShBxSpMN4k+cB6dacPeAIjg88wTTSyn9XAR/oYIp3rl0AFpcBIyNsj8zSDuAxaZXMGGvkjJP28NmS7WDJ4cjs+Kc1s8cyoyuiUn0sF5AlNXDOMM+yC9LvcopZxLR9wmBpWUvwf0nosopxqWpVhwzh1YdNv4SbL1c4no6ZvZa7pZ9U9iylhFaXSmuI4He4Im4INdCz4uuliU3jduAit9zqa2EwZiylSzw5Pzl1047ykRwSxFnNcsTYY+7ph6WLfHJh5V6yb2TQlgm6Zf707Sjp3scv9H0dxZKc27JkyAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 906
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 30 x 34
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 34
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "instagram.svg"

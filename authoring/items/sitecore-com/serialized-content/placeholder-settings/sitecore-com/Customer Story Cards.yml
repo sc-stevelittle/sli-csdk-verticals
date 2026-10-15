@@ -1,0 +1,18 @@
+---
+ID: "3ba32139-cf7b-44e8-ad12-fda485d8ad6d"
+Parent: "71bdd472-1294-44bf-b98a-0c758fd1ffc2"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/sitecore-com/Customer Story Cards"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "customer-story-cards-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {6B75B427-807F-4921-B5CC-B1190333A1D9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields: []

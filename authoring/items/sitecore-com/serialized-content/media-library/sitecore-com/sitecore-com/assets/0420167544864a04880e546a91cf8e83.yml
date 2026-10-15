@@ -1,0 +1,36 @@
+---
+ID: "2136f570-ae7d-461b-8987-8061517c15dc"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/0420167544864a04880e546a91cf8e83"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 640
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "0a6c93d4-1e23-4363-9f8e-240be7960c0c"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48cGF0aCBkPSJNMTI4IDE2MHY0OWM1LjItLjcgMTAuNi0xIDE2LTEgNzAuNyAwIDEyOCA1Ny4zIDEyOCAxMjggMCAyNy43LTguOCA1My40LTIzLjggNzQuNEMyOTEgNDI3LjkgMzIzLjMgNDY1LjggMzMzIDUxMmgyMTFjMzUuMyAwIDY0LTI4LjcgNjQtNjRWMTYwYzAtMzUuMy0yOC43LTY0LTY0LTY0SDE5MmMtMzUuMyAwLTY0IDI4LjctNjQgNjRtMTc1IDExMWM5LjQtOS40IDI0LjYtOS40IDMzLjkgMGwzMSAzMSA3OC4xLTc4LjFoLTMwLjFjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRoODhjMTMuMyAwIDI0IDEwLjcgMjQgMjR2ODhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjR2LTMwLjFsLTk1IDk1Yy00LjUgNC41LTEwLjYgNy0xNyA3cy0xMi41LTIuNS0xNy03bC00OC00OGMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjl6IiBzdHlsZT0iZmlsbDojZWIwMDFhO2lzb2xhdGlvbjppc29sYXRlO29wYWNpdHk6LjUzIi8+PHBhdGggZD0iTTE0NCA0MTZjNDQuMiAwIDgwLTM1LjggODAtODBzLTM1LjgtODAtODAtODAtODAgMzUuOC04MCA4MCAzNS44IDgwIDgwIDgwbS00OCAzMmMtNTMgMC05NiA0My05NiA5NiAwIDE3LjcgMTQuMyAzMiAzMiAzMmgyMjRjMTcuNyAwIDMyLTE0LjMgMzItMzIgMC01My00My05Ni05Ni05NnoiIHN0eWxlPSJmaWxsOiNlYjAwMWEiLz48L3N2Zz4=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 746
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 640 x 640
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 640
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "Audiences intelligence"

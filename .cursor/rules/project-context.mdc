@@ -23,6 +23,7 @@ Available Sites (keep in sync with `.cursor/SITE-REGISTRY.md`):
 - `luxury-retail` - **Essential Living** - Retail focused site template for an upscale furniture brand with products and articles
 - `retail` - **FormaLux** - Retail focused site template for a furniture brand with products and articles (`renderingHosts` key `nextjsstarter`)
 - `starter` - **starter** - Simple Next.js starter with basic components (not in `xmcloud.build.json`)
+- `sitecore-com` - **Sitecore.com** - B2B software marketing site with platform, product, and customer proof pages (`renderingHosts` key `sitecore-com`)
 - `travel` - **Skywings** - Travel focused site template with articles and destinations
 - `energy` - **Gridwell** - Energy focused site template with grid condition/status and articles
 

@@ -1,0 +1,16 @@
+---
+ID: "c25efafa-75b7-448b-a4b1-0cddfd5e7208"
+Parent: "aa4ca9c3-e57e-43a8-afc6-a51dbcd779e8"
+Template: "c6774bb5-ff83-43e6-8803-30840b0edee4"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/FaqItems/sitecore-com--platform-digital-asset-management-faqitem-40"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a7b961a-70dd-4743-993f-282609e1efd3"
+      Hint: Question
+      Value: "Who is the platform for?"
+    - ID: "54ec55c8-6515-4a24-9909-cd34e7229471"
+      Hint: Answer
+      Value: "The platform supports marketing, content, and digital experience teams."

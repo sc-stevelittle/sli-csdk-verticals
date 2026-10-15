@@ -1,0 +1,17 @@
+---
+ID: "e0bca3f3-8874-4a78-9f9a-474cb217ef93"
+Parent: "f92279fa-6622-4d49-a023-dd50aab539b1"
+Template: "f92279fa-6622-4d49-a023-dd50aab539b1"
+Path: "/sitecore/templates/Project/sitecore-com/ValuePropositionCard Templates/ValuePropositionCard Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,4199 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-15T15:44:31.199Z",
+  "project": "sitecore-com",
+  "baseUrl": "https://www.sitecore.com",
+  "siteContentPath": "/sitecore/content/sitecore-com/sitecore-com",
+  "languagePrefixes": [],
+  "pages": [
+    {
+      "routePath": "/",
+      "pathnameVariants": [
+        "/"
+      ],
+      "sitecoreSegments": [],
+      "itemName": "Home",
+      "parentSegments": [],
+      "yamlRelativePath": "Home.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home",
+      "title": "Home",
+      "navigationTitle": "Home",
+      "status": "mimicked",
+      "captureSlug": "sitecore-com--home",
+      "sources": [
+        {
+          "href": "/",
+          "text": "Home",
+          "component": "SiteRoot",
+          "sourceFile": "implicit"
+        },
+        {
+          "href": "/",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/company",
+      "pathnameVariants": [
+        "/company"
+      ],
+      "sitecoreSegments": [
+        "Company"
+      ],
+      "itemName": "Company",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Company.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Company",
+      "title": "About Us",
+      "navigationTitle": "About Us",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/company",
+          "text": "About Us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/company",
+          "text": "About Us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/company",
+          "text": "About Us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/company",
+          "text": "About Us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/company",
+          "text": "About Us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/company",
+          "text": "About Us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/company",
+          "text": "About Us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/company/contact-us",
+      "pathnameVariants": [
+        "/company/contact-us"
+      ],
+      "sitecoreSegments": [
+        "Company",
+        "Contact Us"
+      ],
+      "itemName": "Contact Us",
+      "parentSegments": [
+        "Company"
+      ],
+      "yamlRelativePath": "Home/Company/Contact Us.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Company/Contact Us",
+      "title": "Contact us",
+      "navigationTitle": "Contact us",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/company/contact-us",
+          "text": "Contact us",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/company/newsroom",
+      "pathnameVariants": [
+        "/company/newsroom"
+      ],
+      "sitecoreSegments": [
+        "Company",
+        "Newsroom"
+      ],
+      "itemName": "Newsroom",
+      "parentSegments": [
+        "Company"
+      ],
+      "yamlRelativePath": "Home/Company/Newsroom.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Company/Newsroom",
+      "title": "Newsroom",
+      "navigationTitle": "Newsroom",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/company/newsroom",
+          "text": "Newsroom",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/company/newsroom",
+          "text": "Newsroom",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/company/newsroom",
+          "text": "Newsroom",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/company/newsroom",
+          "text": "Newsroom",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/company/newsroom",
+          "text": "Newsroom",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/company/newsroom",
+          "text": "Newsroom",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/company/newsroom",
+          "text": "Newsroom",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/legal",
+      "pathnameVariants": [
+        "/legal"
+      ],
+      "sitecoreSegments": [
+        "Legal"
+      ],
+      "itemName": "Legal",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Legal.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Legal",
+      "title": "Legal Hub",
+      "navigationTitle": "Legal Hub",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/legal",
+          "text": "Legal Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/legal",
+          "text": "Legal Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/legal",
+          "text": "Legal Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/legal",
+          "text": "Legal Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/legal",
+          "text": "Legal Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/legal",
+          "text": "Legal Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/legal",
+          "text": "Legal Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/legal/privacy-policy",
+      "pathnameVariants": [
+        "/legal/privacy-policy"
+      ],
+      "sitecoreSegments": [
+        "Legal",
+        "Privacy Policy"
+      ],
+      "itemName": "Privacy Policy",
+      "parentSegments": [
+        "Legal"
+      ],
+      "yamlRelativePath": "Home/Legal/Privacy Policy.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Legal/Privacy Policy",
+      "title": "Privacy Policy",
+      "navigationTitle": "Privacy Policy",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy Policy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy Policy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy Policy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy Policy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy Policy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy Policy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy Policy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        },
+        {
+          "href": "/legal/privacy-policy",
+          "text": "Privacy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/legal/your-privacy-choices",
+      "pathnameVariants": [
+        "/legal/your-privacy-choices"
+      ],
+      "sitecoreSegments": [
+        "Legal",
+        "Your Privacy Choices"
+      ],
+      "itemName": "Your Privacy Choices",
+      "parentSegments": [
+        "Legal"
+      ],
+      "yamlRelativePath": "Home/Legal/Your Privacy Choices.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Legal/Your Privacy Choices",
+      "title": "Your privacy choices",
+      "navigationTitle": "Your privacy choices",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/legal/your-privacy-choices",
+          "text": "Your privacy choices",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/legal/your-privacy-choices",
+          "text": "Your privacy choices",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/legal/your-privacy-choices",
+          "text": "Your privacy choices",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/legal/your-privacy-choices",
+          "text": "Your privacy choices",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/legal/your-privacy-choices",
+          "text": "Your privacy choices",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/legal/your-privacy-choices",
+          "text": "Your privacy choices",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/legal/your-privacy-choices",
+          "text": "Your privacy choices",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform",
+      "pathnameVariants": [
+        "/platform"
+      ],
+      "sitecoreSegments": [
+        "Platform"
+      ],
+      "itemName": "Platform",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Platform.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform",
+      "title": "Platform",
+      "navigationTitle": "Platform",
+      "status": "mimicked",
+      "captureSlug": "sitecore-com--platform",
+      "sources": [
+        {
+          "href": "/platform",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/platform",
+          "text": "Explore the platform",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Platform overview",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Platform overview",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Explore the Platform",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Platform overview",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Platform overview",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Platform overview",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Platform overview",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform",
+          "text": "Platform overview",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/ai-and-agents",
+      "pathnameVariants": [
+        "/platform/ai-and-agents"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Ai And Agents"
+      ],
+      "itemName": "Ai And Agents",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Ai And Agents.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Ai And Agents",
+      "title": "Ai And Agents",
+      "navigationTitle": "Ai And Agents",
+      "status": "mimicked",
+      "captureSlug": "sitecore-com--platform-ai-and-agents",
+      "sources": [
+        {
+          "href": "/platform/ai-and-agents",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "AI and agents",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "AI and agents",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "AI and agents",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "AI and agents",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "AI and agents",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "AI and agents",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/ai-and-agents",
+          "text": "AI and agents",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/ai-innovation-lab",
+      "pathnameVariants": [
+        "/platform/ai-innovation-lab"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Ai Innovation Lab"
+      ],
+      "itemName": "Ai Innovation Lab",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Ai Innovation Lab.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Ai Innovation Lab",
+      "title": "AI Innovation Lab",
+      "navigationTitle": "AI Innovation Lab",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/ai-innovation-lab",
+          "text": "AI Innovation Lab",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/ai-innovation-lab",
+          "text": "AI Innovation Lab",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/ai-innovation-lab",
+          "text": "AI Innovation Lab",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/ai-innovation-lab",
+          "text": "AI Innovation Lab",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/ai-innovation-lab",
+          "text": "AI Innovation Lab",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/ai-innovation-lab",
+          "text": "AI Innovation Lab",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/ai-innovation-lab",
+          "text": "AI Innovation Lab",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/ai-search",
+      "pathnameVariants": [
+        "/platform/ai-search"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Ai Search"
+      ],
+      "itemName": "Ai Search",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Ai Search.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Ai Search",
+      "title": "Ai Search",
+      "navigationTitle": "Ai Search",
+      "status": "mimicked",
+      "captureSlug": "sitecore-com--platform-ai-search",
+      "sources": [
+        {
+          "href": "/platform/ai-search",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "Start with your AI visibility",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI Search NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AEO in action",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI visibility",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "Explore AI search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI Search NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI visibility",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "Explore AI search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI Search NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI Search NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI Search NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI Search NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/ai-search",
+          "text": "AI Search NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/audience-and-insights",
+      "pathnameVariants": [
+        "/platform/audience-and-insights"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Audience And Insights"
+      ],
+      "itemName": "Audience And Insights",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Audience And Insights.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Audience And Insights",
+      "title": "Audience And Insights",
+      "navigationTitle": "Audience And Insights",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Transform with AI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/audience-and-insights",
+          "text": "Audience and insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/commerce",
+      "pathnameVariants": [
+        "/platform/commerce"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Commerce"
+      ],
+      "itemName": "Commerce",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Commerce.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Commerce",
+      "title": "Commerce",
+      "navigationTitle": "Commerce",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/commerce",
+          "text": "Commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/commerce",
+          "text": "Commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/commerce",
+          "text": "Commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/commerce",
+          "text": "Commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/commerce",
+          "text": "Commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/commerce",
+          "text": "Commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/commerce",
+          "text": "Commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/connect",
+      "pathnameVariants": [
+        "/platform/connect"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Connect"
+      ],
+      "itemName": "Connect",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Connect.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Connect",
+      "title": "Connect",
+      "navigationTitle": "Connect",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/connect",
+          "text": "Connect",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/connect",
+          "text": "Connect",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/connect",
+          "text": "Connect",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/connect",
+          "text": "Connect",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/connect",
+          "text": "Connect",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/connect",
+          "text": "Connect",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/connect",
+          "text": "Connect",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/content-management-system",
+      "pathnameVariants": [
+        "/platform/content-management-system"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Content Management System"
+      ],
+      "itemName": "Content Management System",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Content Management System.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Content Management System",
+      "title": "Content Management System",
+      "navigationTitle": "Content Management System",
+      "status": "mimicked",
+      "captureSlug": "sitecore-com--platform-content-management-system",
+      "sources": [
+        {
+          "href": "/platform/content-management-system",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Master the CMS",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/content-management-system",
+          "text": "Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/content-operations",
+      "pathnameVariants": [
+        "/platform/content-operations"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Content Operations"
+      ],
+      "itemName": "Content Operations",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Content Operations.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Content Operations",
+      "title": "Content Operations",
+      "navigationTitle": "Content Operations",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/content-operations",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Fuel your content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content Operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/content-operations",
+          "text": "Content operations",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/conversion-optimization",
+      "pathnameVariants": [
+        "/platform/conversion-optimization"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Conversion Optimization"
+      ],
+      "itemName": "Conversion Optimization",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Conversion Optimization.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Conversion Optimization",
+      "title": "Conversion Optimization",
+      "navigationTitle": "Conversion Optimization",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Power up your personalization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion Optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/conversion-optimization",
+          "text": "Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/digital-asset-management",
+      "pathnameVariants": [
+        "/platform/digital-asset-management"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Digital Asset Management"
+      ],
+      "itemName": "Digital Asset Management",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Digital Asset Management.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Digital Asset Management",
+      "title": "Digital Asset Management",
+      "navigationTitle": "Digital Asset Management",
+      "status": "mimicked",
+      "captureSlug": "sitecore-com--platform-digital-asset-management",
+      "sources": [
+        {
+          "href": "/platform/digital-asset-management",
+          "text": null,
+          "component": "PageCapture",
+          "sourceFile": "page-manifest.json"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Digital Asset Management",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Dive into DAM",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Digital Asset Management",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Digital Asset Management",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Digital Asset Management",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "DAM",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Digital Asset Management",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Digital Asset Management",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/digital-asset-management",
+          "text": "Digital Asset Management",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/experience-manager",
+      "pathnameVariants": [
+        "/platform/experience-manager"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Experience Manager"
+      ],
+      "itemName": "Experience Manager",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Experience Manager.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Experience Manager",
+      "title": "Experience Manager (XM)",
+      "navigationTitle": "Experience Manager (XM)",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/experience-manager",
+          "text": "Experience Manager (XM)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/experience-manager",
+          "text": "Experience Manager (XM)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/experience-manager",
+          "text": "Experience Manager (XM)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/experience-manager",
+          "text": "Experience Manager (XM)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/experience-manager",
+          "text": "Experience Manager (XM)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/experience-manager",
+          "text": "Experience Manager (XM)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/experience-manager",
+          "text": "Experience Manager (XM)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/experience-platform",
+      "pathnameVariants": [
+        "/platform/experience-platform"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Experience Platform"
+      ],
+      "itemName": "Experience Platform",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Experience Platform.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Experience Platform",
+      "title": "Experience Platform (XP)",
+      "navigationTitle": "Experience Platform (XP)",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/experience-platform",
+          "text": "Experience Platform (XP)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/experience-platform",
+          "text": "Experience Platform (XP)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/experience-platform",
+          "text": "Experience Platform (XP)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/experience-platform",
+          "text": "Experience Platform (XP)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/experience-platform",
+          "text": "Experience Platform (XP)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/experience-platform",
+          "text": "Experience Platform (XP)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/experience-platform",
+          "text": "Experience Platform (XP)",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/managed-cloud",
+      "pathnameVariants": [
+        "/platform/managed-cloud"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Managed Cloud"
+      ],
+      "itemName": "Managed Cloud",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Managed Cloud.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Managed Cloud",
+      "title": "Managed Cloud",
+      "navigationTitle": "Managed Cloud",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/managed-cloud",
+          "text": "Managed Cloud",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/managed-cloud",
+          "text": "Managed Cloud",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/managed-cloud",
+          "text": "Managed Cloud",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/managed-cloud",
+          "text": "Managed Cloud",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/managed-cloud",
+          "text": "Managed Cloud",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/managed-cloud",
+          "text": "Managed Cloud",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/managed-cloud",
+          "text": "Managed Cloud",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/product-strategy",
+      "pathnameVariants": [
+        "/platform/product-strategy"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Product Strategy"
+      ],
+      "itemName": "Product Strategy",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Product Strategy.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Product Strategy",
+      "title": "Product strategy",
+      "navigationTitle": "Product strategy",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/product-strategy",
+          "text": "Product strategy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Marketing IQ",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Product strategy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Product strategy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Explore what's new",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Product strategy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "See what’s new in SitecoreAI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Product strategy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "See what’s new in SitecoreAI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Product strategy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/product-strategy",
+          "text": "Product strategy",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/send",
+      "pathnameVariants": [
+        "/platform/send"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Send"
+      ],
+      "itemName": "Send",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Send.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Send",
+      "title": "Send",
+      "navigationTitle": "Send",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/send",
+          "text": "Send",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/send",
+          "text": "Send",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/send",
+          "text": "Send",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/send",
+          "text": "Send",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/send",
+          "text": "Send",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/send",
+          "text": "Send",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/send",
+          "text": "Send",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/sitecore-services",
+      "pathnameVariants": [
+        "/platform/sitecore-services"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Sitecore Services"
+      ],
+      "itemName": "Sitecore Services",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Sitecore Services.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Sitecore Services",
+      "title": "Sitecore Services",
+      "navigationTitle": "Sitecore Services",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/sitecore-services",
+          "text": "Sitecore Services",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/sitecore-services",
+          "text": "Sitecore Services",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/sitecore-services",
+          "text": "Sitecore Services",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/sitecore-services",
+          "text": "Sitecore Services",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/sitecore-services",
+          "text": "Sitecore Services",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/sitecore-services",
+          "text": "Sitecore Services",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/sitecore-services",
+          "text": "Sitecore Services",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/sitecore-training",
+      "pathnameVariants": [
+        "/platform/sitecore-training"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Sitecore Training"
+      ],
+      "itemName": "Sitecore Training",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Sitecore Training.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Sitecore Training",
+      "title": "Sitecore Learning",
+      "navigationTitle": "Sitecore Learning",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/sitecore-training",
+          "text": "Sitecore Learning",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/sitecore-training",
+          "text": "Sitecore Learning",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/sitecore-training",
+          "text": "Sitecore Learning",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/sitecore-training",
+          "text": "Sitecore Learning",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/sitecore-training",
+          "text": "Sitecore Learning",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/sitecore-training",
+          "text": "Sitecore Learning",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/sitecore-training",
+          "text": "Sitecore Learning",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/sitecore360",
+      "pathnameVariants": [
+        "/platform/sitecore360"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Sitecore360"
+      ],
+      "itemName": "Sitecore360",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Sitecore360.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Sitecore360",
+      "title": "Sitecore360",
+      "navigationTitle": "Sitecore360",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/sitecore360",
+          "text": "Sitecore360",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/sitecore360",
+          "text": "Sitecore360",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/sitecore360",
+          "text": "Sitecore360",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/sitecore360",
+          "text": "Sitecore360",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/sitecore360",
+          "text": "Sitecore360",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/sitecore360",
+          "text": "Sitecore360",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/sitecore360",
+          "text": "Sitecore360",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/use-cases",
+      "pathnameVariants": [
+        "/platform/use-cases"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Use Cases"
+      ],
+      "itemName": "Use Cases",
+      "parentSegments": [
+        "Platform"
+      ],
+      "yamlRelativePath": "Home/Platform/Use Cases.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Use Cases",
+      "title": "Explore use cases See what’s possible",
+      "navigationTitle": "Explore use cases See what’s possible",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases See what’s possible",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Use case library NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases See what’s possible",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Use case library NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases See what’s possible",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Use case library NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases See what’s possible",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Use case library NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases See what’s possible",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Use case library NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Explore use cases See what’s possible",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Use case library NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/platform/use-cases",
+          "text": "Use case library NEW",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/platform/use-cases/establish-and-maintain-credibility-in-ai-search-results",
+      "pathnameVariants": [
+        "/platform/use-cases/establish-and-maintain-credibility-in-ai-search-results"
+      ],
+      "sitecoreSegments": [
+        "Platform",
+        "Use Cases",
+        "Establish And Maintain Credibility In Ai Search Results"
+      ],
+      "itemName": "Establish And Maintain Credibility In Ai Search Results",
+      "parentSegments": [
+        "Platform",
+        "Use Cases"
+      ],
+      "yamlRelativePath": "Home/Platform/Use Cases/Establish And Maintain Credibility In Ai Search Results.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Platform/Use Cases/Establish And Maintain Credibility In Ai Search Results",
+      "title": "AI search use case",
+      "navigationTitle": "AI search use case",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/platform/use-cases/establish-and-maintain-credibility-in-ai-search-results",
+          "text": "AI search use case",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/request-a-demo",
+      "pathnameVariants": [
+        "/request-a-demo"
+      ],
+      "sitecoreSegments": [
+        "Request A Demo"
+      ],
+      "itemName": "Request A Demo",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Request A Demo.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Request A Demo",
+      "title": "Request a demo",
+      "navigationTitle": "Request a demo",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Book a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "book a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Book a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Book a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        },
+        {
+          "href": "/request-a-demo",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/request-a-demo-scrunch",
+      "pathnameVariants": [
+        "/request-a-demo-scrunch"
+      ],
+      "sitecoreSegments": [
+        "Request A Demo Scrunch"
+      ],
+      "itemName": "Request A Demo Scrunch",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Request A Demo Scrunch.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Request A Demo Scrunch",
+      "title": "Get your AI visibility snapshot",
+      "navigationTitle": "Get your AI visibility snapshot",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/request-a-demo-scrunch",
+          "text": "Get your AI visibility snapshot",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/request-a-demo-scrunch",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/request-a-demo-scrunch",
+          "text": "Request a demo",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/resources",
+      "pathnameVariants": [
+        "/resources"
+      ],
+      "sitecoreSegments": [
+        "Resources"
+      ],
+      "itemName": "Resources",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Resources.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Resources",
+      "title": "Resource Hub",
+      "navigationTitle": "Resource Hub",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/resources",
+          "text": "Resource Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/resources",
+          "text": "Resource Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/resources",
+          "text": "Resource Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/resources",
+          "text": "Resource Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/resources",
+          "text": "Resource Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/resources",
+          "text": "Resource Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/resources",
+          "text": "Resource Hub",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/resources/events-webinars",
+      "pathnameVariants": [
+        "/resources/events-webinars"
+      ],
+      "sitecoreSegments": [
+        "Resources",
+        "Events Webinars"
+      ],
+      "itemName": "Events Webinars",
+      "parentSegments": [
+        "Resources"
+      ],
+      "yamlRelativePath": "Home/Resources/Events Webinars.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Resources/Events Webinars",
+      "title": "See all events and webinars",
+      "navigationTitle": "See all events and webinars",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/resources/events-webinars",
+          "text": "See all events and webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Learn with Sitecore Explore our webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Events & Webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Learn with Sitecore Explore our webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Events & Webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Learn with Sitecore Explore our webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Events & Webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Learn with Sitecore Explore our webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Events & Webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Check events and webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Learn with Sitecore Explore our webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Events & Webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Check events and webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Learn with Sitecore Explore our webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Events & Webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/resources/events-webinars",
+          "text": "Events & Webinars",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/resources/insights",
+      "pathnameVariants": [
+        "/resources/insights"
+      ],
+      "sitecoreSegments": [
+        "Resources",
+        "Insights"
+      ],
+      "itemName": "Insights",
+      "parentSegments": [
+        "Resources"
+      ],
+      "yamlRelativePath": "Home/Resources/Insights.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Resources/Insights",
+      "title": "Expert guides and reports Browse the library",
+      "navigationTitle": "Expert guides and reports Browse the library",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/resources/insights?type=Analyst-report%2CGuides%2CReport&amp;page=0",
+          "text": "Expert guides and reports Browse the library",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/resources/insights",
+          "text": "Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/resources/insights?type=Analyst-report%2CGuides%2CReport&amp;page=0",
+          "text": "Expert guides and reports Browse the library",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/resources/insights",
+          "text": "Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/resources/insights?type=Analyst-report%2CGuides%2CReport&amp;page=0",
+          "text": "Expert guides and reports Browse the library",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/resources/insights",
+          "text": "Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/resources/insights?type=Analyst-report%2CGuides%2CReport&amp;page=0",
+          "text": "Expert guides and reports Browse the library",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/resources/insights",
+          "text": "Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/resources/insights?type=Analyst-report%2CGuides%2CReport&amp;page=0",
+          "text": "Expert guides and reports Browse the library",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/resources/insights",
+          "text": "Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/resources/insights?type=Analyst-report%2CGuides%2CReport&amp;page=0",
+          "text": "Expert guides and reports Browse the library",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/resources/insights",
+          "text": "Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/resources/insights",
+          "text": "Insights",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/resources/insights/artificial-intelligence/enterprise-ai-governance-in-marketing",
+      "pathnameVariants": [
+        "/resources/insights/artificial-intelligence/enterprise-ai-governance-in-marketing"
+      ],
+      "sitecoreSegments": [
+        "Resources",
+        "Insights",
+        "Artificial Intelligence",
+        "Enterprise Ai Governance In Marketing"
+      ],
+      "itemName": "Enterprise Ai Governance In Marketing",
+      "parentSegments": [
+        "Resources",
+        "Insights",
+        "Artificial Intelligence"
+      ],
+      "yamlRelativePath": "Home/Resources/Insights/Artificial Intelligence/Enterprise Ai Governance In Marketing.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Resources/Insights/Artificial Intelligence/Enterprise Ai Governance In Marketing",
+      "title": "AI governance in marketing",
+      "navigationTitle": "AI governance in marketing",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/resources/insights/artificial-intelligence/enterprise-ai-governance-in-marketing",
+          "text": "AI governance in marketing",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/resources/insights/content-management/enterprise-cms-buyers-guide-ai-era",
+      "pathnameVariants": [
+        "/resources/insights/content-management/enterprise-cms-buyers-guide-ai-era"
+      ],
+      "sitecoreSegments": [
+        "Resources",
+        "Insights",
+        "Content Management",
+        "Enterprise Cms Buyers Guide Ai Era"
+      ],
+      "itemName": "Enterprise Cms Buyers Guide Ai Era",
+      "parentSegments": [
+        "Resources",
+        "Insights",
+        "Content Management"
+      ],
+      "yamlRelativePath": "Home/Resources/Insights/Content Management/Enterprise Cms Buyers Guide Ai Era.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Resources/Insights/Content Management/Enterprise Cms Buyers Guide Ai Era",
+      "title": "Download guide",
+      "navigationTitle": "Download guide",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/resources/insights/content-management/enterprise-cms-buyers-guide-ai-era",
+          "text": "Download guide",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/resources/insights/digital-asset-management/enterprise-dam-buyers-guide-ai-era",
+      "pathnameVariants": [
+        "/resources/insights/digital-asset-management/enterprise-dam-buyers-guide-ai-era"
+      ],
+      "sitecoreSegments": [
+        "Resources",
+        "Insights",
+        "Digital Asset Management",
+        "Enterprise Dam Buyers Guide Ai Era"
+      ],
+      "itemName": "Enterprise Dam Buyers Guide Ai Era",
+      "parentSegments": [
+        "Resources",
+        "Insights",
+        "Digital Asset Management"
+      ],
+      "yamlRelativePath": "Home/Resources/Insights/Digital Asset Management/Enterprise Dam Buyers Guide Ai Era.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Resources/Insights/Digital Asset Management/Enterprise Dam Buyers Guide Ai Era",
+      "title": "Download guide",
+      "navigationTitle": "Download guide",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/resources/insights/digital-asset-management/enterprise-dam-buyers-guide-ai-era",
+          "text": "Download guide",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/resources/support",
+      "pathnameVariants": [
+        "/resources/support"
+      ],
+      "sitecoreSegments": [
+        "Resources",
+        "Support"
+      ],
+      "itemName": "Support",
+      "parentSegments": [
+        "Resources"
+      ],
+      "yamlRelativePath": "Home/Resources/Support.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Resources/Support",
+      "title": "Support",
+      "navigationTitle": "Support",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/resources/support",
+          "text": "Support",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/resources/support",
+          "text": "Support",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/resources/support",
+          "text": "Support",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/resources/support",
+          "text": "Support",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/resources/support",
+          "text": "Support",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/resources/support",
+          "text": "Support",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/resources/support",
+          "text": "Support",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/search",
+      "pathnameVariants": [
+        "/search"
+      ],
+      "sitecoreSegments": [
+        "Search"
+      ],
+      "itemName": "Search",
+      "parentSegments": [],
+      "yamlRelativePath": "Home/Search.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Search",
+      "title": "Search",
+      "navigationTitle": "Search",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "Header",
+          "sourceFile": "sections/header/section.html"
+        },
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/search",
+          "text": "Search",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/analyst-reports",
+      "pathnameVariants": [
+        "/solutions/analyst-reports"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Analyst Reports"
+      ],
+      "itemName": "Analyst Reports",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Analyst Reports.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Analyst Reports",
+      "title": "See all Analyst Reports",
+      "navigationTitle": "See all Analyst Reports",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "See all Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "All Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "See all Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "All Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "All Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "All Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "All Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "All Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports",
+          "text": "All Analyst Reports",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/analyst-reports/gartner-magic-quadrant-content-marketing-leader",
+      "pathnameVariants": [
+        "/solutions/analyst-reports/gartner-magic-quadrant-content-marketing-leader"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Analyst Reports",
+        "Gartner Magic Quadrant Content Marketing Leader"
+      ],
+      "itemName": "Gartner Magic Quadrant Content Marketing Leader",
+      "parentSegments": [
+        "Solutions",
+        "Analyst Reports"
+      ],
+      "yamlRelativePath": "Home/Solutions/Analyst Reports/Gartner Magic Quadrant Content Marketing Leader.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Analyst Reports/Gartner Magic Quadrant Content Marketing Leader",
+      "title": "Sitecore named a Leader in the 2026 Gartner® Magic Quadrant for Content Marketing Platforms™ Download the report",
+      "navigationTitle": "Sitecore named a Leader in the 2026 Gartner® Magic Quadrant for Content Marketing Platforms™ Download the report",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/analyst-reports/gartner-magic-quadrant-content-marketing-leader",
+          "text": "Sitecore named a Leader in the 2026 Gartner® Magic Quadrant for Content Marketing Platforms™ Download the report",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports/gartner-magic-quadrant-content-marketing-leader",
+          "text": "Sitecore named a Leader in the 2026 Gartner® Magic Quadrant for Content Marketing Platforms™ Download the report",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/analyst-reports/the-forrester-wave-digital-experience-platforms",
+      "pathnameVariants": [
+        "/solutions/analyst-reports/the-forrester-wave-digital-experience-platforms"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Analyst Reports",
+        "The Forrester Wave Digital Experience Platforms"
+      ],
+      "itemName": "The Forrester Wave Digital Experience Platforms",
+      "parentSegments": [
+        "Solutions",
+        "Analyst Reports"
+      ],
+      "yamlRelativePath": "Home/Solutions/Analyst Reports/The Forrester Wave Digital Experience Platforms.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Analyst Reports/The Forrester Wave Digital Experience Platforms",
+      "title": "Sitecore named a Leader in The Forrester Wave™: Digital Experience Platforms, Q4 2025 Access the report",
+      "navigationTitle": "Sitecore named a Leader in The Forrester Wave™: Digital Experience Platforms, Q4 2025 Access the report",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/analyst-reports/the-forrester-wave-digital-experience-platforms",
+          "text": "Sitecore named a Leader in The Forrester Wave™: Digital Experience Platforms, Q4 2025 Access the report",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/analyst-reports/the-forrester-wave-digital-experience-platforms",
+          "text": "Sitecore named a Leader in The Forrester Wave™: Digital Experience Platforms, Q4 2025 Access the report",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customer-awards",
+      "pathnameVariants": [
+        "/solutions/customer-awards"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customer Awards"
+      ],
+      "itemName": "Customer Awards",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customer Awards.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customer Awards",
+      "title": "All Experience Awards",
+      "navigationTitle": "All Experience Awards",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customer-awards",
+          "text": "All Experience Awards",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/customer-awards",
+          "text": "All Experience Awards",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/customer-awards",
+          "text": "All Experience Awards",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/customer-awards",
+          "text": "All Experience Awards",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/customer-awards",
+          "text": "All Experience Awards",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customer-awards",
+          "text": "All Experience Awards",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/customer-awards",
+          "text": "All Experience Awards",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers",
+      "pathnameVariants": [
+        "/solutions/customers"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers"
+      ],
+      "itemName": "Customers",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers",
+      "title": "See all customers",
+      "navigationTitle": "See all customers",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers",
+          "text": "See all customers",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "See all customers",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "All Customer Stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "Discover customer stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "customer stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "All Customer Stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "All Customer Stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "All Customer Stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/customers?product=Content-Management-System",
+          "text": "Discover customer stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "All Customer Stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customers?product=Digital-Asset-Managment",
+          "text": "Discover customer stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "All Customer Stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/customers",
+          "text": "All Customer Stories",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/atkore/global-sitecore-platform-growth",
+      "pathnameVariants": [
+        "/solutions/customers/atkore/global-sitecore-platform-growth"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Atkore",
+        "Global Sitecore Platform Growth"
+      ],
+      "itemName": "Global Sitecore Platform Growth",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Atkore"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Atkore/Global Sitecore Platform Growth.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Atkore/Global Sitecore Platform Growth",
+      "title": "Manufacturing Atkore’s Sitecore-powered global web platform drives a 115% rise in monthly users Global consistency, regional flavoring.",
+      "navigationTitle": "Manufacturing Atkore’s Sitecore-powered global web platform drives a 115% rise in monthly users Global consistency, regional flavoring.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/atkore/global-sitecore-platform-growth",
+          "text": "Manufacturing Atkore’s Sitecore-powered global web platform drives a 115% rise in monthly users Global consistency, regional flavoring.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/avanade",
+      "pathnameVariants": [
+        "/solutions/customers/avanade"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Avanade"
+      ],
+      "itemName": "Avanade",
+      "parentSegments": [
+        "Solutions",
+        "Customers"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Avanade.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Avanade",
+      "title": "200% more website sales.",
+      "navigationTitle": "200% more website sales.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/avanade",
+          "text": "200% more website sales.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/dtp-victoria/public-service-digital-transformation",
+      "pathnameVariants": [
+        "/solutions/customers/dtp-victoria/public-service-digital-transformation"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Dtp Victoria",
+        "Public Service Digital Transformation"
+      ],
+      "itemName": "Public Service Digital Transformation",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Dtp Victoria"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Dtp Victoria/Public Service Digital Transformation.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Dtp Victoria/Public Service Digital Transformation",
+      "title": "Case Study DTP Victoria improves public service delivery with a unified digital platform DTP Victoria unified its digital infrastructure to deliver real-time information faster, increase engagement by 114%, and expand self-service for 7 million residents. SitecoreAI Content Management System",
+      "navigationTitle": "Case Study DTP Victoria improves public service delivery with a unified digital platform DTP Victoria unified its digital infrastructure to deliver real-time information faster, increase engagement by 114%, and expand self-service for 7 million residents. SitecoreAI Content Management System",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/dtp-victoria/public-service-digital-transformation",
+          "text": "Case Study DTP Victoria improves public service delivery with a unified digital platform DTP Victoria unified its digital infrastructure to deliver real-time information faster, increase engagement by 114%, and expand self-service for 7 million residents. SitecoreAI Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/enmax/sitecore-boosts-customer-engagement",
+      "pathnameVariants": [
+        "/solutions/customers/enmax/sitecore-boosts-customer-engagement"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Enmax",
+        "Sitecore Boosts Customer Engagement"
+      ],
+      "itemName": "Sitecore Boosts Customer Engagement",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Enmax"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Enmax/Sitecore Boosts Customer Engagement.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Enmax/Sitecore Boosts Customer Engagement",
+      "title": "Energy Smarter and faster: How ENMAX transformed online experiences using Sitecore’s CMS Building strategic foundations on Sitecore.",
+      "navigationTitle": "Energy Smarter and faster: How ENMAX transformed online experiences using Sitecore’s CMS Building strategic foundations on Sitecore.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/enmax/sitecore-boosts-customer-engagement",
+          "text": "Energy Smarter and faster: How ENMAX transformed online experiences using Sitecore’s CMS Building strategic foundations on Sitecore.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customers/enmax/sitecore-boosts-customer-engagement",
+          "text": "Case Study ENMAX drives digital adoption with Sitecore-powered customer experience ENMAX replaced legacy systems with Sitecore to modernize digital experiences, increase customer portal usage by 37%, and accelerate campaign delivery. SitecoreAI Content Management System Digital Asset Managment",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/equity-trustees/modernising-digital-trust",
+      "pathnameVariants": [
+        "/solutions/customers/equity-trustees/modernising-digital-trust"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Equity Trustees",
+        "Modernising Digital Trust"
+      ],
+      "itemName": "Modernising Digital Trust",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Equity Trustees"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Equity Trustees/Modernising Digital Trust.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Equity Trustees/Modernising Digital Trust",
+      "title": "Case Study Equity Trustees modernizes digital trust with SitecoreAI See how Equity Trustees rebuilt on SitecoreAI and Sitecore Search to cut page volume 60%, save 140,000+ webmastering hours, and modernise client trust. SitecoreAI Conversion optimization",
+      "navigationTitle": "Case Study Equity Trustees modernizes digital trust with SitecoreAI See how Equity Trustees rebuilt on SitecoreAI and Sitecore Search to cut page volume 60%, save 140,000+ webmastering hours, and modernise client trust. SitecoreAI Conversion optimization",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/equity-trustees/modernising-digital-trust",
+          "text": "Case Study Equity Trustees modernizes digital trust with SitecoreAI See how Equity Trustees rebuilt on SitecoreAI and Sitecore Search to cut page volume 60%, save 140,000+ webmastering hours, and modernise client trust. SitecoreAI Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/foodstuffs-nz/foodstuffs-launches-new-sites-25-percent-faster-with-sitecore",
+      "pathnameVariants": [
+        "/solutions/customers/foodstuffs-nz/foodstuffs-launches-new-sites-25-percent-faster-with-sitecore"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Foodstuffs Nz",
+        "Foodstuffs Launches New Sites 25 Percent Faster With Sitecore"
+      ],
+      "itemName": "Foodstuffs Launches New Sites 25 Percent Faster With Sitecore",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Foodstuffs Nz"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Foodstuffs Nz/Foodstuffs Launches New Sites 25 Percent Faster With Sitecore.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Foodstuffs Nz/Foodstuffs Launches New Sites 25 Percent Faster With Sitecore",
+      "title": "Retail Foodstuffs boosts digital agility and efficiency Scalable digital growth foundation.",
+      "navigationTitle": "Retail Foodstuffs boosts digital agility and efficiency Scalable digital growth foundation.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/foodstuffs-nz/foodstuffs-launches-new-sites-25-percent-faster-with-sitecore",
+          "text": "Retail Foodstuffs boosts digital agility and efficiency Scalable digital growth foundation.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/general-assembly",
+      "pathnameVariants": [
+        "/solutions/customers/general-assembly"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "General Assembly"
+      ],
+      "itemName": "General Assembly",
+      "parentSegments": [
+        "Solutions",
+        "Customers"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/General Assembly.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/General Assembly",
+      "title": "3x higher visitor-to-lead conversion",
+      "navigationTitle": "3x higher visitor-to-lead conversion",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/general-assembly",
+          "text": "3x higher visitor-to-lead conversion",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/icreon/engagement-growth-sitecoreai",
+      "pathnameVariants": [
+        "/solutions/customers/icreon/engagement-growth-sitecoreai"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Icreon",
+        "Engagement Growth Sitecoreai"
+      ],
+      "itemName": "Engagement Growth Sitecoreai",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Icreon"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Icreon/Engagement Growth Sitecoreai.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Icreon/Engagement Growth Sitecoreai",
+      "title": "Case Study Icreon drives 213% higher engagement with SitecoreAI Discover how Icreon achieved 213% higher engagement in one month with SitecoreAI by accelerating content delivery and modernizing its digital experience. SitecoreAI Content Management System",
+      "navigationTitle": "Case Study Icreon drives 213% higher engagement with SitecoreAI Discover how Icreon achieved 213% higher engagement in one month with SitecoreAI by accelerating content delivery and modernizing its digital experience. SitecoreAI Content Management System",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/icreon/engagement-growth-sitecoreai",
+          "text": "Case Study Icreon drives 213% higher engagement with SitecoreAI Discover how Icreon achieved 213% higher engagement in one month with SitecoreAI by accelerating content delivery and modernizing its digital experience. SitecoreAI Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/kamstrup/modernizing-13-global-websites",
+      "pathnameVariants": [
+        "/solutions/customers/kamstrup/modernizing-13-global-websites"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Kamstrup",
+        "Modernizing 13 Global Websites"
+      ],
+      "itemName": "Modernizing 13 Global Websites",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Kamstrup"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Kamstrup/Modernizing 13 Global Websites.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Kamstrup/Modernizing 13 Global Websites",
+      "title": "Manufacturing Kamstrup modernizes 13 global websites and lifts customer satisfaction with SitecoreAI One modern foundation for every channel.",
+      "navigationTitle": "Manufacturing Kamstrup modernizes 13 global websites and lifts customer satisfaction with SitecoreAI One modern foundation for every channel.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/kamstrup/modernizing-13-global-websites",
+          "text": "Manufacturing Kamstrup modernizes 13 global websites and lifts customer satisfaction with SitecoreAI One modern foundation for every channel.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customers/kamstrup/modernizing-13-global-websites",
+          "text": "Case Study Kamstrup modernizes 13 global websites with SitecoreAI See how Kamstrup moved 7,500+ pages and 13 websites onto SitecoreAI, lifting customer satisfaction from 5.9 to 7.5 and freeing marketers to publish. SitecoreAI Content Management System Conversion optimization",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/michelin-guides/michelin-guides-speeds-time-to-market-with-sitecore-saas-solution",
+      "pathnameVariants": [
+        "/solutions/customers/michelin-guides/michelin-guides-speeds-time-to-market-with-sitecore-saas-solution"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Michelin Guides",
+        "Michelin Guides Speeds Time To Market With Sitecore Saas Solution"
+      ],
+      "itemName": "Michelin Guides Speeds Time To Market With Sitecore Saas Solution",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Michelin Guides"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Michelin Guides/Michelin Guides Speeds Time To Market With Sitecore Saas Solution.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Michelin Guides/Michelin Guides Speeds Time To Market With Sitecore Saas Solution",
+      "title": "Travel and Hospitality Michelin Experiences makes content instantly usable across channels with SitecoreAI DAM Seamless and automated image processing.",
+      "navigationTitle": "Travel and Hospitality Michelin Experiences makes content instantly usable across channels with SitecoreAI DAM Seamless and automated image processing.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/michelin-guides/michelin-guides-speeds-time-to-market-with-sitecore-saas-solution",
+          "text": "Travel and Hospitality Michelin Experiences makes content instantly usable across channels with SitecoreAI DAM Seamless and automated image processing.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/microsoft/microsoft-experiences-a-244-percent-higher-engagement-with-sitecore",
+      "pathnameVariants": [
+        "/solutions/customers/microsoft/microsoft-experiences-a-244-percent-higher-engagement-with-sitecore"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Microsoft",
+        "Microsoft Experiences A 244 Percent Higher Engagement With Sitecore"
+      ],
+      "itemName": "Microsoft Experiences A 244 Percent Higher Engagement With Sitecore",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Microsoft"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Microsoft/Microsoft Experiences A 244 Percent Higher Engagement With Sitecore.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Microsoft/Microsoft Experiences A 244 Percent Higher Engagement With Sitecore",
+      "title": "IT and Telecom Transforming the Microsoft Partner Network Better conversion and engagement rates.",
+      "navigationTitle": "IT and Telecom Transforming the Microsoft Partner Network Better conversion and engagement rates.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/microsoft/microsoft-experiences-a-244-percent-higher-engagement-with-sitecore",
+          "text": "IT and Telecom Transforming the Microsoft Partner Network Better conversion and engagement rates.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/penn-entertainment/composable-platform",
+      "pathnameVariants": [
+        "/solutions/customers/penn-entertainment/composable-platform"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Penn Entertainment",
+        "Composable Platform"
+      ],
+      "itemName": "Composable Platform",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Penn Entertainment"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Penn Entertainment/Composable Platform.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Penn Entertainment/Composable Platform",
+      "title": "Case Study PENN Entertainment scales 40+ sites with SitecoreAI See how PENN Entertainment rebuilt 40+ properties on a headless SitecoreAI platform with Americaneagle.com, lifting search rankings fourfold. SitecoreAI",
+      "navigationTitle": "Case Study PENN Entertainment scales 40+ sites with SitecoreAI See how PENN Entertainment rebuilt 40+ properties on a headless SitecoreAI platform with Americaneagle.com, lifting search rankings fourfold. SitecoreAI",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/penn-entertainment/composable-platform",
+          "text": "Case Study PENN Entertainment scales 40+ sites with SitecoreAI See how PENN Entertainment rebuilt 40+ properties on a headless SitecoreAI platform with Americaneagle.com, lifting search rankings fourfold. SitecoreAI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/racing-victoria/fan-engagement-digital-foundation",
+      "pathnameVariants": [
+        "/solutions/customers/racing-victoria/fan-engagement-digital-foundation"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Racing Victoria",
+        "Fan Engagement Digital Foundation"
+      ],
+      "itemName": "Fan Engagement Digital Foundation",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Racing Victoria"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Racing Victoria/Fan Engagement Digital Foundation.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Racing Victoria/Fan Engagement Digital Foundation",
+      "title": "Media and Entertainment Racing Victoria builds a digital foundation driving deeper consumer engagement with thoroughbred racing Connecting fans, clubs, and the racing industry.",
+      "navigationTitle": "Media and Entertainment Racing Victoria builds a digital foundation driving deeper consumer engagement with thoroughbred racing Connecting fans, clubs, and the racing industry.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/racing-victoria/fan-engagement-digital-foundation",
+          "text": "Media and Entertainment Racing Victoria builds a digital foundation driving deeper consumer engagement with thoroughbred racing Connecting fans, clubs, and the racing industry.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customers/racing-victoria/fan-engagement-digital-foundation",
+          "text": "Case Study Racing Victoria drives fan engagement by unifying 60+ websites Discover how Racing Victoria unified 60+ websites, reduced content creation time by 60%, and built a scalable foundation for personalized fan experiences. Content Management System SitecoreAI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/rochester-regional-health/patient-access-engagement",
+      "pathnameVariants": [
+        "/solutions/customers/rochester-regional-health/patient-access-engagement"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Rochester Regional Health",
+        "Patient Access Engagement"
+      ],
+      "itemName": "Patient Access Engagement",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Rochester Regional Health"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Rochester Regional Health/Patient Access Engagement.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Rochester Regional Health/Patient Access Engagement",
+      "title": "Case Study Rochester Regional Health increases patient access and engagement Discover how Rochester Regional Health streamlined access to care, increasing patient sign-ups and appointment scheduling through a more connected digital experience. Content Management System SitecoreAI",
+      "navigationTitle": "Case Study Rochester Regional Health increases patient access and engagement Discover how Rochester Regional Health streamlined access to care, increasing patient sign-ups and appointment scheduling through a more connected digital experience. Content Management System SitecoreAI",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/rochester-regional-health/patient-access-engagement",
+          "text": "Case Study Rochester Regional Health increases patient access and engagement Discover how Rochester Regional Health streamlined access to care, increasing patient sign-ups and appointment scheduling through a more connected digital experience. Content Management System SitecoreAI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/sparebanken-vest",
+      "pathnameVariants": [
+        "/solutions/customers/sparebanken-vest"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Sparebanken Vest"
+      ],
+      "itemName": "Sparebanken Vest",
+      "parentSegments": [
+        "Solutions",
+        "Customers"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Sparebanken Vest.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Sparebanken Vest",
+      "title": "80% gain in productivity and efficiency",
+      "navigationTitle": "80% gain in productivity and efficiency",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/sparebanken-vest",
+          "text": "80% gain in productivity and efficiency",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/sparebanken-vest/norwegian-bank-drives-up-productivity-by-80-percent-with-sitecore-xm-cloud",
+      "pathnameVariants": [
+        "/solutions/customers/sparebanken-vest/norwegian-bank-drives-up-productivity-by-80-percent-with-sitecore-xm-cloud"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Sparebanken Vest",
+        "Norwegian Bank Drives Up Productivity By 80 Percent With Sitecore Xm Cloud"
+      ],
+      "itemName": "Norwegian Bank Drives Up Productivity By 80 Percent With Sitecore Xm Cloud",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Sparebanken Vest"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Sparebanken Vest/Norwegian Bank Drives Up Productivity By 80 Percent With Sitecore Xm Cloud.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Sparebanken Vest/Norwegian Bank Drives Up Productivity By 80 Percent With Sitecore Xm Cloud",
+      "title": "Financial Services Norwegian bank drives up productivity by 80% with Sitecore Higher customer satisfaction with SaaS CMS.",
+      "navigationTitle": "Financial Services Norwegian bank drives up productivity by 80% with Sitecore Higher customer satisfaction with SaaS CMS.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/sparebanken-vest/norwegian-bank-drives-up-productivity-by-80-percent-with-sitecore-xm-cloud",
+          "text": "Financial Services Norwegian bank drives up productivity by 80% with Sitecore Higher customer satisfaction with SaaS CMS.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/travel-money-group/legacy-cms-replacement",
+      "pathnameVariants": [
+        "/solutions/customers/travel-money-group/legacy-cms-replacement"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Travel Money Group",
+        "Legacy Cms Replacement"
+      ],
+      "itemName": "Legacy Cms Replacement",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Travel Money Group"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Travel Money Group/Legacy Cms Replacement.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Travel Money Group/Legacy Cms Replacement",
+      "title": "Financial Services From legacy to lift-off: How Travel Money Group rebuilt its digital experience in just 17 weeks with Sitecore Rebuilding fast without rebuilding twice.",
+      "navigationTitle": "Financial Services From legacy to lift-off: How Travel Money Group rebuilt its digital experience in just 17 weeks with Sitecore Rebuilding fast without rebuilding twice.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/travel-money-group/legacy-cms-replacement",
+          "text": "Financial Services From legacy to lift-off: How Travel Money Group rebuilt its digital experience in just 17 weeks with Sitecore Rebuilding fast without rebuilding twice.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customers/travel-money-group/legacy-cms-replacement",
+          "text": "Case Study Travel Money Group replaces legacy CMS and drives growth in 17 weeks Travel Money Group rebuilt its digital experience with Sitecore in 17 weeks, enabling higher conversions and scalable growth with a lean marketing team. Content Management System SitecoreAI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/united-airlines/united-airlines-delivers-82-percent-better-travel-experience-with-sitecore",
+      "pathnameVariants": [
+        "/solutions/customers/united-airlines/united-airlines-delivers-82-percent-better-travel-experience-with-sitecore"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "United Airlines",
+        "United Airlines Delivers 82 Percent Better Travel Experience With Sitecore"
+      ],
+      "itemName": "United Airlines Delivers 82 Percent Better Travel Experience With Sitecore",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "United Airlines"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/United Airlines/United Airlines Delivers 82 Percent Better Travel Experience With Sitecore.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/United Airlines/United Airlines Delivers 82 Percent Better Travel Experience With Sitecore",
+      "title": "Travel and Hospitality United Airlines delivers personalized travel experiences with Sitecore Digital signage for smoother travel.",
+      "navigationTitle": "Travel and Hospitality United Airlines delivers personalized travel experiences with Sitecore Digital signage for smoother travel.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/united-airlines/united-airlines-delivers-82-percent-better-travel-experience-with-sitecore",
+          "text": "Travel and Hospitality United Airlines delivers personalized travel experiences with Sitecore Digital signage for smoother travel.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/velux/velux-transforms-digital-engagement-with-sitecore",
+      "pathnameVariants": [
+        "/solutions/customers/velux/velux-transforms-digital-engagement-with-sitecore"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Velux",
+        "Velux Transforms Digital Engagement With Sitecore"
+      ],
+      "itemName": "Velux Transforms Digital Engagement With Sitecore",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Velux"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Velux/Velux Transforms Digital Engagement With Sitecore.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Velux/Velux Transforms Digital Engagement With Sitecore",
+      "title": "Manufacturing VELUX governs content across 190 sites with SitecoreAI Consistent global digital experiences.",
+      "navigationTitle": "Manufacturing VELUX governs content across 190 sites with SitecoreAI Consistent global digital experiences.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/velux/velux-transforms-digital-engagement-with-sitecore",
+          "text": "Manufacturing VELUX governs content across 190 sites with SitecoreAI Consistent global digital experiences.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/customers/velux/velux-transforms-digital-engagement-with-sitecore",
+          "text": "Manufacturing VELUX governs content across 190 sites with SitecoreAI Unifying scattered content and assets.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/vgw/multi-brand-growth",
+      "pathnameVariants": [
+        "/solutions/customers/vgw/multi-brand-growth"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Vgw",
+        "Multi Brand Growth"
+      ],
+      "itemName": "Multi Brand Growth",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Vgw"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Vgw/Multi Brand Growth.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Vgw/Multi Brand Growth",
+      "title": "Case Study VGW accelerates multi-brand growth with Sitecore Discover how VGW used Sitecore to centralize digital operations, launch new sites in days, and drive scalable multi-brand growth through faster experimentation and personalization. SitecoreAI",
+      "navigationTitle": "Case Study VGW accelerates multi-brand growth with Sitecore Discover how VGW used Sitecore to centralize digital operations, launch new sites in days, and drive scalable multi-brand growth through faster experimentation and personalization. SitecoreAI",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/vgw/multi-brand-growth",
+          "text": "Case Study VGW accelerates multi-brand growth with Sitecore Discover how VGW used Sitecore to centralize digital operations, launch new sites in days, and drive scalable multi-brand growth through faster experimentation and personalization. SitecoreAI",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/wellspan/wellspan-health-customer-success-story",
+      "pathnameVariants": [
+        "/solutions/customers/wellspan/wellspan-health-customer-success-story"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Wellspan",
+        "Wellspan Health Customer Success Story"
+      ],
+      "itemName": "Wellspan Health Customer Success Story",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Wellspan"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Wellspan/Wellspan Health Customer Success Story.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Wellspan/Wellspan Health Customer Success Story",
+      "title": "Healthcare WellSpan optimizes online user experiences with Sitecore Unified, personalized, secure care experiences.",
+      "navigationTitle": "Healthcare WellSpan optimizes online user experiences with Sitecore Unified, personalized, secure care experiences.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/wellspan/wellspan-health-customer-success-story",
+          "text": "Healthcare WellSpan optimizes online user experiences with Sitecore Unified, personalized, secure care experiences.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/western-health-advantage/member-engagement",
+      "pathnameVariants": [
+        "/solutions/customers/western-health-advantage/member-engagement"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Western Health Advantage",
+        "Member Engagement"
+      ],
+      "itemName": "Member Engagement",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Western Health Advantage"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Western Health Advantage/Member Engagement.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Western Health Advantage/Member Engagement",
+      "title": "Healthcare and Life Sciences Western Health Advantage creates a modern digital front door for its community Building a modern digital front door.",
+      "navigationTitle": "Healthcare and Life Sciences Western Health Advantage creates a modern digital front door for its community Building a modern digital front door.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/western-health-advantage/member-engagement",
+          "text": "Healthcare and Life Sciences Western Health Advantage creates a modern digital front door for its community Building a modern digital front door.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/customers/western-health-advantage/member-engagement",
+          "text": "Case Study Western Health Advantage improves access, engagement, and agility with SitecoreAI Learn how Western Health Advantage improved member engagement, simplified content management, and built a scalable digital foundation with SitecoreAI. SitecoreAI Audience and insights Content Management System",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/customers/worldstrides/content-hub",
+      "pathnameVariants": [
+        "/solutions/customers/worldstrides/content-hub"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Customers",
+        "Worldstrides",
+        "Content Hub"
+      ],
+      "itemName": "Content Hub",
+      "parentSegments": [
+        "Solutions",
+        "Customers",
+        "Worldstrides"
+      ],
+      "yamlRelativePath": "Home/Solutions/Customers/Worldstrides/Content Hub.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Worldstrides/Content Hub",
+      "title": "Education How WorldStrides unified 30+ websites without slowing enrollment A content model built for every brand.",
+      "navigationTitle": "Education How WorldStrides unified 30+ websites without slowing enrollment A content model built for every brand.",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/customers/worldstrides/content-hub",
+          "text": "Education How WorldStrides unified 30+ websites without slowing enrollment A content model built for every brand.",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/customers/worldstrides/content-hub",
+          "text": "Case Study WorldStrides unifies 30+ sites with SitecoreAI DAM See how WorldStrides consolidated 30+ websites on SitecoreAI and SitecoreAI DAM with Verndale, lifting key conversions by 117%. SitecoreAI Content operations Digital Asset Managment",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/deliver-limitless-commerce",
+      "pathnameVariants": [
+        "/solutions/deliver-limitless-commerce"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Deliver Limitless Commerce"
+      ],
+      "itemName": "Deliver Limitless Commerce",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Deliver Limitless Commerce.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Deliver Limitless Commerce",
+      "title": "Deliver limitless commerce",
+      "navigationTitle": "Deliver limitless commerce",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/deliver-limitless-commerce",
+          "text": "Deliver limitless commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/deliver-limitless-commerce",
+          "text": "Deliver limitless commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/deliver-limitless-commerce",
+          "text": "Deliver limitless commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/deliver-limitless-commerce",
+          "text": "Deliver limitless commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/deliver-limitless-commerce",
+          "text": "Deliver limitless commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/deliver-limitless-commerce",
+          "text": "Deliver limitless commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/deliver-limitless-commerce",
+          "text": "Deliver limitless commerce",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/manage-global-content",
+      "pathnameVariants": [
+        "/solutions/manage-global-content"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Manage Global Content"
+      ],
+      "itemName": "Manage Global Content",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Manage Global Content.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Manage Global Content",
+      "title": "Manage global content",
+      "navigationTitle": "Manage global content",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/manage-global-content",
+          "text": "Manage global content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/manage-global-content",
+          "text": "Manage global content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/manage-global-content",
+          "text": "Manage global content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/manage-global-content",
+          "text": "Manage global content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/manage-global-content",
+          "text": "Manage global content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/manage-global-content",
+          "text": "Manage global content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/manage-global-content",
+          "text": "Manage global content",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/modernize-your-dx",
+      "pathnameVariants": [
+        "/solutions/modernize-your-dx"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Modernize Your Dx"
+      ],
+      "itemName": "Modernize Your Dx",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Modernize Your Dx.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Modernize Your Dx",
+      "title": "Modernize your DX",
+      "navigationTitle": "Modernize your DX",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/modernize-your-dx",
+          "text": "Modernize your DX",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/modernize-your-dx",
+          "text": "Modernize your DX",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/modernize-your-dx",
+          "text": "Modernize your DX",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/modernize-your-dx",
+          "text": "Modernize your DX",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/modernize-your-dx",
+          "text": "Modernize your DX",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/modernize-your-dx",
+          "text": "Modernize your DX",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/modernize-your-dx",
+          "text": "Modernize your DX",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/optimize-with-data",
+      "pathnameVariants": [
+        "/solutions/optimize-with-data"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Optimize With Data"
+      ],
+      "itemName": "Optimize With Data",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Optimize With Data.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Optimize With Data",
+      "title": "Optimize with data",
+      "navigationTitle": "Optimize with data",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/optimize-with-data",
+          "text": "Optimize with data",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/optimize-with-data",
+          "text": "Optimize with data",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/optimize-with-data",
+          "text": "Optimize with data",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/optimize-with-data",
+          "text": "Optimize with data",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/optimize-with-data",
+          "text": "Optimize with data",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/optimize-with-data",
+          "text": "Optimize with data",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/optimize-with-data",
+          "text": "Optimize with data",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    },
+    {
+      "routePath": "/solutions/topics",
+      "pathnameVariants": [
+        "/solutions/topics"
+      ],
+      "sitecoreSegments": [
+        "Solutions",
+        "Topics"
+      ],
+      "itemName": "Topics",
+      "parentSegments": [
+        "Solutions"
+      ],
+      "yamlRelativePath": "Home/Solutions/Topics.yml",
+      "sitecorePath": "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Topics",
+      "title": "Thought leadership",
+      "navigationTitle": "Thought leadership",
+      "status": "stub",
+      "captureSlug": null,
+      "sources": [
+        {
+          "href": "/solutions/topics",
+          "text": "Thought leadership",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--home/page.html"
+        },
+        {
+          "href": "/solutions/topics",
+          "text": "Thought leadership",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform/page.html"
+        },
+        {
+          "href": "/solutions/topics",
+          "text": "Thought leadership",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-and-agents/page.html"
+        },
+        {
+          "href": "/solutions/topics",
+          "text": "Thought leadership",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-ai-search/page.html"
+        },
+        {
+          "href": "/solutions/topics",
+          "text": "Thought leadership",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-content-management-system/page.html"
+        },
+        {
+          "href": "/solutions/topics",
+          "text": "Thought leadership",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--platform-digital-asset-management/page.html"
+        },
+        {
+          "href": "/solutions/topics",
+          "text": "Thought leadership",
+          "component": "PageCapture",
+          "sourceFile": "sitecore-com--solutions-customers/page.html"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total": 71,
+    "mimicked": 6,
+    "stub": 65
+  }
+}

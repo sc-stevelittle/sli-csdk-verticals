@@ -1,0 +1,22 @@
+{
+  "pageSlug": "sitecore-com--platform",
+  "pageDir": "sitecore-com--platform",
+  "pageSectionsRoot": "sitecore-com--platform/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-10-15T14:54:39.957Z",
+  "sections": [
+    {
+      "action": "promoted",
+      "cmsName": "EventDetailHeroSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "event-detail-hero-section",
+      "pageSectionFolder": "sitecore-com--platform/sections/event-detail-hero-section",
+      "fingerprint": "df94f4690c17b6aa",
+      "existingDomainCmsName": null,
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "EventDetailHeroSection"
+  ]
+}

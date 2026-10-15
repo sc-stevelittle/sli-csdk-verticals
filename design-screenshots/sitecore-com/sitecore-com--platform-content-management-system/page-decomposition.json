@@ -1,0 +1,45 @@
+{
+  "slug": "sitecore-com--platform-content-management-system",
+  "url": "https://www.sitecore.com/platform/content-management-system",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "TopBar",
+      "scope": "site",
+      "sectionFolder": "top-bar"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "platform-content-management-system-event-detail-hero-section",
+      "sectionScreenshotName": "ShipEveryExperienceEventDetailHeroSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    },
+    {
+      "order": 2,
+      "sectionFolder": "event-detail-info-section",
+      "sectionScreenshotName": "EventDetailInfoSection",
+      "parentComponent": {
+        "cmsName": "TitleDescriptionCtaSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

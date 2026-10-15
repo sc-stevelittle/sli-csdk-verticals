@@ -1,0 +1,20 @@
+---
+ID: "fff79c58-276c-4bef-a68f-62bc32796ac2"
+Parent: "4cea5c90-f595-4495-a1ea-2abf3b84098a"
+Template: "aa86678e-2a77-4538-a423-065425a57eb8"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/IncludedFeatureItems/sitecore-com--platform-ai-and-agents-includedfeatureitem-27"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3b06530f-07a6-4110-86ee-a1dcd0bc76cb"
+      Hint: Title
+      Value: "Analytics"
+    - ID: "c53705a4-dde3-409a-9c82-5a362b3d16dd"
+      Hint: Description
+      Value: "Understand what works across the journey."
+    - ID: "85875cd0-21b7-435b-8f69-4aab0edcfd70"
+      Hint: Icon
+      Value: |
+        <image mediaid="34c86b0c-6890-4f5e-9782-8b98dd86445c" />

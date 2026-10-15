@@ -1,0 +1,9 @@
+---
+ID: "ed566a30-4a40-4e6a-91dc-5a791ae954d4"
+Parent: "4e48aa65-3f69-4842-9a99-9ef09d0afaaf"
+Template: "dc2f9cbb-4118-4e71-b642-9e645f5bdb56"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/HeroBanners"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

@@ -1,0 +1,23 @@
+---
+ID: "6deb6380-0476-42c2-9ec2-6069ad0ecc9d"
+Parent: "45bd1d51-e932-4def-b719-069c84e20342"
+Template: "45bd1d51-e932-4def-b719-069c84e20342"
+Path: "/sitecore/templates/Project/sitecore-com/ConversionCtaBand Templates/ConversionCtaBand Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {CC1DD240-04BF-4BE6-AE16-F8F3405E7206}
+    {45BD1D51-E932-4DEF-B719-069C84E20342}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

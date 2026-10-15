@@ -1,0 +1,9 @@
+---
+ID: "f5b23161-08f1-4cec-9992-1ca8dc445c2b"
+Parent: "4e48aa65-3f69-4842-9a99-9ef09d0afaaf"
+Template: "0c79e7ff-5e10-4ed1-8474-558ce89d50e2"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryItems"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

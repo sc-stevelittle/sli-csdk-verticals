@@ -1,0 +1,19 @@
+---
+ID: "4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7"
+Parent: "57c4edb7-1601-4f8b-8a21-94393c8ea2f6"
+Template: "a582d868-58da-4c59-be9a-b86e75fee98a"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/Navigations/global-navigation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "42a0f998-52bb-4183-a816-3f93d4aa023a"
+      Hint: Items
+      Value: "Platform\nSolutions\nPartners\nResources\nCompany"
+    - ID: "b80bd328-8935-4f0b-808d-b609e7feb4e4"
+      Hint: Labels
+      Value: "Platform\nSolutions\nPartners\nResources\nCompany"
+    - ID: "2dd88872-000a-4b8c-b48d-8ba252b4d0ff"
+      Hint: Links
+      Value: "[object Object]"

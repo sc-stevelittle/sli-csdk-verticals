@@ -1,0 +1,33 @@
+---
+ID: "1e37bbe0-1933-4ddc-afdc-a6543b1c1a86"
+Parent: "00406838-e57a-4c85-ae22-f2d216278db0"
+Template: "37dc8c1f-7bb9-45f1-8362-ae54b86cd210"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductFeatureSections/sitecore-com--platform-productfeaturesection-18"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2088f4aa-1a22-4b84-ae18-be8175b45561"
+      Hint: Eyebrow
+      Value: "A connected foundation"
+    - ID: "cd034615-fe90-4c92-aa6b-ac0a8f672afc"
+      Hint: Title
+      Value: "The tools to create, manage, and optimize"
+    - ID: "a194f3a3-c87c-4f16-8703-3231cbc6aba2"
+      Hint: Body
+      Value: "A unified platform for content, data, and AI helps teams deliver connected customer experiences."
+    - ID: "bf99e9ac-284c-4a6b-858b-44dfe281bf96"
+      Hint: Image
+      Value: |
+        <image mediaid="c8d75e04-daa6-4f29-866c-9651de9e832e" />
+    - ID: "0eabef8f-976b-4683-b20e-18ca52c06f45"
+      Hint: Bullets
+      Value: "Work with the tools your teams already use.\nManage the full content lifecycle.\nLearn from every customer interaction."
+    - ID: "3c5a8feb-33dc-4f3f-b54e-cde65cb8d04a"
+      Hint: Cta
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Talk to an expert" url="/request-a-demo" />
+    - ID: "9012cc7c-4adb-48e2-ad93-3e4107947a7e"
+      Hint: LayoutVariant
+      Value: "image-right"

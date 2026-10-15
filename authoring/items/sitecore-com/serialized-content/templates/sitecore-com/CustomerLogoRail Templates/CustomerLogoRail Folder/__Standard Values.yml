@@ -1,0 +1,23 @@
+---
+ID: "ded8cc92-8bde-4bb2-967c-7c641bc32dc9"
+Parent: "4682a237-ef98-4695-bffe-e3f942cbfb59"
+Template: "4682a237-ef98-4695-bffe-e3f942cbfb59"
+Path: "/sitecore/templates/Project/sitecore-com/CustomerLogoRail Templates/CustomerLogoRail Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {0AEA2C07-FDD7-43C6-9746-A50904531EB4}
+    {4682A237-EF98-4695-BFFE-E3F942CBFB59}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,22 @@
+{
+  "pageSlug": "sitecore-com--platform-ai-search",
+  "pageDir": "sitecore-com--platform-ai-search",
+  "pageSectionsRoot": "sitecore-com--platform-ai-search/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-10-15T14:55:51.314Z",
+  "sections": [
+    {
+      "action": "variant",
+      "cmsName": "ShowStandOutEventDetailHeroSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "platform-ai-search-event-detail-hero-section",
+      "pageSectionFolder": "sitecore-com--platform-ai-search/sections/event-detail-hero-section",
+      "fingerprint": "c054c3b0c242bf44",
+      "existingDomainCmsName": "EventDetailHeroSection",
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "ShowStandOutEventDetailHeroSection"
+  ]
+}

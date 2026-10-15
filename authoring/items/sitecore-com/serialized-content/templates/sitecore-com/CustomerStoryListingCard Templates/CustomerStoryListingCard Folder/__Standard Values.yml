@@ -1,0 +1,23 @@
+---
+ID: "3d17a53e-37f9-47f9-85b5-0fb827af458a"
+Parent: "40d0a6be-b7ae-4c02-b492-7690ccb8ad3f"
+Template: "40d0a6be-b7ae-4c02-b492-7690ccb8ad3f"
+Path: "/sitecore/templates/Project/sitecore-com/CustomerStoryListingCard Templates/CustomerStoryListingCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C8E2C278-63F8-4C94-9413-99CCF94E4B98}
+    {40D0A6BE-B7AE-4C02-B492-7690CCB8AD3F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

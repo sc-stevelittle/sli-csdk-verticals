@@ -1,0 +1,22 @@
+---
+ID: "b4317762-719c-4c86-9961-4267011b56f1"
+Parent: "2899cc19-d870-41de-9787-b312a7c5392f"
+Template: "af48a10e-fd8e-413b-a04c-49d626a99048"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/MetricStatItems/sitecore-com--platform-metricstatitem-17"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a515445-6c63-4c84-990b-35b2e4612671"
+      Hint: Value
+      Value: "1"
+    - ID: "6fa6c664-1399-483b-a93b-ed86d7d8b689"
+      Hint: Label
+      Value: "connected platform"
+    - ID: "77dae4b8-41e3-43d1-95c4-72a9277b208b"
+      Hint: Customer
+      Value: "SitecoreAI"
+    - ID: "789b99ac-cbc5-4981-81b1-90419e7964b3"
+      Hint: Industry
+      Value: "Unified"

@@ -1,0 +1,17 @@
+---
+ID: "3da0f639-0b48-48f0-8d46-13a750f33440"
+Parent: "c6774bb5-ff83-43e6-8803-30840b0edee4"
+Template: "c6774bb5-ff83-43e6-8803-30840b0edee4"
+Path: "/sitecore/templates/Project/sitecore-com/FaqItem Templates/FaqItem/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

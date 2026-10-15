@@ -1,0 +1,35 @@
+{
+  "slug": "sitecore-com--solutions-customers",
+  "url": "https://www.sitecore.com/solutions/customers",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "TopBar",
+      "scope": "site",
+      "sectionFolder": "top-bar"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "solutions-customers-event-detail-hero-section",
+      "sectionScreenshotName": "SitecoreCustomerStoriesEventDetailHeroSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

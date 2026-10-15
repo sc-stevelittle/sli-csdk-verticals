@@ -1,0 +1,23 @@
+---
+ID: "c10c7512-a0ce-470d-aa56-64673458b2e0"
+Parent: "159f8511-47de-4208-a4fc-a5c09d077966"
+Template: "159f8511-47de-4208-a4fc-a5c09d077966"
+Path: "/sitecore/templates/Project/sitecore-com/EventCard Templates/EventCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {49D76175-3D1C-42D6-A301-851C57B2E1B2}
+    {159F8511-47DE-4208-A4FC-A5C09D077966}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

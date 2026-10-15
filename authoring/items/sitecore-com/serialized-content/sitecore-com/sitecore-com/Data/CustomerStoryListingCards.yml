@@ -1,0 +1,9 @@
+---
+ID: "99940d6f-4eb2-4321-8f6f-cd9e1c0f9ef8"
+Parent: "4e48aa65-3f69-4842-9a99-9ef09d0afaaf"
+Template: "40d0a6be-b7ae-4c02-b492-7690ccb8ad3f"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryListingCards"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

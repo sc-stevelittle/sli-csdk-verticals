@@ -1,0 +1,36 @@
+---
+ID: "c37a2812-17ca-4fd7-9b94-db3305eb2392"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/3714cdc442ba421eaf23cf3b56519c9a"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 34
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "0aec553e-77ea-46fa-8d38-cee9a9ad045a"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACIAAAAeCAQAAADj9gSfAAAACXBIWXMAD0JAAA9CQAE0jWzJAAACOElEQVRIia2Vv2sUQRTHP7s3l/POQ4SDFEaxMP4CSWUtNkHsrNQiCP4BqQQbC8XCv0SF/AvWQQQbC20sTtAiwSIXNbns3v4YeTO7d7m9mV0C+Q7c7uzM+96b75v3HpwCgsosmH6bX7HQ019dvM8hdBo1oWUfx037LDPgHD26dOigzAiBnJyElAkxEWP+MuI3+2iC0iMhesAHfjHiiMy4WjdyIvbZ4RObKEsh//QCPWeckZKSVIZ8y8iP7dJslce4yRhN2uiBroyMBM0j68c9uqSlSCeA2MJ9+3LDs0mTkjfSrNnHZc+tAEVAWkMiVhfoCcmygyQHvvKSAxQ5WQ1Rl4FcmGElNrqYfwau8NZILgdzBVsTcStE0atxdsgGd9g2sovJItpynDNmgy9TQlp85C4b/CiiUUVIRzxxL1pkZLQJecd1nhtt5r2RmaojmKWmyHyJqz6fFUmt9oqcCQOesUnfoYlQJorI3ATJR9eGFMVTXnHRxMLld0asSDn0eKGBdd5w24Q89GiXcCDujhxLAXCe9zwuFPFnVswfqQe7C5pjSFZZNXr5CUSEQ/aEZOggEcghiqJTg59Ecs5vnuWgkUIO+sW+rrCLNqF25YevRErVlQxbFwrx5SFxkU76BEP2vxYGETAk5xpPWGOFAV1T41u0TFBtJyozW4qCVNoJe+zwnS22pd6XjcoKG7JEn7OmZSzRNnll81dyyLaMI8b8Iy7u+bRl2ElzFlUxvX6uEjBrpYuYNdLTxn9kSyV3IsfNvQAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 646
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 34 x 30
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 30
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "youtube.svg"

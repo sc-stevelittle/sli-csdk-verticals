@@ -1,0 +1,35 @@
+{
+  "slug": "sitecore-com--platform-digital-asset-management",
+  "url": "https://www.sitecore.com/platform/digital-asset-management",
+  "layoutChrome": [
+    {
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "sectionFolder": "cookie-banner"
+    },
+    {
+      "cmsName": "TopBar",
+      "scope": "site",
+      "sectionFolder": "top-bar"
+    },
+    {
+      "cmsName": "Header",
+      "scope": "site",
+      "sectionFolder": "header"
+    }
+  ],
+  "sections": [
+    {
+      "order": 1,
+      "sectionFolder": "platform-digital-asset-management-event-detail-hero-section",
+      "sectionScreenshotName": "MakeEveryApprovedEventDetailHeroSection",
+      "parentComponent": {
+        "cmsName": "FullBleedHeroBannerSection",
+        "placeholderKey": null
+      },
+      "placeholderChildren": []
+    }
+  ],
+  "confidence": "high",
+  "notes": []
+}

@@ -1,0 +1,29 @@
+---
+ID: "924ecaa4-4492-4ed8-b6f2-1176a9ed7812"
+Parent: "3b69541a-69bc-49ff-8a7c-de620b8337e9"
+Template: "b99a01ef-676a-4429-9dcf-a748e05335aa"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CookieBanners/global-cookiebanner"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "e283aafc-c09a-4652-b997-f4153f548bb3"
+      Hint: Message
+      Value: "We use cookies to improve your experience."
+    - ID: "f198b27d-33a3-487b-930c-26ba445ae555"
+      Hint: PrivacyLink
+      Value: |
+        <link class="" querystring="" id="{AEB510D1-E542-4153-8BC1-2B9017CC4D41}" anchor="" target="" title="" linktype="internal" text="Privacy policy" url="/legal/privacy-policy" />
+    - ID: "b2c07a34-99ed-4836-8613-118ccb58c7ff"
+      Hint: SaveLabel
+      Value: "Save preferences"
+    - ID: "18318550-307c-4629-b6d6-f573687abf38"
+      Hint: AcceptLabel
+      Value: "Accept all"
+    - ID: "f85a1ca8-9636-41c2-80b1-deb3cf09d682"
+      Hint: RejectLabel
+      Value: "Reject optional"
+    - ID: "ed2def76-3610-426e-8594-4939b56f98f9"
+      Hint: PreferenceToggles
+      Value: "Analytics\nPersonalization\nAdvertising"

@@ -1,0 +1,211 @@
+{
+  "url": "https://www.sitecore.com/",
+  "slug": "sitecore-com--home",
+  "sectionOrder": [
+    "CookieBanner",
+    "TopBar",
+    "Header",
+    "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection",
+    "Footer"
+  ],
+  "components": [
+    {
+      "cmsName": "AiIsDecidingWhoRichTextImageBlock",
+      "folderName": "ai-is-deciding-who-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "AiIsDecidingWhoRichTextImageBlock: image + text block",
+      "order": 0,
+      "heading": "AI is deciding who gets discovered.\n        \n\n        \n\n        \n          Sitec",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    },
+    {
+      "cmsName": "Footer",
+      "folderName": "footer",
+      "type": "footer",
+      "scope": "site",
+      "selector": "html > body > div:nth-of-type(3) > footer",
+      "reason": "Site footer with links and legal",
+      "order": 1,
+      "heading": "Own the moments that matter.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true
+    }
+  ],
+  "stickyOverlays": {
+    "components": [
+      {
+        "cmsName": "CookieBanner",
+        "captured": false,
+        "skipped": true
+      },
+      {
+        "cmsName": "TopBar",
+        "captured": true,
+        "recaptured": true
+      },
+      {
+        "cmsName": "Header",
+        "captured": true,
+        "recaptured": true
+      }
+    ],
+    "hideMethod": "css",
+    "found": true
+  },
+  "fullPageShots": {
+    "overlay": {
+      "desktop": "desktop.png",
+      "tablet": "tablet.png",
+      "mobile": "mobile.png"
+    },
+    "clean": {
+      "desktop": "desktop-clean.png",
+      "tablet": "tablet-clean.png",
+      "mobile": "mobile-clean.png"
+    }
+  },
+  "design": {
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "count": 216,
+        "sources": [
+          "https://www.sitecore.com/_next/static/media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2",
+          "https://www.sitecore.com/_next/static/media/c3cb240f9c892514-s.163v2i5cux7-c.woff2"
+        ]
+      },
+      {
+        "family": "DM Sans Fallback",
+        "count": 3,
+        "sources": []
+      }
+    ],
+    "colors": {
+      "primary": {
+        "hex": [
+          "#170697",
+          "#1d08bd",
+          "#4300ad",
+          "#5f25e7",
+          "#8629ff"
+        ],
+        "gradients": [
+          "linear-gradient(90deg, #ff1f38 0%, #8629ff 100%)",
+          "linear-gradient(110deg, #0000 25%, #ff1f38b3 44%, #ffffff40 50%, #0000 70%)"
+        ]
+      },
+      "secondary": {
+        "hex": [
+          "#090342",
+          "#0d045e"
+        ],
+        "gradients": [
+          "linear-gradient(90deg, #9333ea, #2563eb)"
+        ]
+      },
+      "accent": {
+        "hex": [
+          "#4e06c2"
+        ],
+        "gradients": []
+      },
+      "neutrals": {
+        "hex": [
+          "#1e1c22",
+          "#4c4b4e",
+          "#746f7b",
+          "#c1bdc7",
+          "#d6d3da",
+          "#e4e2e8",
+          "#f1f0f3",
+          "#f9f9fa",
+          "#ffffff",
+          "#ffffff59"
+        ],
+        "gradients": []
+      },
+      "semantic": {
+        "success": "#038a00",
+        "error": "#cc0017",
+        "warning": "#ff1f38",
+        "info": "#00aeff"
+      }
+    },
+    "css": {
+      "directory": "css",
+      "files": [
+        {
+          "file": "css/177gtvreanjof.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/177gtvreanjof.css",
+          "score": 35
+        },
+        {
+          "file": "css/0usl6uc77qtp4.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/0usl6uc77qtp4.css",
+          "score": 35
+        },
+        {
+          "file": "css/13r.f-0bha91d.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/13r.f-0bha91d.css",
+          "score": 35
+        },
+        {
+          "file": "css/0rkm_qs_0iizy.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/0rkm_qs_0iizy.css",
+          "score": 35
+        },
+        {
+          "file": "css/10m66_k2zjlhe.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/10m66_k2zjlhe.css",
+          "score": 35
+        },
+        {
+          "file": "css/0sm__g4m4krfo.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/0sm~_g4m4krfo.css",
+          "score": 35
+        },
+        {
+          "file": "css/05hmk5f0apzpl.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/05hmk5f0apzpl.css",
+          "score": 35
+        },
+        {
+          "file": "css/185romse.safj.css",
+          "href": "https://www.sitecore.com/_next/static/chunks/185romse.safj.css",
+          "score": 35
+        }
+      ]
+    }
+  },
+  "newSections": {
+    "pageSlug": "sitecore-com--home",
+    "pageDir": "sitecore-com--home",
+    "pageSectionsRoot": "sitecore-com--home/sections",
+    "domainSectionsRoot": "sections",
+    "mergedAt": "2026-10-15T14:54:03.974Z",
+    "sections": [
+      {
+        "action": "variant",
+        "cmsName": "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection",
+        "sourceCmsName": "AiIsDecidingWhoRichTextImageBlock",
+        "domainFolder": "home-ai-is-deciding-who-rich-text-image-block-alt",
+        "pageSectionFolder": "sitecore-com--home/sections/ai-is-deciding-who-rich-text-image-block",
+        "fingerprint": "a0634fd61ec9e2df",
+        "existingDomainCmsName": "AiIsDecidingWhoRichTextImageBlock",
+        "buildComponent": true
+      }
+    ],
+    "componentsToBuild": [
+      "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection"
+    ]
+  }
+}

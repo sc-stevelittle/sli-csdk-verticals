@@ -1,0 +1,23 @@
+---
+ID: "39c8b262-b635-4b0f-925e-30f0c4af4fbe"
+Parent: "7a1bb49b-7821-4473-ad04-df4deb0798ef"
+Template: "7a1bb49b-7821-4473-ad04-df4deb0798ef"
+Path: "/sitecore/templates/Project/sitecore-com/AnalystReportItem Templates/AnalystReportItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {6D88951C-DD70-4D62-87B1-95F9F5F3BCED}
+    {7A1BB49B-7821-4473-AD04-DF4DEB0798EF}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

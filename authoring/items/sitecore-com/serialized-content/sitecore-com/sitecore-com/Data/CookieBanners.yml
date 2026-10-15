@@ -1,0 +1,9 @@
+---
+ID: "3b69541a-69bc-49ff-8a7c-de620b8337e9"
+Parent: "4e48aa65-3f69-4842-9a99-9ef09d0afaaf"
+Template: "4a1c2e3f-7488-45af-a82f-dbb147f2474d"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CookieBanners"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

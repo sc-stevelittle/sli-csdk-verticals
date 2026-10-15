@@ -1,0 +1,18 @@
+---
+ID: "3c7c2a3c-9830-447c-a591-6d1385a860c2"
+Parent: "71bdd472-1294-44bf-b98a-0c758fd1ffc2"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/sitecore-com/Award Items"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "award-items-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {97C123BE-94B7-4486-B6EA-B4CE9F242C98}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields: []

@@ -1,0 +1,23 @@
+---
+ID: "a05f009d-97f0-4ede-acc5-6361c0ae5717"
+Parent: "eb99b206-6e47-41a3-9e66-89020f5a263c"
+Template: "eb99b206-6e47-41a3-9e66-89020f5a263c"
+Path: "/sitecore/templates/Project/sitecore-com/MetricStatGrid Templates/MetricStatGrid Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {79B89BA8-E5FE-438E-854A-1D7F74975936}
+    {EB99B206-6E47-41A3-9E66-89020F5A263C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

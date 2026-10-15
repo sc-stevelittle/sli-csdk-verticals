@@ -1,0 +1,23 @@
+---
+ID: "800670b9-ba66-406f-9308-d63a79210d7a"
+Parent: "356d102b-3e3b-4095-b804-ddd33908c3ac"
+Template: "356d102b-3e3b-4095-b804-ddd33908c3ac"
+Path: "/sitecore/templates/Project/sitecore-com/Footer Templates/Footer Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {1EDC05DB-A1C1-4BAB-B79F-ABEB7A10AA8F}
+    {356D102B-3E3B-4095-B804-DDD33908C3AC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

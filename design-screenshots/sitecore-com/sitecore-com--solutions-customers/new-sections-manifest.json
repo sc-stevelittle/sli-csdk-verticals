@@ -1,0 +1,22 @@
+{
+  "pageSlug": "sitecore-com--solutions-customers",
+  "pageDir": "sitecore-com--solutions-customers",
+  "pageSectionsRoot": "sitecore-com--solutions-customers/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-10-15T14:57:43.499Z",
+  "sections": [
+    {
+      "action": "variant",
+      "cmsName": "SitecoreCustomerStoriesEventDetailHeroSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "solutions-customers-event-detail-hero-section",
+      "pageSectionFolder": "sitecore-com--solutions-customers/sections/event-detail-hero-section",
+      "fingerprint": "305996961a206078",
+      "existingDomainCmsName": "EventDetailHeroSection",
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "SitecoreCustomerStoriesEventDetailHeroSection"
+  ]
+}

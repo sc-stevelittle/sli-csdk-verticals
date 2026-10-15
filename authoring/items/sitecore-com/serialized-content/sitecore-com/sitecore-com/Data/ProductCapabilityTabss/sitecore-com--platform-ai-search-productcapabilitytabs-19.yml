@@ -1,0 +1,19 @@
+---
+ID: "287312f3-386c-45ed-875e-92d5db7b0b63"
+Parent: "f1d3a4ec-9fd0-4b07-9f6e-a26a80085b51"
+Template: "3cbd223a-c224-4127-bbce-6d0c938a8133"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductCapabilityTabss/sitecore-com--platform-ai-search-productcapabilitytabs-19"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "de1298db-0eac-47a6-b464-6f38aa7c2cdd"
+      Hint: Eyebrow
+      Value: "Explore the capabilities"
+    - ID: "a68da8e0-dad3-4fcc-8588-b01450bb45b8"
+      Hint: Title
+      Value: "One platform for every experience"
+    - ID: "9bf879a9-996b-407a-90f9-aec46dc8f47a"
+      Hint: Intro
+      Value: "Bring each part of your digital operation into focus."

@@ -1,0 +1,17 @@
+---
+ID: "43ad039f-cc13-4ef4-bd93-36d3328aa79a"
+Parent: "1a419b86-b157-41d6-949d-487d8294396c"
+Template: "1a419b86-b157-41d6-949d-487d8294396c"
+Path: "/sitecore/templates/Project/sitecore-com/AwardsLogoRail Templates/AwardsLogoRail/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

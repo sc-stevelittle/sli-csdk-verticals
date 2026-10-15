@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-15T14:57:43.602Z",
+  "project": "sitecore-com",
+  "urls": [
+    "https://www.sitecore.com/",
+    "https://www.sitecore.com/platform",
+    "https://www.sitecore.com/platform/ai-and-agents",
+    "https://www.sitecore.com/platform/ai-search",
+    "https://www.sitecore.com/platform/content-management-system",
+    "https://www.sitecore.com/platform/digital-asset-management",
+    "https://www.sitecore.com/solutions/customers"
+  ],
+  "sections": {
+    "site": [
+      "CookieBanner",
+      "Header",
+      "TopBar"
+    ],
+    "content": [
+      "AgentsThatUnderstandEventDetailHeroSection",
+      "AiIsDecidingWhoRichTextImageBlock",
+      "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlock",
+      "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection",
+      "EventDetailHeroSection",
+      "EventDetailInfoSection",
+      "MakeEveryApprovedEventDetailHeroSection",
+      "ShipEveryExperienceEventDetailHeroSection",
+      "ShowStandOutEventDetailHeroSection",
+      "SitecoreCustomerStoriesEventDetailHeroSection"
+    ]
+  },
+  "fonts": [
+    {
+      "family": "DM Sans",
+      "weight": 1385,
+      "sources": [
+        "https://www.sitecore.com/_next/static/media/5c285b27cdda1fe8-s.p.0yo6-5yoeeudq.woff2",
+        "https://www.sitecore.com/_next/static/media/c3cb240f9c892514-s.163v2i5cux7-c.woff2"
+      ]
+    },
+    {
+      "family": "DM Sans Fallback",
+      "weight": 21,
+      "sources": []
+    }
+  ],
+  "colors": {
+    "primary": {
+      "hex": [
+        "#170697",
+        "#1d08bd",
+        "#4300ad",
+        "#5f25e7",
+        "#8629ff"
+      ],
+      "gradients": [
+        "linear-gradient(90deg, #ff1f38 0%, #8629ff 100%)",
+        "linear-gradient(110deg, #0000 25%, #ff1f38b3 44%, #ffffff40 50%, #0000 70%)"
+      ]
+    },
+    "secondary": {
+      "hex": [
+        "#090342",
+        "#0d045e"
+      ],
+      "gradients": [
+        "linear-gradient(90deg, #9333ea, #2563eb)"
+      ]
+    },
+    "accent": {
+      "hex": [
+        "#4e06c2"
+      ],
+      "gradients": []
+    },
+    "neutrals": {
+      "hex": [
+        "#1e1c22",
+        "#4c4b4e",
+        "#746f7b",
+        "#c1bdc7",
+        "#d6d3da",
+        "#e4e2e8",
+        "#f1f0f3",
+        "#f9f9fa",
+        "#ffffff",
+        "#ffffff59"
+      ],
+      "gradients": []
+    },
+    "semantic": {
+      "success": "#038a00",
+      "error": "#cc0017",
+      "warning": "#ff1f38",
+      "info": "#00aeff"
+    }
+  },
+  "stylesheets": [
+    "05hmk5f0apzpl.css",
+    "0rkm_qs_0iizy.css",
+    "0sm__g4m4krfo.css",
+    "0usl6uc77qtp4.css",
+    "10m66_k2zjlhe.css",
+    "13r.f-0bha91d.css",
+    "177gtvreanjof.css",
+    "185romse.safj.css"
+  ]
+}

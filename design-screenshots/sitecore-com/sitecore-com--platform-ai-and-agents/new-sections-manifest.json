@@ -1,0 +1,22 @@
+{
+  "pageSlug": "sitecore-com--platform-ai-and-agents",
+  "pageDir": "sitecore-com--platform-ai-and-agents",
+  "pageSectionsRoot": "sitecore-com--platform-ai-and-agents/sections",
+  "domainSectionsRoot": "sections",
+  "mergedAt": "2026-10-15T14:55:16.066Z",
+  "sections": [
+    {
+      "action": "variant",
+      "cmsName": "AgentsThatUnderstandEventDetailHeroSection",
+      "sourceCmsName": "EventDetailHeroSection",
+      "domainFolder": "platform-ai-and-agents-event-detail-hero-section",
+      "pageSectionFolder": "sitecore-com--platform-ai-and-agents/sections/event-detail-hero-section",
+      "fingerprint": "0091b9fcbcc88873",
+      "existingDomainCmsName": "EventDetailHeroSection",
+      "buildComponent": true
+    }
+  ],
+  "componentsToBuild": [
+    "AgentsThatUnderstandEventDetailHeroSection"
+  ]
+}

@@ -1,0 +1,27 @@
+---
+ID: "033da916-9591-41ba-b5a0-68647a41c14d"
+Parent: "d7eb86e8-5ab8-4175-8a9c-ae17c098e21b"
+Template: "9295e16f-2c60-4d49-9b82-c49bad78b0ab"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductCapabilityCards/sitecore-com--home-productcapabilitycard-9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "cb1a91ea-9bb9-4935-9995-7a8cd7f972dc"
+      Hint: Icon
+      Value: |
+        <image mediaid="b633a05d-e229-4148-bcc3-13786140bbfc" />
+    - ID: "5de2304d-1883-4ba8-949b-2a17fe373663"
+      Hint: Eyebrow
+      Value: "Create"
+    - ID: "8ef6fd1a-c41d-47e8-afa1-5ff49f4124cd"
+      Hint: Title
+      Value: "Content management"
+    - ID: "7575cd08-f259-4ad2-94f6-94175f0aded8"
+      Hint: Description
+      Value: "Create and deliver content experiences from one flexible platform."
+    - ID: "e818a0f7-f79d-48aa-a734-735357c799ee"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{5C77BB64-2942-492B-ADA7-6635C51F28A3}" anchor="" target="" title="" linktype="internal" text="Explore content management" url="/platform/content-management-system" />

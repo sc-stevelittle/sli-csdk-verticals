@@ -1,0 +1,17 @@
+---
+ID: "d293c9d5-565b-4b05-80a8-36a7aed1d11b"
+Parent: "18a409ff-eb98-402d-b0bf-604e63a20fc5"
+Template: "18a409ff-eb98-402d-b0bf-604e63a20fc5"
+Path: "/sitecore/templates/Project/sitecore-com/ProductCardGrid Templates/ProductCardGrid/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

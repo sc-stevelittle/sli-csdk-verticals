@@ -1,0 +1,36 @@
+---
+ID: "2ff89654-083c-4050-8e7d-3921df916fa4"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/cde2794b95f8406a83ac5cd97fa0fee2"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 34
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "d4d3bcb0-3f95-4379-8aac-30f83178cc9b"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAQAAACQTsNJAAAACXBIWXMAD0JAAA9CQAE0jWzJAAAC/0lEQVRIiY2WW0iUURDHf7t+ZqJFYGmgQYFEURFFZEEGPZQP1UNXqMiXzBIiQsESAi2IHoQiJAoqhcAuFNpbQUQSSUE+1EOJ3YjALiaLmqm5u9+JmT22t2/XnYX95jtn5j+XMzPn8yHkI5EM6ciXmZzfAzi650FZOJmKEruexYwII+oObZQyodsGg0s+3ZzA5+GsQ4gaqhjFwaWKPvy4ggfbCauyQMhP3uqsiXgI2KuSIlEb65fA1GGYwNBLNz38xjDORrsXK1fOiJVsSgxZXm6rDw/V2inlP1MUIyjPJXzH8BfDNQWNS768FPBOVc+owgPl7/8/TvmfyxvrxSNy8CWnXlxdzyhBDLuAYt5r3A2aCVHI5QmGMQw9FCQEGgdzRO3/YDGwiQlcgmwGsoFbNpAvLEpTALrRqjBPyQXqlf9EMdCMYRLDMGWpvIhmJp9XqnpJV+4of49aDCFc/rI1PcSULysJqOpBYD69Vj1MCMNRj9rxIAc4oOU0xCpgA2OECWqSm6b3YoqygIvqSw+zgOM2oTcyh0Az49ClMK26clP5Ts+RkZL8Wpu/VLUaKLJl2JjuaL1D2qZB/KEcKGMYF5cdmSU2QmJvNh/V/lsKgWPK97MwU298WuaderjSKXd1tU1hHuNPO/XigrmsEHKw0k31wBxeK8z5TE7JAU7bIh+kkSGF2wKs0Tlj2D0dTBZQqbNNKvQQ0GA7qASoVv4bpekyIxAVTGr3Gk6CjuLYcXVV+WfMTFU1gr2CARvKFQWVtXnaQYazmplIgzZ7hyRLJfTZwdOBY8ef2F/HCCGC7ARWE9CRvi+5ZiKV8cKOv27yY9wV+MNq/ydLgf3KB1gW743UhZ8O22ofWJCQOOGvq2oXhWTTrvzz+Mz4bGWMq7XlSfHKfh4vtWoG+Eo/YfW4JWpMRM5pNUgwFZ4piyR9KOmKqxFpCcRlLS16InlcoF2vSq/Eh9lDA6PaFmLYJZsAlQxGBHJiMpC6vbx6xtGbIMleOkphIHq/RSj9x02Kz6F/D6A1RzobsqoAAAAASUVORK5CYII=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 845
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 34 x 34
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 34
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "x-twitter.svg"

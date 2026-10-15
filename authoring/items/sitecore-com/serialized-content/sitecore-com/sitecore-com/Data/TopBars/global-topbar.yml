@@ -1,0 +1,17 @@
+---
+ID: "fe236975-a2f7-471f-9885-a7072abbb625"
+Parent: "1de7b03a-2db5-4f1c-8868-e001ec3743b4"
+Template: "571074a4-0634-439a-9e9c-88ea3630ed71"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/TopBars/global-topbar"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "face5bbf-1291-43da-8f55-843ce7285af8"
+      Hint: Announcement
+      Value: "Meet the AI-powered digital experience platform built for modern marketing teams."
+    - ID: "0acf28f5-8da7-49b1-bab0-b1e65a6cf7a5"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{5CB1AAE2-0A31-459A-9E54-662B415BD4EE}" anchor="" target="" title="" linktype="internal" text="Explore the platform" url="/platform" />

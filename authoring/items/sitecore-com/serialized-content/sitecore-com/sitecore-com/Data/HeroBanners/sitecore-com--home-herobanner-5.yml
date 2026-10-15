@@ -1,0 +1,30 @@
+---
+ID: "8ef49add-3a0d-45d0-baa0-9667152a658c"
+Parent: "ed566a30-4a40-4e6a-91dc-5a791ae954d4"
+Template: "6f6c45ca-2691-4eaa-a8f1-7e79b097f0b5"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/HeroBanners/sitecore-com--home-herobanner-5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "5c565875-f6fe-448a-b29c-3d625e085fc9"
+      Hint: Eyebrow
+      Value: "SitecoreAI"
+    - ID: "5e947109-5d48-4609-9868-839a633f9c75"
+      Hint: Title
+      Value: "Turn every customer moment into a growth moment"
+    - ID: "9f2eecfd-fd0c-4159-8525-745afacc802f"
+      Hint: Body
+      Value: "The digital experience platform that connects content, data, and AI to help teams create experiences people choose."
+    - ID: "6d2bb91f-e634-431e-924d-34d57ddc23ec"
+      Hint: PrimaryLink
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Request a demo" url="/request-a-demo" />
+    - ID: "ab6be10d-23fb-4936-b882-18f901817210"
+      Hint: SecondaryLink
+      Value: |
+        <link class="" querystring="" id="{5CB1AAE2-0A31-459A-9E54-662B415BD4EE}" anchor="" target="" title="" linktype="internal" text="Explore the platform" url="/platform" />
+    - ID: "72adc068-a06d-49a5-bd1d-7c3037ae0ac9"
+      Hint: BackgroundStyle
+      Value: "light"

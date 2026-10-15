@@ -1,0 +1,23 @@
+---
+ID: "e2637c09-6f21-4090-aba5-2e5d7d120608"
+Parent: "dc2f9cbb-4118-4e71-b642-9e645f5bdb56"
+Template: "dc2f9cbb-4118-4e71-b642-9e645f5bdb56"
+Path: "/sitecore/templates/Project/sitecore-com/HeroBanner Templates/HeroBanner Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {6F6C45CA-2691-4EAA-A8F1-7E79B097F0B5}
+    {DC2F9CBB-4118-4E71-B642-9E645F5BDB56}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

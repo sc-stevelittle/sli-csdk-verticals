@@ -1,6 +1,6 @@
 # Documentation
 
-Sitecore industry verticals: six Next.js rendering hosts under `industry-verticals/`, with shared content in `authoring/items/industry-verticals/`.
+Sitecore industry verticals and demos: seven Next.js rendering hosts under `industry-verticals/`, with shared vertical content in `authoring/items/industry-verticals/` and the isolated Sitecore.com collection in `authoring/items/sitecore-com/`.
 
 The live host list is [.cursor/SITE-REGISTRY.md](../.cursor/SITE-REGISTRY.md). When a site is added, update that registry and this page together.
 
@@ -12,6 +12,7 @@ The live host list is [.cursor/SITE-REGISTRY.md](../.cursor/SITE-REGISTRY.md). W
 | Luxury retail | `industry-verticals/luxury-retail` | Essential Living | `luxury-retail` |
 | Retail | `industry-verticals/retail` | FormaLux | `nextjsstarter` |
 | Starter | `industry-verticals/starter` | starter | not deployed |
+| B2B software | `industry-verticals/sitecore-com` | Sitecore.com | `sitecore-com` |
 | Travel | `industry-verticals/travel` | Skywings | `travel` |
 | Energy | `industry-verticals/energy` | Gridwell | `energy` |
 
@@ -33,7 +34,7 @@ npm install
 npm run dev
 ```
 
-Other hosts: `healthcare`, `luxury-retail`, `travel`, `energy`, `starter`. Open http://localhost:3000.
+Other hosts: `healthcare`, `luxury-retail`, `travel`, `energy`, `starter`, `sitecore-com`. Open http://localhost:3000.
 
 ## Create a site
 

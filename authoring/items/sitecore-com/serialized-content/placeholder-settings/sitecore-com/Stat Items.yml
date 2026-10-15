@@ -1,0 +1,18 @@
+---
+ID: "f7fa2926-3f17-46e3-bc75-869d4963c635"
+Parent: "71bdd472-1294-44bf-b98a-0c758fd1ffc2"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/sitecore-com/Stat Items"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "stat-items-{*}"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {2B29FDAE-AAE7-469A-8DBF-1FADC44CA2CF}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields: []

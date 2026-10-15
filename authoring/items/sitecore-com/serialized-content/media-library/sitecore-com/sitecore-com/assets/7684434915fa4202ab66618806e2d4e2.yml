@@ -1,0 +1,36 @@
+---
+ID: "f9afbc01-d4ed-4ffc-9be6-bd26ac38e214"
+Parent: "28817768-0016-4f54-a9eb-a878e948fae1"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/sitecore-com/sitecore-com/assets/7684434915fa4202ab66618806e2d4e2"
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 640
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "c850b71a-5db7-4aed-9115-9cff5e9a3fba"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDY0MCA2NDAiPjxwYXRoIGQ9Ik04OCA1NzZjLTYuMiAwLTEyLjMtMi4zLTE3LTctOS40LTkuNC05LjQtMjQuNiAwLTMzLjlMMzc1IDIzMWM5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjQgMjQuNiAwIDMzLjlMMTA1IDU2OWMtNC43IDQuNy0xMC44IDctMTcgNyIgc3R5bGU9ImZpbGw6I2ZmZjtzdHJva2Utd2lkdGg6MCIvPjxwYXRoIGQ9Ik0xMjggMzk0djg0bDI0Ny0yNDdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS40IDI0LjYgMCAzMy45bC0yNDcgMjQ3aDg0YzQ5LjcgMCA5Ny45LTE0LjQgMTM5LTQxIDExLjEtNy4yIDUuNS0yMy03LjgtMjNzLTkuMi00LjEtOS4yLTkuMiAyLjctNy42IDYuNS04LjhsODEtMjQuM2MyLjUtLjggNC44LTIuMSA2LjctNGwyMi40LTIyLjRjMTAuMS0xMC4xIDIuOS0yNy4zLTExLjMtMjcuM0g0NDFjLTUuMSAwLTkuMi00LjEtOS4yLTkuMnMyLjctNy42IDYuNS04LjhsMTEyLTMzLjZjNC0xLjIgNy40LTMuOSA5LjMtNy43IDEwLjUtMjEuMiAxNi4xLTQ0LjcgMTYuMS02OC44IDAtNDEtMTYuMy04MC4zLTQ1LjMtMTA5LjNsLTUuNS01LjVDNDk2LjMgODAuMyA0NTcgNjQgNDE2IDY0cy04MC4zIDE2LjMtMTA5LjMgNDUuM0wyMDMgMjEzYy00OCA0OC03NSAxMTMuMS03NSAxODEiIHN0eWxlPSJpc29sYXRpb246aXNvbGF0ZTtvcGFjaXR5Oi41O2ZpbGw6I2ZmZjtzdHJva2Utd2lkdGg6MCIvPjwvc3ZnPg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 772
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 640 x 640
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 640
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: ""

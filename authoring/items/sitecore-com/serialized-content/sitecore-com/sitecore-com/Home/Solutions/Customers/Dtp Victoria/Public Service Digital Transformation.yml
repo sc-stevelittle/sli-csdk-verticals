@@ -1,0 +1,29 @@
+---
+ID: "b23d236a-97c0-41bc-b23e-4e34e244acd1"
+Parent: "5bffcc39-e034-4b19-80df-158c8248eb8c"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Dtp Victoria/Public Service Digital Transformation"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{9D5948C1-8B78-4665-A6C9-3BC4A4ABFE67}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{17FEF4C6-4E24-479F-A8DC-00B129657739}" p:after="r[@uid='{9D5948C1-8B78-4665-A6C9-3BC4A4ABFE67}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{205AFF06-C2FA-47CC-8B9E-64370C4B5879}" p:after="r[@uid='{17FEF4C6-4E24-479F-A8DC-00B129657739}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{9704BEB5-58E6-476B-B6C2-16861E2D5A21}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{555347F0-86DC-44CC-AAE6-D4B4E698711E}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Case Study DTP Victoria improves public service delivery with a unified digital platform DTP Victoria unified its digital infrastructure to deliver real-time information faster, increase engagement by 114%, and expand self-service for 7 million residents. SitecoreAI Content Management System"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Case Study DTP Victoria improves public service delivery with a unified digital platform DTP Victoria unified its digital infrastructure to deliver real-time information faster, increase engagement by 114%, and expand self-service for 7 million residents. SitecoreAI Content Management System"

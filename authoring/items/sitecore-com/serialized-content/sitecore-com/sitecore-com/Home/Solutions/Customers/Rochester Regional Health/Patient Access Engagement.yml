@@ -1,0 +1,29 @@
+---
+ID: "f686239a-986b-47b3-a602-ca91e6d23b75"
+Parent: "8dfa0be7-3801-48eb-b90b-e6c21f3f9495"
+Template: "9efedbae-dbe3-472f-8280-89ee1af16e93"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Home/Solutions/Customers/Rochester Regional Health/Patient Access Engagement"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+            <r uid="{EE2BA58F-3612-4DE6-AF28-F677721A548B}" p:before="*" s:ds="924ecaa4-4492-4ed8-b6f2-1176a9ed7812" s:id="{2B98554E-08CC-424F-8743-15ABEB653F51}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{7FE6A1F5-9A73-4304-8BC1-6F79C48635EA}" p:after="r[@uid='{EE2BA58F-3612-4DE6-AF28-F677721A548B}']" s:ds="fe236975-a2f7-471f-9885-a7072abbb625" s:id="{C9C65900-3E50-4350-8494-A89C40C4C6F9}" s:par="CSSStyles" s:ph="headless-header" />
+            <r uid="{096DBB1D-A6DE-4DE9-802E-907253FDCE10}" p:after="r[@uid='{7FE6A1F5-9A73-4304-8BC1-6F79C48635EA}']" s:ds="1667565d-d212-49c5-be44-a5698bf2cd6a" s:id="{FFFCF007-BDCB-47BF-B919-EE68340E09DE}" s:par="CSSStyles&amp;DynamicPlaceholderId=1" s:ph="headless-header" />
+            <r uid="{A27473FB-94CF-4DBB-892D-8313F2BE3CFD}" p:after="*[1=2]" s:ds="4d12f9ef-09be-4c83-bd97-9fd4cbd6a5a7" s:id="{7AEF322F-A2EF-4DB8-96EF-C0697D310018}" s:par="CSSStyles" s:ph="/headless-header/site-navigation-1" />
+            <r uid="{4C810E06-F094-4DF9-B26C-FDA765D3921A}" p:before="*" s:ds="423df277-b94c-4b32-b243-c9721daf5aa7" s:id="{D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}" s:par="CSSStyles" s:ph="headless-footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d82d25e3-c013-4559-b671-f9fc616dc1f5"
+      Hint: Title
+      Value: "Case Study Rochester Regional Health increases patient access and engagement Discover how Rochester Regional Health streamlined access to care, increasing patient sign-ups and appointment scheduling through a more connected digital experience. Content Management System SitecoreAI"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Case Study Rochester Regional Health increases patient access and engagement Discover how Rochester Regional Health streamlined access to care, increasing patient sign-ups and appointment scheduling through a more connected digital experience. Content Management System SitecoreAI"

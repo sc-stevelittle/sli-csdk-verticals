@@ -1,0 +1,28 @@
+---
+ID: "1667565d-d212-49c5-be44-a5698bf2cd6a"
+Parent: "0b5f16ce-2b49-4c95-b17c-d292fd5ded0c"
+Template: "b8586279-e95e-4147-b43d-248024b1774a"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/Headers/global-header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "60328e7f-fb4d-4168-a9d7-3e3f895b5b29"
+      Hint: Logo
+      Value: |
+        <image mediaid="03038ae0-4795-49da-97e3-d4a0d539ad3d" />
+    - ID: "acf4e2a3-e876-4e4e-8f1d-af80b86d2300"
+      Hint: SearchAction
+      Value: |
+        <link class="" querystring="" id="{5A891B1E-9179-4B1A-93A5-800CDD097F50}" anchor="" target="" title="" linktype="internal" text="Search" url="/search" />
+    - ID: "2afa0ac3-6d9b-4841-90e6-18b97410b4c6"
+      Hint: LocaleSelector
+      Value: "Global"
+    - ID: "2d35f12b-e347-4e77-b659-e6eab4a8fb61"
+      Hint: AppLauncher
+      Value: "Products"
+    - ID: "8c3ee2b1-0278-4010-beab-15846eb7d1b6"
+      Hint: DemoLink
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Request a demo" url="/request-a-demo" />

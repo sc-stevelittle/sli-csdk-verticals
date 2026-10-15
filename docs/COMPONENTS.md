@@ -14,6 +14,7 @@ Paths are `industry-verticals/{folder}/src/components/{name}/`.
 | `starter` | starter | not deployed |
 | `travel` | Skywings | `travel` |
 | `energy` | Gridwell | `energy` |
+| `sitecore-com` | Sitecore.com | `sitecore-com` |
 
 ## Shared
 
@@ -85,6 +86,12 @@ Articles, destinations, and deals.
 Articles plus grid status.
 
 `article-details`, `article-listing`, `selected-articles`, `grid-conditions`, `grid-demand`, `gridstatusgauge`
+
+## B2B software — Sitecore.com
+
+Product and marketing pages with reusable capability cards, feature bands, statistics, FAQs, customer stories, and conversion CTAs.
+
+`analyst-report-list`, `ai-search-feature-block`, `awards-logo-rail`, `conversion-cta-band`, `customer-story-carousel`, `event-carousel`, `faq-accordion`, `included-feature-grid`, `metric-stat-grid`, `product-capability-carousel`, `product-capability-tabs`, `product-card-grid`, `product-feature-section`, `product-hero`, `value-proposition-grid`
 
 ## Where to read next
 

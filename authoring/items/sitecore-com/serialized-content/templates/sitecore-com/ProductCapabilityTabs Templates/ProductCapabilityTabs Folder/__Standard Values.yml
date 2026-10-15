@@ -1,0 +1,23 @@
+---
+ID: "bbc932eb-b2af-4146-801e-6fe3a79ee289"
+Parent: "471d2555-5a43-4bb2-9ddd-8d4cbb49d4b1"
+Template: "471d2555-5a43-4bb2-9ddd-8d4cbb49d4b1"
+Path: "/sitecore/templates/Project/sitecore-com/ProductCapabilityTabs Templates/ProductCapabilityTabs Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3CBD223A-C224-4127-BBCE-6D0C938A8133}
+    {471D2555-5A43-4BB2-9DDD-8D4CBB49D4B1}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

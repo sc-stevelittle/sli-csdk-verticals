@@ -1,0 +1,18 @@
+---
+ID: "f8abb9e9-212d-46ef-a7c3-a752f75a9d58"
+Parent: "4e6053cf-dbe1-4c6b-bd7f-d629ed1d7c23"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Presentation/Placeholder Settings/Headless Footer"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "headless-footer"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {D284A1EE-5EBB-4B2D-AF19-D20EBBE03279}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields: []

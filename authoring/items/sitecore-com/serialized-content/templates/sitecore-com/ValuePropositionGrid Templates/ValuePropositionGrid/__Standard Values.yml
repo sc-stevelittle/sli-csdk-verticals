@@ -1,0 +1,17 @@
+---
+ID: "edb2591d-bd7b-4619-a46d-0b9de65a5e5b"
+Parent: "bafbc3ad-982b-408e-acff-d6aa5633236f"
+Template: "bafbc3ad-982b-408e-acff-d6aa5633236f"
+Path: "/sitecore/templates/Project/sitecore-com/ValuePropositionGrid Templates/ValuePropositionGrid/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

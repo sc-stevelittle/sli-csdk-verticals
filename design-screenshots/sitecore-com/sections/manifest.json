@@ -1,0 +1,729 @@
+{
+  "components": {
+    "CookieBanner": {
+      "cmsName": "CookieBanner",
+      "folderName": "cookie-banner",
+      "name": "cookie-banner",
+      "selector": "#a9bde968-5b36-42a5-ada6-f4796144e994",
+      "type": "cookie-banner",
+      "scope": "site",
+      "reason": "Sticky overlay (CookieBanner) — captured before hide",
+      "componentType": "CookieBanner",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/cookie-banner",
+      "outputs": {
+        "desktop": "cookie-banner/cookie-banner-desktop.png",
+        "tablet": "cookie-banner/cookie-banner-tablet.png",
+        "mobile": "cookie-banner/cookie-banner-mobile.png"
+      },
+      "sectionHtml": "cookie-banner/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--home",
+        "sitecore-com--platform",
+        "sitecore-com--platform-ai-and-agents",
+        "sitecore-com--platform-ai-search",
+        "sitecore-com--platform-content-management-system",
+        "sitecore-com--platform-digital-asset-management",
+        "sitecore-com--solutions-customers"
+      ]
+    },
+    "TopBar": {
+      "cmsName": "TopBar",
+      "folderName": "top-bar",
+      "name": "top-bar",
+      "selector": "div.sc-announcement-bar.MainNavigation-module-scss-module__KaCR0q__MainNavAnnouncement",
+      "type": "topbar",
+      "scope": "site",
+      "reason": "Sticky overlay (TopBar) — captured before hide",
+      "componentType": "TopBar",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/top-bar",
+      "outputs": {
+        "desktop": "top-bar/top-bar-desktop.png",
+        "tablet": "top-bar/top-bar-tablet.png",
+        "mobile": "top-bar/top-bar-mobile.png"
+      },
+      "sectionHtml": "top-bar/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--home",
+        "sitecore-com--platform",
+        "sitecore-com--platform-ai-and-agents",
+        "sitecore-com--platform-ai-search",
+        "sitecore-com--platform-content-management-system",
+        "sitecore-com--platform-digital-asset-management",
+        "sitecore-com--solutions-customers"
+      ]
+    },
+    "Header": {
+      "cmsName": "Header",
+      "folderName": "header",
+      "name": "header",
+      "selector": "section.sc-section.nav",
+      "type": "header",
+      "scope": "site",
+      "reason": "Sticky overlay (Header) — captured before hide",
+      "componentType": "Header",
+      "isStickyOverlay": true,
+      "captureMode": "overlay",
+      "capturedBeforeHide": true,
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/header",
+      "outputs": {
+        "desktop": "header/header-desktop.png",
+        "tablet": "header/header-tablet.png",
+        "mobile": "header/header-mobile.png"
+      },
+      "sectionHtml": "header/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--home",
+        "sitecore-com--platform",
+        "sitecore-com--platform-ai-and-agents",
+        "sitecore-com--platform-ai-search",
+        "sitecore-com--platform-content-management-system",
+        "sitecore-com--platform-digital-asset-management",
+        "sitecore-com--solutions-customers"
+      ]
+    },
+    "AiIsDecidingWhoRichTextImageBlock": {
+      "cmsName": "AiIsDecidingWhoRichTextImageBlock",
+      "folderName": "ai-is-deciding-who-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "AiIsDecidingWhoRichTextImageBlock: image + text block",
+      "order": 0,
+      "heading": "AI is deciding who gets discovered.\n        \n\n        \n\n        \n          Sitec",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "34cd45f1f8ba4043",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/ai-is-deciding-who-rich-text-image-block",
+      "outputs": {
+        "desktop": "ai-is-deciding-who-rich-text-image-block/ai-is-deciding-who-rich-text-image-block-desktop.png",
+        "tablet": "ai-is-deciding-who-rich-text-image-block/ai-is-deciding-who-rich-text-image-block-tablet.png",
+        "mobile": "ai-is-deciding-who-rich-text-image-block/ai-is-deciding-who-rich-text-image-block-mobile.png"
+      },
+      "sectionHtml": "ai-is-deciding-who-rich-text-image-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--home"
+      ],
+      "promotedFromPage": "sitecore-com--home"
+    },
+    "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlock": {
+      "cmsName": "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlock",
+      "folderName": "home-ai-is-deciding-who-rich-text-image-block",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "AiIsDecidingWhoRichTextImageBlock: image + text block",
+      "order": 0,
+      "heading": "AI is deciding who gets discovered.\n        \n\n        \n\n        \n          Sitec",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "b90387a0f71c6eac",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/home-ai-is-deciding-who-rich-text-image-block",
+      "outputs": {
+        "desktop": "home-ai-is-deciding-who-rich-text-image-block/home-ai-is-deciding-who-rich-text-image-block-desktop.png",
+        "tablet": "home-ai-is-deciding-who-rich-text-image-block/home-ai-is-deciding-who-rich-text-image-block-tablet.png",
+        "mobile": "home-ai-is-deciding-who-rich-text-image-block/home-ai-is-deciding-who-rich-text-image-block-mobile.png"
+      },
+      "sectionHtml": "home-ai-is-deciding-who-rich-text-image-block/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--home"
+      ],
+      "promotedFromPage": "sitecore-com--home",
+      "variantOf": "AiIsDecidingWhoRichTextImageBlock",
+      "disambiguationReason": "same cmsName, different section fingerprint"
+    },
+    "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection": {
+      "cmsName": "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection",
+      "folderName": "home-ai-is-deciding-who-rich-text-image-block-alt",
+      "type": "feature-section",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "AiIsDecidingWhoRichTextImageBlock: image + text block",
+      "order": 0,
+      "heading": "AI is deciding who gets discovered.\n        \n\n        \n\n        \n          Sitec",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "a0634fd61ec9e2df",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/home-ai-is-deciding-who-rich-text-image-block-alt",
+      "outputs": {
+        "desktop": "home-ai-is-deciding-who-rich-text-image-block-alt/home-ai-is-deciding-who-rich-text-image-block-alt-desktop.png",
+        "tablet": "home-ai-is-deciding-who-rich-text-image-block-alt/home-ai-is-deciding-who-rich-text-image-block-alt-tablet.png",
+        "mobile": "home-ai-is-deciding-who-rich-text-image-block-alt/home-ai-is-deciding-who-rich-text-image-block-alt-mobile.png"
+      },
+      "sectionHtml": "home-ai-is-deciding-who-rich-text-image-block-alt/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--home"
+      ],
+      "promotedFromPage": "sitecore-com--home",
+      "variantOf": "AiIsDecidingWhoRichTextImageBlock",
+      "disambiguationReason": "same cmsName, different section fingerprint"
+    },
+    "EventDetailHeroSection": {
+      "cmsName": "EventDetailHeroSection",
+      "folderName": "event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Turn discovery into experiences that convert",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "df94f4690c17b6aa",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/event-detail-hero-section",
+      "outputs": {
+        "desktop": "event-detail-hero-section/event-detail-hero-section-desktop.png",
+        "tablet": "event-detail-hero-section/event-detail-hero-section-tablet.png",
+        "mobile": "event-detail-hero-section/event-detail-hero-section-mobile.png"
+      },
+      "sectionHtml": "event-detail-hero-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--platform"
+      ],
+      "promotedFromPage": "sitecore-com--platform"
+    },
+    "AgentsThatUnderstandEventDetailHeroSection": {
+      "cmsName": "AgentsThatUnderstandEventDetailHeroSection",
+      "folderName": "platform-ai-and-agents-event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "AI and agents that understand your brand. Included in SitecoreAI.",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "0091b9fcbcc88873",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/platform-ai-and-agents-event-detail-hero-section",
+      "outputs": {
+        "desktop": "platform-ai-and-agents-event-detail-hero-section/platform-ai-and-agents-event-detail-hero-section-desktop.png",
+        "tablet": "platform-ai-and-agents-event-detail-hero-section/platform-ai-and-agents-event-detail-hero-section-tablet.png",
+        "mobile": "platform-ai-and-agents-event-detail-hero-section/platform-ai-and-agents-event-detail-hero-section-mobile.png"
+      },
+      "sectionHtml": "platform-ai-and-agents-event-detail-hero-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--platform",
+        "sitecore-com--platform-ai-and-agents"
+      ],
+      "promotedFromPage": "sitecore-com--platform-ai-and-agents",
+      "variantOf": "EventDetailHeroSection",
+      "disambiguationReason": "same cmsName, different section fingerprint"
+    },
+    "ShowStandOutEventDetailHeroSection": {
+      "cmsName": "ShowStandOutEventDetailHeroSection",
+      "folderName": "platform-ai-search-event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Show up and stand out in AI search",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "c054c3b0c242bf44",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/platform-ai-search-event-detail-hero-section",
+      "outputs": {
+        "desktop": "platform-ai-search-event-detail-hero-section/platform-ai-search-event-detail-hero-section-desktop.png",
+        "tablet": "platform-ai-search-event-detail-hero-section/platform-ai-search-event-detail-hero-section-tablet.png",
+        "mobile": "platform-ai-search-event-detail-hero-section/platform-ai-search-event-detail-hero-section-mobile.png"
+      },
+      "sectionHtml": "platform-ai-search-event-detail-hero-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--platform",
+        "sitecore-com--platform-ai-search"
+      ],
+      "promotedFromPage": "sitecore-com--platform-ai-search",
+      "variantOf": "EventDetailHeroSection",
+      "disambiguationReason": "same cmsName, different section fingerprint"
+    },
+    "ShipEveryExperienceEventDetailHeroSection": {
+      "cmsName": "ShipEveryExperienceEventDetailHeroSection",
+      "folderName": "platform-content-management-system-event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "h1.headline.font-medium",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Ship every experience faster and on-brand, with AI built in",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "b9fa2d4c4f74bbd6",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/platform-content-management-system-event-detail-hero-section",
+      "outputs": {
+        "desktop": "platform-content-management-system-event-detail-hero-section/platform-content-management-system-event-detail-hero-section-desktop.png",
+        "tablet": "platform-content-management-system-event-detail-hero-section/platform-content-management-system-event-detail-hero-section-tablet.png",
+        "mobile": "platform-content-management-system-event-detail-hero-section/platform-content-management-system-event-detail-hero-section-mobile.png"
+      },
+      "sectionHtml": "platform-content-management-system-event-detail-hero-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--platform",
+        "sitecore-com--platform-content-management-system"
+      ],
+      "promotedFromPage": "sitecore-com--platform-content-management-system",
+      "variantOf": "EventDetailHeroSection",
+      "disambiguationReason": "same cmsName, different section fingerprint"
+    },
+    "EventDetailInfoSection": {
+      "cmsName": "EventDetailInfoSection",
+      "folderName": "event-detail-info-section",
+      "type": "info",
+      "scope": "page",
+      "selector": "#radix-_R_h8tanpfl5uivb_ > div",
+      "reason": "Event detail info blocks (hours, location, tickets)",
+      "order": 1,
+      "heading": "What should buyers look for in a content management system for enterprise organi",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "ecf6b548d108e5ef",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/event-detail-info-section",
+      "outputs": {
+        "desktop": "event-detail-info-section/event-detail-info-section-desktop.png",
+        "tablet": "event-detail-info-section/event-detail-info-section-tablet.png",
+        "mobile": "event-detail-info-section/event-detail-info-section-mobile.png"
+      },
+      "sectionHtml": "event-detail-info-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--platform-content-management-system"
+      ],
+      "promotedFromPage": "sitecore-com--platform-content-management-system"
+    },
+    "MakeEveryApprovedEventDetailHeroSection": {
+      "cmsName": "MakeEveryApprovedEventDetailHeroSection",
+      "folderName": "platform-digital-asset-management-event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Make every approved asset findable by your team and readable by AI",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "0732111845fb6b39",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/platform-digital-asset-management-event-detail-hero-section",
+      "outputs": {
+        "desktop": "platform-digital-asset-management-event-detail-hero-section/platform-digital-asset-management-event-detail-hero-section-desktop.png",
+        "tablet": "platform-digital-asset-management-event-detail-hero-section/platform-digital-asset-management-event-detail-hero-section-tablet.png",
+        "mobile": "platform-digital-asset-management-event-detail-hero-section/platform-digital-asset-management-event-detail-hero-section-mobile.png"
+      },
+      "sectionHtml": "platform-digital-asset-management-event-detail-hero-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--platform",
+        "sitecore-com--platform-digital-asset-management"
+      ],
+      "promotedFromPage": "sitecore-com--platform-digital-asset-management",
+      "variantOf": "EventDetailHeroSection",
+      "disambiguationReason": "same cmsName, different section fingerprint"
+    },
+    "SitecoreCustomerStoriesEventDetailHeroSection": {
+      "cmsName": "SitecoreCustomerStoriesEventDetailHeroSection",
+      "folderName": "solutions-customers-event-detail-hero-section",
+      "type": "hero",
+      "scope": "page",
+      "selector": "#content",
+      "reason": "Event detail hero with title, dates, and CTAs",
+      "order": 0,
+      "heading": "Sitecore customer stories",
+      "placeholderFor": null,
+      "parentSection": null,
+      "captureMode": "clean",
+      "screenshotSkipped": false,
+      "stagedInPageSections": true,
+      "fingerprint": "305996961a206078",
+      "outputDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections/solutions-customers-event-detail-hero-section",
+      "outputs": {
+        "desktop": "solutions-customers-event-detail-hero-section/solutions-customers-event-detail-hero-section-desktop.png",
+        "tablet": "solutions-customers-event-detail-hero-section/solutions-customers-event-detail-hero-section-tablet.png",
+        "mobile": "solutions-customers-event-detail-hero-section/solutions-customers-event-detail-hero-section-mobile.png"
+      },
+      "sectionHtml": "solutions-customers-event-detail-hero-section/section.html",
+      "captured": true,
+      "seenOnPages": [
+        "sitecore-com--platform",
+        "sitecore-com--solutions-customers"
+      ],
+      "promotedFromPage": "sitecore-com--solutions-customers",
+      "variantOf": "EventDetailHeroSection",
+      "disambiguationReason": "same cmsName, different section fingerprint"
+    }
+  },
+  "pages": [
+    {
+      "slug": "sitecore-com--home",
+      "url": "https://www.sitecore.com/",
+      "pageDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sitecore-com--home",
+      "capturedAt": "2026-10-15T14:54:03.998Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "DecidingWhoGetsAiIsDecidingWhoRichTextImageBlockSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "AiIsDecidingWhoRichTextImageBlock",
+          "folderName": "ai-is-deciding-who-rich-text-image-block",
+          "type": "feature-section",
+          "scope": "page",
+          "selector": "#content",
+          "reason": "AiIsDecidingWhoRichTextImageBlock: image + text block",
+          "order": 0,
+          "heading": "AI is deciding who gets discovered.\n        \n\n        \n\n        \n          Sitec",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "html > body > div:nth-of-type(3) > footer",
+          "reason": "Site footer with links and legal",
+          "order": 1,
+          "heading": "Own the moments that matter.",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "sitecore-com--platform",
+      "url": "https://www.sitecore.com/platform",
+      "pageDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sitecore-com--platform",
+      "capturedAt": "2026-10-15T14:54:39.965Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "EventDetailHeroSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "EventDetailHeroSection",
+          "folderName": "event-detail-hero-section",
+          "type": "hero",
+          "scope": "page",
+          "selector": "#content",
+          "reason": "Event detail hero with title, dates, and CTAs",
+          "order": 0,
+          "heading": "Turn discovery into experiences that convert",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "html > body > div:nth-of-type(3) > footer",
+          "reason": "Site footer with links and legal",
+          "order": 1,
+          "heading": "Stand out in AI search",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "sitecore-com--platform-ai-and-agents",
+      "url": "https://www.sitecore.com/platform/ai-and-agents",
+      "pageDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sitecore-com--platform-ai-and-agents",
+      "capturedAt": "2026-10-15T14:55:16.080Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "AgentsThatUnderstandEventDetailHeroSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "EventDetailHeroSection",
+          "folderName": "event-detail-hero-section",
+          "type": "hero",
+          "scope": "page",
+          "selector": "#content",
+          "reason": "Event detail hero with title, dates, and CTAs",
+          "order": 0,
+          "heading": "AI and agents that understand your brand. Included in SitecoreAI.",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "html > body > div:nth-of-type(3) > footer",
+          "reason": "Site footer with links and legal",
+          "order": 1,
+          "heading": "Stand out in AI search",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "sitecore-com--platform-ai-search",
+      "url": "https://www.sitecore.com/platform/ai-search",
+      "pageDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sitecore-com--platform-ai-search",
+      "capturedAt": "2026-10-15T14:55:51.329Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "ShowStandOutEventDetailHeroSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "EventDetailHeroSection",
+          "folderName": "event-detail-hero-section",
+          "type": "hero",
+          "scope": "page",
+          "selector": "#content",
+          "reason": "Event detail hero with title, dates, and CTAs",
+          "order": 0,
+          "heading": "Show up and stand out in AI search",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "html > body > div:nth-of-type(3) > footer",
+          "reason": "Site footer with links and legal",
+          "order": 1,
+          "heading": "Sitecore’s latest innovations",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "sitecore-com--platform-content-management-system",
+      "url": "https://www.sitecore.com/platform/content-management-system",
+      "pageDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sitecore-com--platform-content-management-system",
+      "capturedAt": "2026-10-15T14:56:29.827Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "ShipEveryExperienceEventDetailHeroSection",
+        "EventDetailInfoSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "EventDetailHeroSection",
+          "folderName": "event-detail-hero-section",
+          "type": "hero",
+          "scope": "page",
+          "selector": "h1.headline.font-medium",
+          "reason": "Event detail hero with title, dates, and CTAs",
+          "order": 0,
+          "heading": "Ship every experience faster and on-brand, with AI built in",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "EventDetailInfoSection",
+          "folderName": "event-detail-info-section",
+          "type": "info",
+          "scope": "page",
+          "selector": "#radix-_R_h8tanpfl5uivb_ > div",
+          "reason": "Event detail info blocks (hours, location, tickets)",
+          "order": 1,
+          "heading": "What should buyers look for in a content management system for enterprise organi",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "html > body > div:nth-of-type(3) > footer",
+          "reason": "Site footer with links and legal",
+          "order": 2,
+          "heading": "The CMS buyer's guide for the AI era",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "sitecore-com--platform-digital-asset-management",
+      "url": "https://www.sitecore.com/platform/digital-asset-management",
+      "pageDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management",
+      "capturedAt": "2026-10-15T14:57:07.881Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "MakeEveryApprovedEventDetailHeroSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "EventDetailHeroSection",
+          "folderName": "event-detail-hero-section",
+          "type": "hero",
+          "scope": "page",
+          "selector": "#content",
+          "reason": "Event detail hero with title, dates, and CTAs",
+          "order": 0,
+          "heading": "Make every approved asset findable by your team and readable by AI",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "html > body > div:nth-of-type(3) > footer",
+          "reason": "Site footer with links and legal",
+          "order": 1,
+          "heading": "The enterprise DAM buyer’s guide for the AI era",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    },
+    {
+      "slug": "sitecore-com--solutions-customers",
+      "url": "https://www.sitecore.com/solutions/customers",
+      "pageDir": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sitecore-com--solutions-customers",
+      "capturedAt": "2026-10-15T14:57:43.514Z",
+      "sectionOrder": [
+        "CookieBanner",
+        "TopBar",
+        "Header",
+        "SitecoreCustomerStoriesEventDetailHeroSection",
+        "Footer"
+      ],
+      "components": [
+        {
+          "cmsName": "EventDetailHeroSection",
+          "folderName": "event-detail-hero-section",
+          "type": "hero",
+          "scope": "page",
+          "selector": "#content",
+          "reason": "Event detail hero with title, dates, and CTAs",
+          "order": 0,
+          "heading": "Sitecore customer stories",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        },
+        {
+          "cmsName": "Footer",
+          "folderName": "footer",
+          "type": "footer",
+          "scope": "site",
+          "selector": "html > body > div:nth-of-type(3) > footer",
+          "reason": "Site footer with links and legal",
+          "order": 1,
+          "heading": "Platform",
+          "placeholderFor": null,
+          "parentSection": null,
+          "captureMode": "clean",
+          "screenshotSkipped": false,
+          "stagedInPageSections": true
+        }
+      ]
+    }
+  ],
+  "projectRoot": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com",
+  "sectionsRoot": "/Users/sli/Developer/sli-csdk-verticals/design-screenshots/sitecore-com/sections",
+  "updatedAt": "2026-10-15T14:57:43.570Z"
+}

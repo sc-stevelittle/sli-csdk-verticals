@@ -1,0 +1,433 @@
+{
+  "project": "sitecore-com",
+  "pages": [
+    "sitecore-com--home",
+    "sitecore-com--platform",
+    "sitecore-com--platform-ai-and-agents",
+    "sitecore-com--platform-ai-search",
+    "sitecore-com--platform-content-management-system",
+    "sitecore-com--platform-digital-asset-management"
+  ],
+  "components": [
+    {
+      "id": "S1",
+      "cmsName": "CookieBanner",
+      "scope": "site",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sections/cookie-banner/cookie-banner-desktop.png",
+        "design-screenshots/sitecore-com/sections/cookie-banner/section.html"
+      ],
+      "fields": ["message", "privacyLink", "saveLabel", "acceptLabel", "rejectLabel", "preferenceToggles"],
+      "placeholders": [],
+      "notes": "Captured with the consent dialog visible; global overlay."
+    },
+    {
+      "id": "S2",
+      "cmsName": "TopBar",
+      "scope": "site",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sections/top-bar/top-bar-desktop.png",
+        "design-screenshots/sitecore-com/sections/top-bar/section.html"
+      ],
+      "fields": ["announcement", "link"],
+      "placeholders": [],
+      "notes": "Gradient announcement strip above the main header."
+    },
+    {
+      "id": "S3",
+      "cmsName": "Header",
+      "scope": "site",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sections/header/header-desktop.png",
+        "design-screenshots/sitecore-com/sections/header/section.html"
+      ],
+      "fields": ["logo", "searchAction", "localeSelector", "appLauncher", "demoLink"],
+      "placeholders": ["site-navigation"],
+      "notes": "Desktop navigation is inline; responsive navigation changes at mobile."
+    },
+    {
+      "id": "S4",
+      "cmsName": "Navigation",
+      "scope": "site",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sections/header/header-desktop.png",
+        "design-screenshots/sitecore-com/sections/header/header-mobile.png"
+      ],
+      "fields": ["items", "labels", "links"],
+      "placeholders": [],
+      "notes": "Menu groups: Platform, Solutions, Partners, Resources, Company."
+    },
+    {
+      "id": "H1",
+      "cmsName": "HeroBanner",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["eyebrow", "title", "body", "primaryLink", "secondaryLink", "backgroundStyle"],
+      "placeholders": [],
+      "notes": "Centered headline and two CTAs over a pale background with a subtle gradient."
+    },
+    {
+      "id": "H2",
+      "cmsName": "ProductCapabilityCarousel",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["title"],
+      "placeholders": ["capability-cards"],
+      "children": [
+        {
+          "cmsName": "ProductCapabilityCard",
+          "repeatCount": 3,
+          "fields": ["icon", "eyebrow", "title", "description", "link"]
+        }
+      ],
+      "notes": "Three visible cards with carousel controls; additional cards extend horizontally."
+    },
+    {
+      "id": "H3",
+      "cmsName": "AwardsLogoRail",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": [],
+      "placeholders": ["award-items"],
+      "children": [
+        {
+          "cmsName": "AwardLogoItem",
+          "repeatCount": 9,
+          "fields": ["image", "altText", "link"]
+        }
+      ],
+      "notes": "Horizontal strip of award badges between the capability carousel and feature band."
+    },
+    {
+      "id": "H4",
+      "cmsName": "AiSearchFeatureBlock",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["title", "body", "image", "videoLink", "cta"],
+      "placeholders": [],
+      "notes": "Dark two-column band; text and CTA beside a video preview."
+    },
+    {
+      "id": "H5",
+      "cmsName": "ValuePropositionGrid",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["eyebrow", "title", "intro"],
+      "placeholders": ["value-cards"],
+      "children": [
+        {
+          "cmsName": "ValuePropositionCard",
+          "repeatCount": 3,
+          "fields": ["eyebrow", "title", "description"]
+        }
+      ],
+      "notes": "Three equal cards; on mobile the cards stack vertically."
+    },
+    {
+      "id": "H6",
+      "cmsName": "EventCarousel",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["eyebrow", "title", "intro", "viewAllLink"],
+      "placeholders": ["event-cards"],
+      "children": [
+        {
+          "cmsName": "EventCard",
+          "repeatCount": 3,
+          "fields": ["image", "date", "title", "description", "link"]
+        }
+      ],
+      "notes": "The captured event tiles were still skeleton placeholders; layout is visible, but card content needs authored data."
+    },
+    {
+      "id": "H7",
+      "cmsName": "CustomerStoryShowcase",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["eyebrow", "title", "intro", "featuredStory", "customerLogos", "viewAllLink"],
+      "placeholders": ["customer-stories"],
+      "children": [
+        {
+          "cmsName": "CustomerStoryItem",
+          "repeatCount": 7,
+          "fields": ["title", "customer", "image", "videoLink", "link"]
+        }
+      ],
+      "notes": "Featured video/story paired with a selectable story list and customer logo row; mobile stacks the feature and list."
+    },
+    {
+      "id": "H8",
+      "cmsName": "AnalystReportList",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["eyebrow", "title", "intro", "viewAllLink"],
+      "placeholders": ["reports"],
+      "children": [
+        {
+          "cmsName": "AnalystReportItem",
+          "repeatCount": 2,
+          "fields": ["title", "downloadLink", "linkLabel"]
+        }
+      ],
+      "notes": "Two horizontal report rows on desktop, stacked cards on mobile."
+    },
+    {
+      "id": "H9",
+      "cmsName": "VisibilityCta",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["title", "body", "cta"],
+      "placeholders": [],
+      "notes": "Centered closing conversion band with gradient CTA."
+    },
+    {
+      "id": "S5",
+      "cmsName": "Footer",
+      "scope": "site",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--home/mobile-clean.png"
+      ],
+      "fields": ["closingTitle", "closingBody", "primaryCta", "secondaryCta", "quickLinks", "linkColumns", "legalLinks", "copyright"],
+      "placeholders": [],
+      "notes": "Dark footer includes a closing CTA, four quick links, five navigation columns, and legal links."
+    },
+    {
+      "id": "P1",
+      "cmsName": "ProductHero",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--platform/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-and-agents/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-search/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["productLabel", "title", "body", "media", "primaryLink", "secondaryLink"],
+      "placeholders": [],
+      "notes": "Reusable product hero: label, large gradient-accent headline, summary, CTA(s), and video/image preview."
+    },
+    {
+      "id": "P2",
+      "cmsName": "CustomerLogoRail",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--platform/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-and-agents/desktop-clean.png"
+      ],
+      "fields": [],
+      "placeholders": ["customer-logos"],
+      "children": [
+        {
+          "cmsName": "CustomerLogoItem",
+          "repeatCount": 6,
+          "fields": ["image", "altText", "link"]
+        }
+      ],
+      "notes": "Single horizontal strip of customer logos below product heroes."
+    },
+    {
+      "id": "P3",
+      "cmsName": "MetricStatGrid",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["title"],
+      "placeholders": ["stat-items"],
+      "children": [
+        {
+          "cmsName": "MetricStatItem",
+          "repeatCount": 4,
+          "fields": ["value", "label", "customer", "industry"]
+        }
+      ],
+      "notes": "Four equal proof-point cards with large percentage/value and short result copy."
+    },
+    {
+      "id": "P4",
+      "cmsName": "ProductFeatureSection",
+      "scope": "shared",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--platform/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-and-agents/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-search/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["eyebrow", "title", "body", "image", "bullets", "cta", "layoutVariant"],
+      "placeholders": [],
+      "notes": "Alternating image/text product bands; implement one rendering with left/right and image/video variants."
+    },
+    {
+      "id": "P5",
+      "cmsName": "ProductCapabilityTabs",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--platform/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-and-agents/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-search/desktop-clean.png"
+      ],
+      "fields": ["eyebrow", "title", "intro"],
+      "placeholders": ["capability-tabs"],
+      "children": [
+        {
+          "cmsName": "ProductCapabilityTab",
+          "repeatCount": 3,
+          "fields": ["label", "title", "body", "image", "bullets", "link"]
+        }
+      ],
+      "notes": "Tabbed capability selector with a large feature panel; labels and panel content change together."
+    },
+    {
+      "id": "P6",
+      "cmsName": "IncludedFeatureGrid",
+      "scope": "page",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["title", "intro"],
+      "placeholders": ["included-features"],
+      "children": [
+        {
+          "cmsName": "IncludedFeatureItem",
+          "repeatCount": 12,
+          "fields": ["title", "description", "icon"]
+        }
+      ],
+      "notes": "Outlined multi-column list of included capabilities; item count varies by product page."
+    },
+    {
+      "id": "P7",
+      "cmsName": "ProductCardGrid",
+      "scope": "shared",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--platform/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["title", "viewAllLink"],
+      "placeholders": ["cards"],
+      "children": [
+        {
+          "cmsName": "ProductContentCard",
+          "repeatCount": 4,
+          "fields": ["image", "eyebrow", "title", "description", "link"]
+        }
+      ],
+      "notes": "Reusable editorial/product-card grid. Some captured rows were still skeletons, so card data must be authored."
+    },
+    {
+      "id": "P8",
+      "cmsName": "CustomerStoryCarousel",
+      "scope": "shared",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["title", "intro", "viewAllLink"],
+      "placeholders": ["story-cards"],
+      "children": [
+        {
+          "cmsName": "CustomerStoryCard",
+          "repeatCount": 3,
+          "fields": ["image", "industry", "title", "description", "link"]
+        }
+      ],
+      "notes": "Three large image-backed story cards with carousel controls and pagination dots."
+    },
+    {
+      "id": "P9",
+      "cmsName": "FaqAccordion",
+      "scope": "shared",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-and-agents/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-search/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["title"],
+      "placeholders": ["faq-items"],
+      "children": [
+        {
+          "cmsName": "FaqItem",
+          "repeatCount": 8,
+          "fields": ["question", "answer"]
+        }
+      ],
+      "notes": "Single-column expandable question list; one item appears expanded in the captures."
+    },
+    {
+      "id": "P10",
+      "cmsName": "ConversionCtaBand",
+      "scope": "shared",
+      "action": "create",
+      "evidence": [
+        "design-screenshots/sitecore-com/sitecore-com--home/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-and-agents/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-ai-search/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-content-management-system/desktop-clean.png",
+        "design-screenshots/sitecore-com/sitecore-com--platform-digital-asset-management/desktop-clean.png"
+      ],
+      "fields": ["title", "body", "cta"],
+      "placeholders": [],
+      "notes": "Centered closing conversion band; use across captured routes with page-specific copy."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+---
+ID: "0349c47b-08ee-43a0-8a30-97349cf67325"
+Parent: "f062b6f1-6af6-47b3-9641-6f2ca40fb765"
+Template: "bafbc3ad-982b-408e-acff-d6aa5633236f"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ValuePropositionGrids/sitecore-com--home-valuepropositiongrid-18"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8d76d636-026b-45e0-8440-af26a740e731"
+      Hint: Eyebrow
+      Value: "Built for teams"
+    - ID: "74c81023-3eb8-4475-99f2-9e261f701759"
+      Hint: Title
+      Value: "A better way to move from idea to impact"
+    - ID: "9964fab8-97b8-42af-a9a8-b929a04e0fca"
+      Hint: Intro
+      Value: "Bring your people, technology, and content together."

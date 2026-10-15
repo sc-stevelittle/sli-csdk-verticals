@@ -1,0 +1,28 @@
+---
+ID: "98b18c05-8ad1-47a0-bfef-7d0d6c825225"
+Parent: "f5b23161-08f1-4cec-9992-1ca8dc445c2b"
+Template: "5348e27e-9f68-4850-a3ea-993235cfa8b8"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryItems/sitecore-com--home-customerstoryitem-27"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "81fc882f-c155-47a8-8157-848eb537468b"
+      Hint: Title
+      Value: "A more connected customer journey"
+    - ID: "6764ec00-a617-4941-8fd5-9ce0473845b8"
+      Hint: Customer
+      Value: "Global retail brand"
+    - ID: "14bce142-feb6-4e5f-962a-60ce4f118760"
+      Hint: Image
+      Value: |
+        <image mediaid="2136f570-ae7d-461b-8987-8061517c15dc" />
+    - ID: "8c6b8625-b62a-407f-8335-035fe36516e4"
+      Hint: VideoLink
+      Value: |
+        <link class="" querystring="" id="{E7B8828A-D8E0-4D73-B3E6-DF1982F5A8B8}" anchor="" target="" title="" linktype="internal" text="Watch the story" url="/solutions/customers" />
+    - ID: "a7e7d99a-267d-4d8f-881d-d3f83d6eae08"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{E7B8828A-D8E0-4D73-B3E6-DF1982F5A8B8}" anchor="" target="" title="" linktype="internal" text="Read the story" url="/solutions/customers" />

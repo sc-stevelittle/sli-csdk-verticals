@@ -1,0 +1,17 @@
+---
+ID: "fb6ecd0b-37d6-41dc-9918-003369393cae"
+Parent: "5248b26b-a0c9-402a-b0b9-d3031aea60d3"
+Template: "5248b26b-a0c9-402a-b0b9-d3031aea60d3"
+Path: "/sitecore/templates/Project/sitecore-com/AnalystReportList Templates/AnalystReportList/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

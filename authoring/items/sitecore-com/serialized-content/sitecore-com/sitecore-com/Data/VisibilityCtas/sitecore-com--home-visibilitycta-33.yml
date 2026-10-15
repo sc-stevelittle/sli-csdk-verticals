@@ -1,0 +1,20 @@
+---
+ID: "c20ac901-bb0f-44ce-afc6-c483908e01b4"
+Parent: "ebbfacc9-d77a-45c0-856b-f6093105d8da"
+Template: "4444f9e1-de09-4696-b50c-2735593cf551"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/VisibilityCtas/sitecore-com--home-visibilitycta-33"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d2dbe5f3-8dfb-4397-92e1-35f39ce919d6"
+      Hint: Title
+      Value: "Be the brand customers discover."
+    - ID: "866680e1-42b7-4382-8bd6-0ab6980aff8b"
+      Hint: Body
+      Value: "Make your next digital experience easier to find and built to perform."
+    - ID: "96f845e0-c63f-4687-9864-f3db9985d87a"
+      Hint: Cta
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Get your AI visibility snapshot" url="/request-a-demo" />

@@ -1,0 +1,30 @@
+---
+ID: "d05d3384-4e0a-4627-aa56-fbebbf97ccca"
+Parent: "366815d1-bad3-4fa2-bfa6-2e91f6d8ac55"
+Template: "28aac974-af0c-42a7-9e32-3457cb0bb7a5"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductCapabilityTabs/sitecore-com--platform-digital-asset-management-productcapabilitytab-20"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12cfa58e-0277-40ef-a8bb-06aa94115e5b"
+      Hint: Label
+      Value: "Create"
+    - ID: "d47fc4d3-a63d-4304-a2c3-77eda36c48ed"
+      Hint: Title
+      Value: "Create with confidence"
+    - ID: "1beb0b8d-6378-4cb6-8e20-32ce4a8f5fd4"
+      Hint: Body
+      Value: "Give content teams flexible tools to plan and publish."
+    - ID: "1300ac55-16be-4c5b-85f8-4f29e8483372"
+      Hint: Image
+      Value: |
+        <image mediaid="16106910-41eb-4060-8669-1a3e33440f7f" />
+    - ID: "95e5a9bf-b627-45e2-a9a9-2da128f30847"
+      Hint: Bullets
+      Value: "Reusable content\nTeam workflows\nConnected channels"
+    - ID: "5df685b7-d68c-45b2-a8e4-3a3d241fd566"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Learn more" url="/request-a-demo" />

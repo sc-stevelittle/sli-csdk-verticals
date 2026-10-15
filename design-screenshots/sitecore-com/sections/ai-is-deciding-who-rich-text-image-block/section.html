@@ -1,0 +1,1174 @@
+<div id="content"><div data-component-name="AIAssistedHeroBanner"><style>/* SitecoreAI hero */
+
+.sc-ai-light-hero {
+    --sc-ai-light-container: 1280px;
+
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: clamp(2rem, 3vw, 3rem) clamp(1rem, 3vw, 2rem)
+        clamp(1.75rem, 2.7vw, 2.5rem);
+    background-color: transparent;
+    color: var(--sc-black);
+}
+
+
+/* Scoped reset */
+
+.sc-ai-light-hero,
+.sc-ai-light-hero *,
+.sc-ai-light-hero *::before,
+.sc-ai-light-hero *::after {
+    box-sizing: border-box;
+}
+
+.sc-ai-light-hero h1,
+.sc-ai-light-hero p {
+    margin-top: 0;
+}
+
+.sc-ai-light-hero a {
+    text-decoration: none;
+}
+
+.sc-ai-light-hero svg {
+    display: block;
+}
+
+
+/* Container */
+
+.sc-ai-light-hero__container {
+    width: min(100%, var(--sc-ai-light-container));
+    margin-inline: auto;
+}
+
+
+/* Main content */
+
+.sc-ai-light-hero__content {
+    width: 100%;
+    max-width: 1240px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+
+/* Main headline */
+
+.sc-ai-light-hero__title {
+    width: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-bottom: clamp(1.25rem, 1.6vw, 1.5rem);
+    margin-left: auto;
+    color: var(--sc-black);
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    text-wrap: balance;
+    opacity: 0;
+    animation: sc-ai-light-slide-down 0.58s
+        cubic-bezier(0.22, 1, 0.36, 1) 0.08s forwards;
+}
+
+
+/* First headline sentence */
+
+.sc-ai-light-hero__title-intro {
+    display: block;
+    margin-inline: auto;
+    font-size: clamp(2rem, 2.85vw, 2.5rem);
+    line-height: 1.06;
+    letter-spacing: -0.04em;
+}
+
+
+/* Gradient headline sentence */
+
+.sc-ai-light-hero__title-emphasis {
+    display: block;
+    width: min(100%, 18ch);
+    margin-top: 0.3em;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(3.2rem, 5.2vw, 5.2rem);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-wrap: balance;
+}
+
+
+/*
+ * Both headline spans now create their own line,
+ * so the explicit <br> is not required for layout.
+ */
+
+.sc-ai-light-hero__title-break {
+    display: none;
+}
+
+
+/* Supporting copy */
+
+.sc-ai-light-hero__lead {
+    max-width: 860px;
+    margin-right: auto;
+    margin-bottom: clamp(1.25rem, 1.5vw, 1.4rem);
+    margin-left: auto;
+    color: var(--sc-black);
+    font-size: clamp(0.98rem, 1.15vw, 1.08rem);
+    line-height: 1.55;
+    text-wrap: pretty;
+    opacity: 0;
+    animation: sc-ai-light-slide-up 0.52s
+        cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards;
+}
+
+
+/* CTA group */
+
+.sc-ai-light-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    opacity: 0;
+    animation: sc-ai-light-slide-up 0.52s
+        cubic-bezier(0.22, 1, 0.36, 1) 0.32s forwards;
+}
+
+
+/* CTA base */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button {
+    position: relative;
+    display: inline-flex;
+    min-height: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.625rem;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    font-size: var(--sc-body-m, 1rem);
+    font-weight: 500;
+    line-height: var(--sc-body-m-lh, 1.5rem);
+    letter-spacing: var(--sc-body-m-ls, 0);
+    text-decoration: none;
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        color 0.2s ease;
+}
+
+
+/* CTA interaction layer */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button::before {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    border-radius: inherit;
+    content: "";
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+
+/* CTA arrow */
+
+.sc-ai-light-hero__button svg {
+    width: 1.375rem;
+    height: 1.375rem;
+    flex: 0 0 auto;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+/* Gradient CTA */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary {
+    border: unset !important;
+    position: relative;
+    border: 1px solid transparent;
+    background-color: var(--sc-purple-500);
+    background-image: linear-gradient(
+        90deg,
+        var(--sc-red-500) 0%,
+        var(--sc-purple-500) 100%
+    );
+    background-position: left center;
+    background-size: 100% 100%;
+    color: var(--sc-white) !important;
+    -webkit-text-fill-color: var(--sc-white);
+    font-size: var(--sc-body-m, 1rem);
+    font-weight: 500;
+    line-height: var(--sc-body-m-lh, 1.5rem);
+    letter-spacing: var(--sc-body-m-ls, 0);
+    transition:
+        background-position 0.45s ease,
+        background-size 0.45s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary span,
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary svg {
+    color: var(--sc-white) !important;
+}
+
+
+/* Gradient CTA flash */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary::before {
+    inset: 0;
+    background: linear-gradient(
+        110deg,
+        transparent 25%,
+        color-mix(in srgb, var(--sc-red-500) 70%, transparent) 44%,
+        color-mix(in srgb, var(--sc-white) 25%, transparent) 50%,
+        transparent 70%
+    );
+    background-position: 100% center;
+    background-size: 200% 100%;
+    pointer-events: none;
+}
+
+
+/* Gradient CTA hover */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary:hover,
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary:active,
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary:focus-visible {
+    border-color: transparent;
+    background-image:
+        linear-gradient(
+            90deg,
+            transparent 0%,
+            transparent 66%,
+            var(--sc-purple-500) 67%,
+            var(--sc-purple-500) 100%
+        ),
+        linear-gradient(
+            90deg,
+            var(--sc-red-500) 0%,
+            var(--sc-purple-500) 100%
+        );
+    background-position:
+        right center,
+        right center;
+    background-size:
+        300% 100%,
+        300% 100%;
+    color: var(--sc-white) !important;
+    -webkit-text-fill-color: var(--sc-white);
+}
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary:hover::before,
+.sc-ai-light-hero a.sc-ai-light-hero__button--primary:active::before {
+    opacity: 0;
+    animation: sc-ai-cta-gradient-flash 0.45s ease-out both;
+}
+
+
+/* Reverse CTA */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary {
+    border: 1px solid var(--sc-neutral-500);
+    background: var(--sc-white);
+    color: var(--sc-black) !important;
+    -webkit-text-fill-color: var(--sc-black);
+    font-weight: 500;
+    transition:
+        background 0.15s ease,
+        border-color 0.15s ease,
+        color 0.15s ease;
+}
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary span,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary svg {
+    color: var(--sc-black) !important;
+}
+
+
+/* Reverse CTA hover */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:hover,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:active,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:focus-visible {
+    border-color: var(--sc-purple-500);
+    background: var(--sc-purple-500);
+    color: var(--sc-white) !important;
+    -webkit-text-fill-color: var(--sc-white);
+}
+
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:hover span,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:hover svg,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:active span,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:active svg,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:focus-visible span,
+.sc-ai-light-hero a.sc-ai-light-hero__button--secondary:focus-visible svg {
+    color: var(--sc-white) !important;
+}
+
+
+/* Keyboard focus */
+
+.sc-ai-light-hero a.sc-ai-light-hero__button:focus-visible {
+    outline: 3px solid var(--sc-purple-300);
+    outline-offset: 4px;
+}
+
+
+/* Gradient CTA animation */
+
+@keyframes sc-ai-cta-gradient-flash {
+    0% {
+        opacity: 0;
+        background-position: 100% center;
+    }
+
+    25% {
+        opacity: 0.65;
+    }
+
+    100% {
+        opacity: 0;
+        background-position: 0 center;
+    }
+}
+
+
+/* Hero animations */
+
+@keyframes sc-ai-light-slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes sc-ai-light-slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Medium desktop */
+
+@media (min-width: 821px) and (max-width: 1240px) {
+    .sc-ai-light-hero__title {
+        max-width: 1100px;
+        margin-bottom: 1.35rem;
+    }
+
+    .sc-ai-light-hero__title-intro {
+        font-size: clamp(1.95rem, 3vw, 2.4rem);
+        line-height: 1.06;
+    }
+
+    .sc-ai-light-hero__title-emphasis {
+        width: min(100%, 18ch);
+        margin-top: 0.3em;
+        font-size: clamp(3rem, 5.2vw, 4.3rem);
+        line-height: 1.01;
+    }
+
+    .sc-ai-light-hero__lead {
+        max-width: 820px;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width: 820px) {
+    .sc-ai-light-hero__title {
+        max-width: 760px;
+        margin-bottom: 1.3rem;
+    }
+
+    .sc-ai-light-hero__title-intro {
+        font-size: clamp(1.9rem, 4.5vw, 2.35rem);
+        line-height: 1.06;
+    }
+
+    .sc-ai-light-hero__title-emphasis {
+        width: min(100%, 17.5ch);
+        margin-top: 0.28em;
+        font-size: clamp(2.7rem, 6.6vw, 3.75rem);
+        line-height: 1.02;
+    }
+
+    .sc-ai-light-hero__lead {
+        max-width: 680px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 640px) {
+    .sc-ai-light-hero {
+        padding-top: clamp(1.75rem, 5vw, 2rem);
+        padding-right: 1rem;
+        padding-bottom: 1.75rem;
+        padding-left: 1rem;
+    }
+
+    .sc-ai-light-hero__title {
+        max-width: 34rem;
+        margin-bottom: 1.15rem;
+    }
+
+    .sc-ai-light-hero__title-intro {
+        font-size: clamp(1.85rem, 8vw, 2.25rem);
+        line-height: 1.06;
+        letter-spacing: -0.035em;
+    }
+
+    .sc-ai-light-hero__title-emphasis {
+        width: min(100%, 17ch);
+        margin-top: 0.3em;
+        font-size: clamp(2.4rem, 10.5vw, 3.1rem);
+        line-height: 1.04;
+        letter-spacing: -0.045em;
+    }
+
+    .sc-ai-light-hero__lead {
+        max-width: 29rem;
+        margin-bottom: 1.25rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .sc-ai-light-hero__actions {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+    }
+
+    .sc-ai-light-hero a.sc-ai-light-hero__button {
+        width: fit-content;
+        max-width: 100%;
+    }
+}
+
+
+/* Very narrow mobile */
+
+@media (max-width: 360px) {
+    .sc-ai-light-hero__title-intro {
+        font-size: 1.8rem;
+    }
+
+    .sc-ai-light-hero__title-emphasis {
+        width: 100%;
+        font-size: 2.3rem;
+        line-height: 1.04;
+    }
+
+    .sc-ai-light-hero__lead {
+        font-size: 0.975rem;
+    }
+}
+
+
+/* Compact desktop heights */
+
+/*
+ * Compact desktop screens only reduce vertical spacing.
+ * Typography stays driven by viewport width so the proportions
+ * remain consistent.
+ */
+
+@media (min-width: 1024px) and (max-height: 800px) {
+    .sc-ai-light-hero {
+        padding-top: 1.65rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .sc-ai-light-hero__title {
+        margin-bottom: 1rem;
+    }
+
+    .sc-ai-light-hero__lead {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+    .sc-ai-light-hero *,
+    .sc-ai-light-hero *::before,
+    .sc-ai-light-hero *::after {
+        animation-duration: 0.01ms !important;
+        animation-delay: 0ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}</style><div><section class="sc-ai-light-hero" aria-labelledby="sc-ai-light-hero-title">
+  <div class="sc-ai-light-hero__container">
+    <div class="sc-ai-light-hero__content">
+      <h1 id="sc-ai-light-hero-title" class="sc-ai-light-hero__title">
+        <span class="sc-ai-light-hero__title-intro">
+          AI is deciding who gets discovered.
+        </span>
+
+        <br class="sc-ai-light-hero__title-break">
+
+        <span class="sc-ai-light-hero__title-emphasis sc-gradient-text">
+          Sitecore makes sure you're the answer.
+        </span>
+      </h1>
+
+      <p class="sc-ai-light-hero__lead">
+        Sitecore is a leading content and digital experience platform that connects CMS, DAM and AI-search visibility. See how AI describes your brand, fix gaps at the source, create trusted content at scale, and turn discovery into revenue.
+      </p>
+
+      <div class="sc-ai-light-hero__actions">
+        <a class="sc-ai-light-hero__button sc-ai-light-hero__button--primary" href="/platform">
+          <span>Explore the platform</span>
+
+          <svg aria-hidden="true" viewBox="0 0 20 20" fill="none">
+            <path d="M4 10h11M11 6l4 4-4 4"></path>
+          </svg>
+        </a>
+
+        <a class="sc-ai-light-hero__button sc-ai-light-hero__button--secondary" href="https://symposium.sitecore.com/?utm_source=Sitecore_Homepage&amp;utm_campaign=Symposium_26" target="_blank" rel="noopener noreferrer">
+          <span>Join us at Symposium</span>
+
+          <svg aria-hidden="true" viewBox="0 0 20 20" fill="none">
+            <path d="M4 10h11M11 6l4 4-4 4"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section></div></div><section class="sc-section tiles-section Tiles-module-scss-module__O-fXFq__TilesSection Tiles-module-scss-module__O-fXFq__TilesAsCards sc-gradient-light-bg " id="tiles-capabilities" data-component-name="Tiles"><div class="container"><div class=" sc-grid Tiles-module-scss-module__O-fXFq__TilesSectionGrid"><div class="content-lockup flex w-full flex-col items-center text-center border-b-sc-grid Tiles-module-scss-module__O-fXFq__TilesSectionLockup py-6 lg:py-8 xl:py-10"><div class="content-lockup__content ContentLockup-module-scss-module__E5Ta6q__ContentLockupContent flex flex-1 flex-col gap-4 text-left"><h2 class="content-lockup__content__headline mx-auto text-center max-w-5xl text-sc-h4 !font-normal">One intelligent system, discovery to decision.</h2></div></div><div class="flex flex-col"><div class="relative flex w-full items-center"><div class="absolute left-0 top-1/2 z-20 -translate-y-1/2 md:static md:flex-shrink-0 md:translate-y-0 Tiles-module-scss-module__O-fXFq__TilesCarouselArrow"><button type="button" aria-label="Previous slide" class="MediaSlider-module-scss-module__XHbaKq__Arrow MediaSlider-module-scss-module__XHbaKq__ArrowPrev 
+        flex h-7 w-7 items-center justify-center rounded-full border 
+        border-sc-neutral-300 bg-white/90 shadow-md transition-all 
+        duration-300 hover:border-sc-red-500 hover:bg-white hover:shadow-lg 
+        focus:outline-none focus:ring-2 
+        focus:ring-sc-red-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50
+        disabled:hover:border-sc-neutral-300 disabled:hover:shadow-md 
+        sm:h-9 sm:w-9 md:bg-white md:shadow-sm md:hover:shadow-md lg:h-12 lg:w-12"><svg class="h-3.5 w-3.5 text-gray-700 sm:h-4 sm:w-4 lg:h-6 lg:w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg></button></div><div class="-my-4 min-w-0 flex-1 py-4 md:mx-2 overflow-hidden undefined"><div class="tiles__grid grid grid-flow-col auto-cols-[100%] sm:auto-cols-[50%] lg:auto-cols-[33.333%] Tiles-module-scss-module__O-fXFq__TilesSectionGridScrollableContainerTilesScrollable " style="transform: translate3d(0px, 0px, 0px);"><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2" style="transform: translate3d(0px, 0px, 0px);"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem Tiles-module-scss-module__O-fXFq__TilesAsCardItemClickable"><a href="/platform/ai-search" class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemOverlay" aria-label="Go to AI search"></a><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><div class="flex h-full flex-1 flex-col 2xl:flex-row 2xl:items-start 2xl:gap-3 0-sm:flex-row 0-sm:items-start 0-sm:gap-3"><div class="mb-3 flex-shrink-0 2xl:mb-0 0-sm:mb-0"><img alt="AI search icon" dam-content-type="Image" filename="AI-search.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/459796/thumbnail" dam-id="ZdsNY1LqRVe3kU4fLEA6Iw" loading="lazy" width="640" height="640" decoding="async" data-nimg="1" class="h-7 w-auto" style="color:transparent" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/332ff1e3077e4a31be42b4d4e4e1f0ff?v=7dcf07ce"></div><div class="flex h-full flex-1 flex-col"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">AI search - Powered by Scrunch</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Win the AI-first buyer</h3><div class="text-sm leading-relaxed text-gray-600"><p>Bridge AI discovery with personalized experiences to move buyers from search to engagement and conversion.</p></div></div></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2" style="transform: translate3d(0px, 0px, 0px);"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem Tiles-module-scss-module__O-fXFq__TilesAsCardItemClickable"><a href="/platform/ai-and-agents" class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemOverlay" aria-label="Go to AI and agents"></a><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><div class="flex h-full flex-1 flex-col 2xl:flex-row 2xl:items-start 2xl:gap-3 0-sm:flex-row 0-sm:items-start 0-sm:gap-3"><div class="mb-3 flex-shrink-0 2xl:mb-0 0-sm:mb-0"><img alt="SitecoreAI Agentic Studio AI and agents icon" dam-content-type="Image" filename="ai-and-agents.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/467260/thumbnail" dam-id="LBXqYHVmQ8Kd6XV2pc4gqw" loading="lazy" width="640" height="640" decoding="async" data-nimg="1" class="h-7 w-auto" style="color:transparent" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/d29c81fe9c3b4c85b91ea6838890f310?v=d34c6d61"></div><div class="flex h-full flex-1 flex-col"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">AI and agents</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Work with brand-aware AI</h3><div class="text-sm leading-relaxed text-gray-600"><p>Create on-brand with AI and 20+ agents included in SitecoreAI. Stay in control, with no add-ons or per-token fees.</p></div></div></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2" style="transform: translate3d(0px, 0px, 0px);"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem Tiles-module-scss-module__O-fXFq__TilesAsCardItemClickable"><a href="/platform/digital-asset-management" class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemOverlay" aria-label="Go to Digital Asset Management"></a><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><div class="flex h-full flex-1 flex-col 2xl:flex-row 2xl:items-start 2xl:gap-3 0-sm:flex-row 0-sm:items-start 0-sm:gap-3"><div class="mb-3 flex-shrink-0 2xl:mb-0 0-sm:mb-0"><img alt="Digital Asset Management" dam-content-type="Image" filename="digital-asset-management.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/386336/thumbnail" dam-id="e3Ve24RDQuuwVzgiBERO9g" loading="lazy" width="640" height="640" decoding="async" data-nimg="1" class="h-7 w-auto" style="color:transparent" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/a382c54596d24ea5a8b11c89cf5dca8a?v=4a4d76d9"></div><div class="flex h-full flex-1 flex-col"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">Digital Asset Management</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Shape the message</h3><div class="text-sm leading-relaxed text-gray-600"><p>Connect content, data, governance, and workflows so your teams can move faster without losing control.</p></div></div></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem Tiles-module-scss-module__O-fXFq__TilesAsCardItemClickable"><a href="/platform/content-management-system" class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemOverlay" aria-label="Go to Content Management System"></a><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><div class="flex h-full flex-1 flex-col 2xl:flex-row 2xl:items-start 2xl:gap-3 0-sm:flex-row 0-sm:items-start 0-sm:gap-3"><div class="mb-3 flex-shrink-0 2xl:mb-0 0-sm:mb-0"><img alt="Content Management System" dam-content-type="Image" filename="content-management-system.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/386337/thumbnail" dam-id="DTG5pFRkQOWQjuqoiUlb5Q" loading="lazy" width="640" height="640" decoding="async" data-nimg="1" class="h-7 w-auto" style="color:transparent" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/c918b34864ad4924a696c63db3caeebe?v=b218ea6b"></div><div class="flex h-full flex-1 flex-col"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">Content Management System</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Close the loop</h3><div class="text-sm leading-relaxed text-gray-600"><p>Bridge AI discovery with personalized experiences to move buyers from search to engagement and conversion.</p></div></div></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem Tiles-module-scss-module__O-fXFq__TilesAsCardItemClickable"><a href="/platform/content-operations" class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemOverlay" aria-label="Go to Content operations"></a><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><div class="flex h-full flex-1 flex-col 2xl:flex-row 2xl:items-start 2xl:gap-3 0-sm:flex-row 0-sm:items-start 0-sm:gap-3"><div class="mb-3 flex-shrink-0 2xl:mb-0 0-sm:mb-0"><img alt="Content operations" dam-content-type="Image" filename="content-operations.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/386343/thumbnail" dam-id="EaDbz7UlQ2ugQ-eXLcKPFQ" loading="lazy" width="640" height="640" decoding="async" data-nimg="1" class="h-7 w-auto" style="color:transparent" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b82a2cd5ba694a0fb29abf9c89d31cfc?v=f04e10fc"></div><div class="flex h-full flex-1 flex-col"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">Content operations</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Put content to work</h3><div class="text-sm leading-relaxed text-gray-600"><p>Plan, create, manage, and reuse content more efficiently with connected operations built to support enterprise scale.</p></div></div></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem Tiles-module-scss-module__O-fXFq__TilesAsCardItemClickable"><a href="/platform/audience-and-insights" class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemOverlay" aria-label="Go to Audience and insights"></a><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><div class="flex h-full flex-1 flex-col 2xl:flex-row 2xl:items-start 2xl:gap-3 0-sm:flex-row 0-sm:items-start 0-sm:gap-3"><div class="mb-3 flex-shrink-0 2xl:mb-0 0-sm:mb-0"><img alt="Audiences intelligence" dam-content-type="Image" filename="audiences-and-intelligence.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/386346/thumbnail" dam-id="wSVYX3zlSKaevl7oBLBbJg" loading="lazy" width="640" height="640" decoding="async" data-nimg="1" class="h-7 w-auto" style="color:transparent" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0420167544864a04880e546a91cf8e83?v=7e4d7857"></div><div class="flex h-full flex-1 flex-col"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">Audience and insights</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Know your audience</h3><div class="text-sm leading-relaxed text-gray-600"><p>Build a richer understanding of every customer with unified data and insights that reveal behavior, intent, and opportunity.</p></div></div></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem Tiles-module-scss-module__O-fXFq__TilesAsCardItemClickable"><a href="/platform/conversion-optimization" class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemOverlay" aria-label="Go to Conversion optimization"></a><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><div class="flex h-full flex-1 flex-col 2xl:flex-row 2xl:items-start 2xl:gap-3 0-sm:flex-row 0-sm:items-start 0-sm:gap-3"><div class="mb-3 flex-shrink-0 2xl:mb-0 0-sm:mb-0"><img alt="Conversion optimization" dam-content-type="Image" filename="conversion-optimization.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/386342/thumbnail" dam-id="qvEwWix4SfOMA8WS3Sia0g" loading="lazy" width="640" height="640" decoding="async" data-nimg="1" class="h-7 w-auto" style="color:transparent" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0f8e55dbff0a405ebf895017f2b41d13?v=1f87c538"></div><div class="flex h-full flex-1 flex-col"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">Conversion optimization</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Build better experiences</h3><div class="text-sm leading-relaxed text-gray-600"><p>Use experimentation and performance insights to continually refine experiences and improve conversion outcomes.</p></div></div></div></div></div></div></div></div></div><div class="absolute right-0 top-1/2 z-20 -translate-y-1/2 md:static md:flex-shrink-0 md:translate-y-0 Tiles-module-scss-module__O-fXFq__TilesCarouselArrow"><button type="button" aria-label="Next slide" class="MediaSlider-module-scss-module__XHbaKq__Arrow MediaSlider-module-scss-module__XHbaKq__ArrowNext 
+        flex h-7 w-7 items-center justify-center rounded-full border 
+        border-sc-neutral-300 bg-white/90 shadow-md transition-all 
+        duration-300 hover:border-sc-red-500 hover:bg-white hover:shadow-lg 
+        focus:outline-none focus:ring-2 
+        focus:ring-sc-red-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50
+        disabled:hover:border-sc-neutral-300 disabled:hover:shadow-md 
+        sm:h-9 sm:w-9 md:bg-white md:shadow-sm md:hover:shadow-md lg:h-12 lg:w-12"><svg class="h-3.5 w-3.5 text-gray-700 sm:h-4 sm:w-4 lg:h-6 lg:w-6 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg></button></div></div></div></div></div></section><section class="sc-section logo-carousel-section LogoCarousel-module-scss-module__BodmHG__LogoCarousel bg-sc-neutral-100 " data-component-name="LogoCarousel"><div class="container"><div class=" sc-grid LogoCarousel-module-scss-module__BodmHG__LogoCarouselGrid LogoCarousel-module-scss-module__BodmHG__LogoCarouselGridCompact"><div class="LogoCarousel-module-scss-module__BodmHG__LogoCarouselCarousel " role="region" aria-label="Logo carousel" aria-roledescription="carousel"><div class="flex items-center gap-8 py-1 pl-6 sm:gap-10 sm:pl-7 md:gap-12 md:pl-8 xl:gap-14" style="transform: translate3d(-76.4px, 0px, 0px);"><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best Enterprise Badge" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best Enterprise Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5819c979ab6a499990cff717d69d7467?t=sc120h" alt="CMS Critic Awards 2025 Best Enterprise Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Momentum Leader" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Momentum Leader"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/959f9bf5420f4c1d8857eb1fc9af1acd?t=sc120h" alt="G2 Fall 2026 - Momentum Leader" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius 2026 Buyer's Choice Badge" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="TrustRadius 2026 Buyer's Choice Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/39df36f107c34e949d41995d2b20ca30?t=sc120h" alt="TrustRadius 2026 Buyer's Choice Badge" loading="lazy" decoding="async" style="height: 85px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Results Enterprise" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Results Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/ff7162564bb7480e9bd682fa366cf35d?t=sc120h" alt="G2 Fall 2026 - Best Results Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best AI Badge" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best AI Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/66f7cec215f04db19e2c1bb88a5872e2?t=sc120h" alt="CMS Critic Awards 2025 Best AI Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius Fall 2026 Tech Cares Badge" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="TrustRadius Fall 2026 Tech Cares Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/029c1873a6344cbb9018cff9db091b2a?t=sc120h" alt="TrustRadius Fall 2026 Tech Cares Badge" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Relationship Enterprise" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Relationship Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/81ecc0861e7b48b993cba8f5d13ff11a?t=sc120h" alt="G2 Fall 2026 - Best Relationship Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best CDP Badge" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best CDP Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/60311da87f334bf39dd3be53653b9047?t=sc120h" alt="CMS Critic Awards 2025 Best CDP Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Usability Enterprise" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Usability Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0e90f05e73974b12ac57ac385c171110?t=sc120h" alt="G2 Fall 2026 - Best Usability Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best DAM Badge" style="transform: translate3d(0px, 0px, 0px);"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best DAM Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/971e7b2d941a497396f453033621fdf8?t=sc120h" alt="CMS Critic Awards 2025 Best DAM Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Leader"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Leader"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/d306a622f92b4ec4865fe1ac17c15c77?t=sc120h" alt="G2 Fall 2026 - Leader" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best DXP Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best DXP Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/85e7e61001cf479a98cf31796df0c2b5?t=sc120h" alt="CMS Critic Awards 2025 Best DXP Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 2026 - Users Love Us"><div class=""><div class="flex flex-col items-center " title="G2 2026 - Users Love Us"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1c9a6a26d20948fb85a1e3ed35f87985?t=sc120h" alt="G2 2026 - Users Love Us" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius 2025 Top Rated Badge"><div class=""><div class="flex flex-col items-center " title="TrustRadius 2025 Top Rated Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/c42e631b468f45ba94aa05368d82ee4a?t=sc120h" alt="TrustRadius 2025 Top Rated Badge" loading="lazy" decoding="async" style="height: 85px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best Headless CMS Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best Headless CMS Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/99aa671fcb32491ebf452c715131c8d2?t=sc120h" alt="CMS Critic Awards 2025 Best Headless CMS Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best Enterprise Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best Enterprise Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5819c979ab6a499990cff717d69d7467?t=sc120h" alt="CMS Critic Awards 2025 Best Enterprise Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Momentum Leader"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Momentum Leader"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/959f9bf5420f4c1d8857eb1fc9af1acd?t=sc120h" alt="G2 Fall 2026 - Momentum Leader" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius 2026 Buyer's Choice Badge"><div class=""><div class="flex flex-col items-center " title="TrustRadius 2026 Buyer's Choice Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/39df36f107c34e949d41995d2b20ca30?t=sc120h" alt="TrustRadius 2026 Buyer's Choice Badge" loading="lazy" decoding="async" style="height: 85px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Results Enterprise"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Results Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/ff7162564bb7480e9bd682fa366cf35d?t=sc120h" alt="G2 Fall 2026 - Best Results Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best AI Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best AI Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/66f7cec215f04db19e2c1bb88a5872e2?t=sc120h" alt="CMS Critic Awards 2025 Best AI Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius Fall 2026 Tech Cares Badge"><div class=""><div class="flex flex-col items-center " title="TrustRadius Fall 2026 Tech Cares Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/029c1873a6344cbb9018cff9db091b2a?t=sc120h" alt="TrustRadius Fall 2026 Tech Cares Badge" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Relationship Enterprise"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Relationship Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/81ecc0861e7b48b993cba8f5d13ff11a?t=sc120h" alt="G2 Fall 2026 - Best Relationship Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best CDP Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best CDP Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/60311da87f334bf39dd3be53653b9047?t=sc120h" alt="CMS Critic Awards 2025 Best CDP Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Usability Enterprise"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Usability Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0e90f05e73974b12ac57ac385c171110?t=sc120h" alt="G2 Fall 2026 - Best Usability Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best DAM Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best DAM Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/971e7b2d941a497396f453033621fdf8?t=sc120h" alt="CMS Critic Awards 2025 Best DAM Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Leader"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Leader"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/d306a622f92b4ec4865fe1ac17c15c77?t=sc120h" alt="G2 Fall 2026 - Leader" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best DXP Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best DXP Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/85e7e61001cf479a98cf31796df0c2b5?t=sc120h" alt="CMS Critic Awards 2025 Best DXP Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 2026 - Users Love Us"><div class=""><div class="flex flex-col items-center " title="G2 2026 - Users Love Us"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1c9a6a26d20948fb85a1e3ed35f87985?t=sc120h" alt="G2 2026 - Users Love Us" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius 2025 Top Rated Badge"><div class=""><div class="flex flex-col items-center " title="TrustRadius 2025 Top Rated Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/c42e631b468f45ba94aa05368d82ee4a?t=sc120h" alt="TrustRadius 2025 Top Rated Badge" loading="lazy" decoding="async" style="height: 85px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best Headless CMS Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best Headless CMS Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/99aa671fcb32491ebf452c715131c8d2?t=sc120h" alt="CMS Critic Awards 2025 Best Headless CMS Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best Enterprise Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best Enterprise Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5819c979ab6a499990cff717d69d7467?t=sc120h" alt="CMS Critic Awards 2025 Best Enterprise Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Momentum Leader"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Momentum Leader"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/959f9bf5420f4c1d8857eb1fc9af1acd?t=sc120h" alt="G2 Fall 2026 - Momentum Leader" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius 2026 Buyer's Choice Badge"><div class=""><div class="flex flex-col items-center " title="TrustRadius 2026 Buyer's Choice Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/39df36f107c34e949d41995d2b20ca30?t=sc120h" alt="TrustRadius 2026 Buyer's Choice Badge" loading="lazy" decoding="async" style="height: 85px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Results Enterprise"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Results Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/ff7162564bb7480e9bd682fa366cf35d?t=sc120h" alt="G2 Fall 2026 - Best Results Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best AI Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best AI Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/66f7cec215f04db19e2c1bb88a5872e2?t=sc120h" alt="CMS Critic Awards 2025 Best AI Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius Fall 2026 Tech Cares Badge"><div class=""><div class="flex flex-col items-center " title="TrustRadius Fall 2026 Tech Cares Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/029c1873a6344cbb9018cff9db091b2a?t=sc120h" alt="TrustRadius Fall 2026 Tech Cares Badge" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Relationship Enterprise"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Relationship Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/81ecc0861e7b48b993cba8f5d13ff11a?t=sc120h" alt="G2 Fall 2026 - Best Relationship Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best CDP Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best CDP Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/60311da87f334bf39dd3be53653b9047?t=sc120h" alt="CMS Critic Awards 2025 Best CDP Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Best Usability Enterprise"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Best Usability Enterprise"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0e90f05e73974b12ac57ac385c171110?t=sc120h" alt="G2 Fall 2026 - Best Usability Enterprise" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best DAM Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best DAM Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/971e7b2d941a497396f453033621fdf8?t=sc120h" alt="CMS Critic Awards 2025 Best DAM Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 Fall 2026 - Leader"><div class=""><div class="flex flex-col items-center " title="G2 Fall 2026 - Leader"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/d306a622f92b4ec4865fe1ac17c15c77?t=sc120h" alt="G2 Fall 2026 - Leader" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best DXP Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best DXP Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/85e7e61001cf479a98cf31796df0c2b5?t=sc120h" alt="CMS Critic Awards 2025 Best DXP Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="G2 2026 - Users Love Us"><div class=""><div class="flex flex-col items-center " title="G2 2026 - Users Love Us"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1c9a6a26d20948fb85a1e3ed35f87985?t=sc120h" alt="G2 2026 - Users Love Us" loading="lazy" decoding="async" style="height: 90px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="TrustRadius 2025 Top Rated Badge"><div class=""><div class="flex flex-col items-center " title="TrustRadius 2025 Top Rated Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/c42e631b468f45ba94aa05368d82ee4a?t=sc120h" alt="TrustRadius 2025 Top Rated Badge" loading="lazy" decoding="async" style="height: 85px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div><div class="outline-2 outline-offset-2 outline-indigo-600 focus-within:outline LogoCarousel-module-scss-module__BodmHG__LogoCarouselItem" title="CMS Critic Awards 2025 Best Headless CMS Badge"><div class=""><div class="flex flex-col items-center " title="CMS Critic Awards 2025 Best Headless CMS Badge"><div class="relative flex items-center justify-center "><img src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/99aa671fcb32491ebf452c715131c8d2?t=sc120h" alt="CMS Critic Awards 2025 Best Headless CMS Badge" loading="lazy" decoding="async" style="height: 77px;" class="w-auto object-contain transition-opacity duration-300 max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] opacity-100 "></div></div></div></div></div></div></div></div></section><section class="sc-section media-section overflow-hidden MediaSection-module-scss-module__TbrzRG__MediaSection bg-white " id="scrunch" data-component-name="MediaSection"><div class="container"><div class=" sc-grid px-sc-grid-padding-x"><div class="content-lockup flex w-full flex-col items-start lg:flex-row lg:items-center lg:justify-between undefined py-6 lg:py-8 xl:py-10"><div class="content-lockup__content ContentLockup-module-scss-module__E5Ta6q__ContentLockupContent flex flex-1 flex-col gap-4 text-left"><h2 class="content-lockup__content__headline  max-w-5xl text-sc-h4 !font-normal">Show up and stand out in AI search</h2><div class="content-lockup__content__description ContentLockup-module-scss-module__E5Ta6q__ContentLockupContentDescription  rich-text max-w-2xl"><p>Scrunch, now part of Sitecore, works with your existing technology stack to reveal how AI describes your brand, where you're missing from buying conversations, and where you can improve. Then SitecoreAI puts those insights to work. Personalize every experience, and put agentic AI to work, closing the loop between AI discovery and customer acquisition.</p></div></div></div><div><figure class="relative flex MediaSection-module-scss-module__TbrzRG__noPaddingTop MediaSection-module-scss-module__TbrzRG__noPaddingBottom"><div class="media-content-wrapper flex w-full"><div class="w-full"><div class="w-full ExpandableContentImage-module-scss-module__qnfl-W__ImageShadow "><div class="relative z-[1]"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77936 / 1;"><div class="overflow-hidden rounded"><img alt="frame from Scrunch and Sitecore Content machine video" dam-content-type="Image" filename="scrunch-sitecore-content-machine-thumbnail.png" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/470281/thumbnail" dam-id="ihQSs-VpRji7cndDFP3iAg" loading="lazy" width="1000" height="562" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/0f8db9d732e84a3c8e5a1b440870406c?t=sc1600" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 1203.52px; left: 646.578px; width: 720px; max-width: 0px; aspect-ratio: 1.77936 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></div></div></div></figure></div><div class="mt-4 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:items-start !mt-0 py-6 lg:py-8 xl:py-10 " data-component-name="CTASelection"><div class="cta-button w-fit  " data-component-name="CTA"><a title="" target="" class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaReverseBtn CTA-module-scss-module___ODA1q__ctaReverseArrow " locale="" href="/platform/ai-search">Start with your AI visibility</a></div></div></div></div></section><dialog class="fixed left-1/2 top-1/2 z-10 m-0 max-h-none max-w-none -translate-x-1/2 -translate-y-1/2 overflow-visible border-0 bg-transparent p-0 opacity-100 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px]"></dialog><section class="sc-section tiles-section Tiles-module-scss-module__O-fXFq__TilesSection Tiles-module-scss-module__O-fXFq__TilesAsCards sc-gradient-light-bg " id="tiles-answer" data-component-name="Tiles"><div class="container"><div class=" sc-grid Tiles-module-scss-module__O-fXFq__TilesSectionGrid"><div class="content-lockup flex w-full flex-col items-center text-center border-b-sc-grid Tiles-module-scss-module__O-fXFq__TilesSectionLockup py-6 lg:py-8 xl:py-10"><div class="content-lockup__content ContentLockup-module-scss-module__E5Ta6q__ContentLockupContent flex flex-1 flex-col gap-4 text-left"><small class="content-lockup__content__eyebrow mx-auto text-center block max-w-5xl text-sc-eyebrow-m uppercase">Transform marketing ambition</small><h2 class="content-lockup__content__headline mx-auto text-center max-w-5xl text-sc-h4 !font-normal">Be the answer your customer trusts</h2><div class="content-lockup__content__description ContentLockup-module-scss-module__E5Ta6q__ContentLockupContentDescription mx-auto text-center rich-text max-w-2xl"><p>Connect AI visibility with content creation and digital experiences so every customer interaction becomes an opportunity to grow.</p></div></div></div><div class="tiles__grid sc-tiles Tiles-module-scss-module__O-fXFq__TilesSectionGridTiles sc-tiles-3col grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem "><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">Be unmistakable</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Show up in AI answers</h3><div class="text-sm leading-relaxed text-gray-600"><p>Buyers now ask ChatGPT before they ever reach your site. SitecoreAI structures your content, so AI engines find it, trust it, and cite it accurately, before your competitors are the answer instead.</p></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem "><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">A thriving network of innovators</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">Learn from the largest DX community</h3><div class="text-sm leading-relaxed text-gray-600"><p>Thousands of practitioners, partners and MVPs have built on Sitecore for over two decades. Learn from their playbooks and shared expertise.</p></div></div></div></div></div><div class="tiles__grid__item Tiles-module-scss-module__O-fXFq__TilesSectionGridTilesItem px-2"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItem "><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemInner"><div class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemContent"><p class="mb-2 w-fit text-xs font-bold uppercase tracking-wide sc-gradient-text">Stay in control</p><h3 class="Tiles-module-scss-module__O-fXFq__TilesAsCardItemTitle mb-2 font-semibold leading-tight">AI with guardrails built in</h3><div class="text-sm leading-relaxed text-gray-600"><p>Approval workflows, brand-voice controls and enterprise-grade security define what AI can do and what stays human. Your team moves at AI speed. Your brand never leaves your hands.</p></div></div></div></div></div></div></div></div></section><div><section class="sc-section recommendations-section sc-gradient-light-bg " data-component-name="Recommendations"><div class="container"><div class=" sc-grid"><div class="content-lockup flex w-full flex-col items-center text-center !pb-3 lg:!pb-4 xl:!pb-5 py-6 lg:py-8 xl:py-10"><div class="content-lockup__content ContentLockup-module-scss-module__E5Ta6q__ContentLockupContent flex flex-1 flex-col gap-4 text-left"><small class="content-lockup__content__eyebrow mx-auto text-center block max-w-5xl text-sc-eyebrow-m uppercase">Events &amp; webinars</small><h2 class="content-lockup__content__headline mx-auto text-center max-w-5xl text-sc-h4 !font-normal">Explore Sitecore events and webinars</h2><div class="content-lockup__content__description ContentLockup-module-scss-module__E5Ta6q__ContentLockupContentDescription mx-auto text-center rich-text max-w-2xl"><p>Join upcoming events and webinars or watch sessions on demand with Sitecore experts.</p></div></div></div><div class="pb-6 pt-5 lg:pb-8 xl:pb-10"><div class="flex flex-col RecommendationsList-module-scss-module__wuPOwa__RecommendationsCarousel"><div class="relative flex w-full items-center "><div class="absolute left-0 top-1/2 z-20 -translate-y-1/2 md:static md:flex-shrink-0 md:translate-y-0"><button type="button" aria-label="Previous slide" class="MediaSlider-module-scss-module__XHbaKq__Arrow MediaSlider-module-scss-module__XHbaKq__ArrowPrev 
+        flex h-7 w-7 items-center justify-center rounded-full border 
+        border-sc-neutral-300 bg-white/90 shadow-md transition-all 
+        duration-300 hover:border-sc-red-500 hover:bg-white hover:shadow-lg 
+        focus:outline-none focus:ring-2 
+        focus:ring-sc-red-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50
+        disabled:hover:border-sc-neutral-300 disabled:hover:shadow-md 
+        sm:h-9 sm:w-9 md:bg-white md:shadow-sm md:hover:shadow-md lg:h-12 lg:w-12"><svg class="h-3.5 w-3.5 text-gray-700 sm:h-4 sm:w-4 lg:h-6 lg:w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg></button></div><div class="-my-4 min-w-0 flex-1 overflow-hidden py-4 md:mx-2"><div class="flex" style="transform: translate3d(0px, 0px, 0px);"><div class="flex shrink-0 grow-0 basis-full px-2 md:basis-1/2 xl:basis-1/3 2xl:basis-1/4" style="transform: translate3d(0px, 0px, 0px);"><div class="w-full animate-pulse overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm"><div class="aspect-[1.91/1] w-full bg-gray-200"></div><div class="p-5"><div class="mb-3 h-5 w-24 rounded-full bg-gray-200"></div><div class="mb-2 h-5 rounded-full bg-gray-200"></div><div class="mb-4 h-5 w-4/5 rounded-full bg-gray-200"></div><div class="mb-2 h-3.5 rounded-full bg-gray-100"></div><div class="mb-2 h-3.5 w-11/12 rounded-full bg-gray-100"></div><div class="h-3.5 w-3/4 rounded-full bg-gray-100"></div></div></div></div><div class="flex shrink-0 grow-0 basis-full px-2 md:basis-1/2 xl:basis-1/3 2xl:basis-1/4" style="transform: translate3d(0px, 0px, 0px);"><div class="w-full animate-pulse overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm"><div class="aspect-[1.91/1] w-full bg-gray-200"></div><div class="p-5"><div class="mb-3 h-5 w-24 rounded-full bg-gray-200"></div><div class="mb-2 h-5 rounded-full bg-gray-200"></div><div class="mb-4 h-5 w-4/5 rounded-full bg-gray-200"></div><div class="mb-2 h-3.5 rounded-full bg-gray-100"></div><div class="mb-2 h-3.5 w-11/12 rounded-full bg-gray-100"></div><div class="h-3.5 w-3/4 rounded-full bg-gray-100"></div></div></div></div><div class="flex shrink-0 grow-0 basis-full px-2 md:basis-1/2 xl:basis-1/3 2xl:basis-1/4" style="transform: translate3d(0px, 0px, 0px);"><div class="w-full animate-pulse overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm"><div class="aspect-[1.91/1] w-full bg-gray-200"></div><div class="p-5"><div class="mb-3 h-5 w-24 rounded-full bg-gray-200"></div><div class="mb-2 h-5 rounded-full bg-gray-200"></div><div class="mb-4 h-5 w-4/5 rounded-full bg-gray-200"></div><div class="mb-2 h-3.5 rounded-full bg-gray-100"></div><div class="mb-2 h-3.5 w-11/12 rounded-full bg-gray-100"></div><div class="h-3.5 w-3/4 rounded-full bg-gray-100"></div></div></div></div><div class="flex shrink-0 grow-0 basis-full px-2 md:basis-1/2 xl:basis-1/3 2xl:basis-1/4"><div class="w-full animate-pulse overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm"><div class="aspect-[1.91/1] w-full bg-gray-200"></div><div class="p-5"><div class="mb-3 h-5 w-24 rounded-full bg-gray-200"></div><div class="mb-2 h-5 rounded-full bg-gray-200"></div><div class="mb-4 h-5 w-4/5 rounded-full bg-gray-200"></div><div class="mb-2 h-3.5 rounded-full bg-gray-100"></div><div class="mb-2 h-3.5 w-11/12 rounded-full bg-gray-100"></div><div class="h-3.5 w-3/4 rounded-full bg-gray-100"></div></div></div></div></div></div><div class="absolute right-0 top-1/2 z-20 -translate-y-1/2 md:static md:flex-shrink-0 md:translate-y-0"><button type="button" aria-label="Next slide" class="MediaSlider-module-scss-module__XHbaKq__Arrow MediaSlider-module-scss-module__XHbaKq__ArrowNext 
+        flex h-7 w-7 items-center justify-center rounded-full border 
+        border-sc-neutral-300 bg-white/90 shadow-md transition-all 
+        duration-300 hover:border-sc-red-500 hover:bg-white hover:shadow-lg 
+        focus:outline-none focus:ring-2 
+        focus:ring-sc-red-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50
+        disabled:hover:border-sc-neutral-300 disabled:hover:shadow-md 
+        sm:h-9 sm:w-9 md:bg-white md:shadow-sm md:hover:shadow-md lg:h-12 lg:w-12"><svg class="h-3.5 w-3.5 text-gray-700 sm:h-4 sm:w-4 lg:h-6 lg:w-6 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg></button></div></div><div class="mt-6 flex justify-center sm:mt-8"><div class="cta-button w-fit  " data-component-name="CTA"><a title="" target="" class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaReverseBtn CTA-module-scss-module___ODA1q__ctaReverseArrow " locale="" href="/resources/events-webinars">See all events and webinars</a></div></div></div></div></div></div></section></div><section class="sc-section media-slider media-slider--compact MediaSlider-module-scss-module__XHbaKq__MediaSlider sc-gradient-light-bg " data-component-name="MediaSlider"><div class="container"><div class=" sc-grid flex items-start justify-center px-4 sm:px-6 md:px-8 lg:px-10 gap-0 relative"><div class="w-full"><div class="content-lockup flex w-full flex-col items-center text-center border-b-sc-grid mb-4 lg:mb-12 py-6 lg:py-8 xl:py-10"><div class="content-lockup__content ContentLockup-module-scss-module__E5Ta6q__ContentLockupContent flex flex-1 flex-col gap-4 text-left"><small class="content-lockup__content__eyebrow mx-auto text-center block max-w-5xl text-sc-eyebrow-m uppercase">Customer stories</small><h2 class="content-lockup__content__headline mx-auto text-center max-w-5xl text-sc-h4 !font-normal">See how brands are winning with Sitecore</h2><div class="content-lockup__content__description ContentLockup-module-scss-module__E5Ta6q__ContentLockupContentDescription mx-auto text-center rich-text max-w-2xl"><p>Hear directly from organizations using Sitecore to modernize their digital experience, simplify complexity, and deliver measurable results.</p></div></div></div><div class="undefined mb-6 flex flex-wrap justify-center gap-x-5 gap-y-2 sm:gap-x-8 sm:gap-y-3 lg:hidden" role="tablist" aria-label="Slide navigation"><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-0" aria-selected="true" aria-controls="_R_7tanpfl5uivb_-panel-0" tabindex="0" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          " aria-label="How ENMAX transformed their digital experience"><img alt="Enmax logo" dam-content-type="Image" filename="enmax-logo-color.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/429582/thumbnail" dam-id="qKpRjLU0QXC4neIOZpOKOQ" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 27px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b96440d2b9a74eb09ed5cfe8feefa44b?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-sc-red-700" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-1" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-1" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Shriners Children’s modernized care through DX"><img alt="Shriner's children logo" dam-content-type="Image" filename="shriners-children-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432759/thumbnail" dam-id="EL45ip_LRyiShJrjPaLDew" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 28px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/9f1c469a57ec44aaa262536a0366f0e9?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-2" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-2" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="How GoTo Technologies modernized its digital experience"><img alt="GoTo Technologies logo" dam-content-type="Image" filename="goto-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432755/thumbnail" dam-id="Lz79UWTWRHuUtEmnN1QVuw" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 33px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4272c19c000b4500a1745357ce27eb8f?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-3" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-3" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="The backbone of AFL's martech stack"><img alt="AFL logo" dam-content-type="Image" filename="afl-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432760/thumbnail" dam-id="OFPg0gtIRbCGNvIlvBhobw" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 26px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/6b3ebe50dab04bc1b837ccd2bbe384f6?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-4" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-4" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Powering Atkore's digital growth"><img alt="Atkore logo" dam-content-type="Image" filename="Atkore-Logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/125107/thumbnail" dam-id="n-WDJuI1QreiD3o2GO9w2g" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 26px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4a7b290eec094d3c988f929765e4a6dc?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-5" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-5" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Hexagon’s digital transformation"><img alt="Hexagon logo" dam-content-type="Image" filename="hexagon-sitecore-customer-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432655/thumbnail" dam-id="zh6nFy8yTMCIsrJ7Tc6XHw" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 26px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/6b5cc0d58c51452cac3db0e068f4c1cf?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-6" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-6" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Transforming the Travel Money experience"><img alt="Travel Money Group logo" dam-content-type="Image" filename="tmoz-light.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/427168/thumbnail" dam-id="uJ1vS1CpQVOaklM92E6LrQ" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 26px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/a1ba983e13e841378a963c1216735324?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-7" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-7" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Modernizing BOK Financial's digital experience"><img alt="Sitecore customer BOK Financial logo" dam-content-type="Image" filename="bok-financial-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/433469/thumbnail" dam-id="iuVCbUPhSzGLxDdUITAIIQ" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 26px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/fd290c7afa7043d3bf8f743750fe60fd?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button></div><div class="flex flex-col gap-3 pb-2 lg:hidden" role="region" aria-label="Customer stories"><div id="media-slider-accordion-0" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemActive border border-sc-neutral-300 bg-white"><button type="button" id="accordion-header-0" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-900" aria-expanded="true" aria-controls="accordion-content-0"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-900">How ENMAX transformed their digital experience</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 rotate-180 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-0" role="region" aria-labelledby="accordion-header-0" class="transition-all duration-300 max-h-[500px] px-4 pb-4 opacity-100" aria-hidden="false"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="0" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for ENMAX digital experience video" dam-content-type="Image" filename="sitecore-customer-video-enmax-digital-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432686/thumbnail" dam-id="mZwh2LvoTmilpV1_0j_MIA" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b465b0f49b834549b86767b4c5244380?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div id="media-slider-accordion-1" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemInactive border border-sc-neutral-200 bg-sc-neutral-100"><button type="button" id="accordion-header-1" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-600" aria-expanded="false" aria-controls="accordion-content-1"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-600">Shriners Children’s modernized care through DX</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-1" role="region" aria-labelledby="accordion-header-1" class="transition-all duration-300 max-h-0 overflow-hidden opacity-0" aria-hidden="true"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Shriner's Children modernizing care digital experience video" dam-content-type="Image" filename="sitecore-customer-video-shriners-children-modernizing-care-digital-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432692/thumbnail" dam-id="Zoz5pCKqTIiWMctemjBCxw" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/39f615424f93440ebe4b56a766235260?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div id="media-slider-accordion-2" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemInactive border border-sc-neutral-200 bg-sc-neutral-100"><button type="button" id="accordion-header-2" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-600" aria-expanded="false" aria-controls="accordion-content-2"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-600">How GoTo Technologies modernized its digital experience</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-2" role="region" aria-labelledby="accordion-header-2" class="transition-all duration-300 max-h-0 overflow-hidden opacity-0" aria-hidden="true"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for GoTo Technologies transformed digital experience video" dam-content-type="Image" filename="sitecore-customer-video-goto-technologies-transformed-its-digital-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432688/thumbnail" dam-id="lglulCzERgKxQj73SWkEMA" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/d6ee167c6c3c4f9fb82e578ed7975250?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div id="media-slider-accordion-3" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemInactive border border-sc-neutral-200 bg-sc-neutral-100"><button type="button" id="accordion-header-3" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-600" aria-expanded="false" aria-controls="accordion-content-3"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-600">The backbone of AFL's martech stack</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-3" role="region" aria-labelledby="accordion-header-3" class="transition-all duration-300 max-h-0 overflow-hidden opacity-0" aria-hidden="true"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for AFL martech stack video" dam-content-type="Image" filename="sitecore-customer-video-afl-martech-stack-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432684/thumbnail" dam-id="iSAhbpeRR_W34eO7-ie3Ig" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b28637b815bc4fc29be4773d660c5370?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div id="media-slider-accordion-4" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemInactive border border-sc-neutral-200 bg-sc-neutral-100"><button type="button" id="accordion-header-4" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-600" aria-expanded="false" aria-controls="accordion-content-4"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-600">Powering Atkore's digital growth</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-4" role="region" aria-labelledby="accordion-header-4" class="transition-all duration-300 max-h-0 overflow-hidden opacity-0" aria-hidden="true"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Atkore powering digital growth video" dam-content-type="Image" filename="sitecore-customer-video-atkore-powering-digital-growth-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432682/thumbnail" dam-id="wpxDiP7vQEeyChH4L_C0sQ" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1fdcb2f05cce418285070eef2a5f73b3?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div id="media-slider-accordion-5" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemInactive border border-sc-neutral-200 bg-sc-neutral-100"><button type="button" id="accordion-header-5" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-600" aria-expanded="false" aria-controls="accordion-content-5"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-600">Hexagon’s digital transformation</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-5" role="region" aria-labelledby="accordion-header-5" class="transition-all duration-300 max-h-0 overflow-hidden opacity-0" aria-hidden="true"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Hexagon digital transformation video" dam-content-type="Image" filename="sitecore-customer-video-hexagon-digital-transformation-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432689/thumbnail" dam-id="OpB4wPxASxGawlxsgaPKHw" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/51736af1ddf04982ba5c19ae7d5ddeba?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div id="media-slider-accordion-6" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemInactive border border-sc-neutral-200 bg-sc-neutral-100"><button type="button" id="accordion-header-6" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-600" aria-expanded="false" aria-controls="accordion-content-6"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-600">Transforming the Travel Money experience</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-6" role="region" aria-labelledby="accordion-header-6" class="transition-all duration-300 max-h-0 overflow-hidden opacity-0" aria-hidden="true"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Travel Money Group Oz transforming experience video" dam-content-type="Image" filename="sitecore-customer-video-travel-money-oz-transforming-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/433439/thumbnail" dam-id="9wOYxcS_RI2GpSyPTNb6jw" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/8245003de6d34278ab42e0dabe456818?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div id="media-slider-accordion-7" class="MediaSlider-module-scss-module__XHbaKq__AccordionItem overflow-hidden rounded-lg transition-all duration-300 MediaSlider-module-scss-module__XHbaKq__AccordionItemInactive border border-sc-neutral-200 bg-sc-neutral-100"><button type="button" id="accordion-header-7" class="flex w-full items-center justify-between p-4 text-left transition-colors duration-300 text-gray-600" aria-expanded="false" aria-controls="accordion-content-7"><span class="text-sm font-semibold transition-colors duration-300 sm:text-base text-gray-600">Modernizing BOK Financial's digital experience</span><svg class="h-5 w-5 flex-shrink-0 transition-all duration-300 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div id="accordion-content-7" role="region" aria-labelledby="accordion-header-7" class="transition-all duration-300 max-h-0 overflow-hidden opacity-0" aria-hidden="true"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for BOK Financial modernising digital experience video" dam-content-type="Image" filename="sitecore-customer-video-bok-financial-modernising-digital-experince-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/433440/thumbnail" dam-id="YJAs34DvQOqJwF0L19YBWg" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/efc51d605a1644598e8af3774f905734?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 0px; left: 0px; width: 0px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div></div><div class="mt-4 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:items-start !mt-4 justify-center pb-8 lg:hidden" data-component-name="CTASelection"><div class="cta-button w-fit  " data-component-name="CTA"><a title="" target="" class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaReverseBtn CTA-module-scss-module___ODA1q__ctaReverseArrow " locale="" href="/solutions/customers">See all customers</a></div></div><div class="MediaSlider-module-scss-module__XHbaKq__CompactLayout hidden gap-4 lg:flex lg:flex-row lg:items-start lg:pb-12" tabindex="0" role="region" aria-label="Media slider" aria-roledescription="carousel"><div class="MediaSlider-module-scss-module__XHbaKq__CompactMediaArea relative w-full lg:w-1/2 xl:w-[60%]"><div class="MediaSlider-module-scss-module__XHbaKq__SlideContainer relative rounded-lg"><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideActive" role="tabpanel" aria-hidden="false" id="_R_7tanpfl5uivb_-panel-0" aria-labelledby="_R_7tanpfl5uivb_-tab-0"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="0" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for ENMAX digital experience video" dam-content-type="Image" filename="sitecore-customer-video-enmax-digital-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432686/thumbnail" dam-id="mZwh2LvoTmilpV1_0j_MIA" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b465b0f49b834549b86767b4c5244380?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 89.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideHidden" role="tabpanel" aria-hidden="true" id="_R_7tanpfl5uivb_-panel-1" aria-labelledby="_R_7tanpfl5uivb_-tab-1"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Shriner's Children modernizing care digital experience video" dam-content-type="Image" filename="sitecore-customer-video-shriners-children-modernizing-care-digital-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432692/thumbnail" dam-id="Zoz5pCKqTIiWMctemjBCxw" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/39f615424f93440ebe4b56a766235260?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 79.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideHidden" role="tabpanel" aria-hidden="true" id="_R_7tanpfl5uivb_-panel-2" aria-labelledby="_R_7tanpfl5uivb_-tab-2"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for GoTo Technologies transformed digital experience video" dam-content-type="Image" filename="sitecore-customer-video-goto-technologies-transformed-its-digital-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432688/thumbnail" dam-id="lglulCzERgKxQj73SWkEMA" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/d6ee167c6c3c4f9fb82e578ed7975250?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 79.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideHidden" role="tabpanel" aria-hidden="true" id="_R_7tanpfl5uivb_-panel-3" aria-labelledby="_R_7tanpfl5uivb_-tab-3"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for AFL martech stack video" dam-content-type="Image" filename="sitecore-customer-video-afl-martech-stack-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432684/thumbnail" dam-id="iSAhbpeRR_W34eO7-ie3Ig" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b28637b815bc4fc29be4773d660c5370?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 79.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideHidden" role="tabpanel" aria-hidden="true" id="_R_7tanpfl5uivb_-panel-4" aria-labelledby="_R_7tanpfl5uivb_-tab-4"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Atkore powering digital growth video" dam-content-type="Image" filename="sitecore-customer-video-atkore-powering-digital-growth-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432682/thumbnail" dam-id="wpxDiP7vQEeyChH4L_C0sQ" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/1fdcb2f05cce418285070eef2a5f73b3?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 79.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideHidden" role="tabpanel" aria-hidden="true" id="_R_7tanpfl5uivb_-panel-5" aria-labelledby="_R_7tanpfl5uivb_-tab-5"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Hexagon digital transformation video" dam-content-type="Image" filename="sitecore-customer-video-hexagon-digital-transformation-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432689/thumbnail" dam-id="OpB4wPxASxGawlxsgaPKHw" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/51736af1ddf04982ba5c19ae7d5ddeba?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 79.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideHidden" role="tabpanel" aria-hidden="true" id="_R_7tanpfl5uivb_-panel-6" aria-labelledby="_R_7tanpfl5uivb_-tab-6"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for Travel Money Group Oz transforming experience video" dam-content-type="Image" filename="sitecore-customer-video-travel-money-oz-transforming-experience-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/433439/thumbnail" dam-id="9wOYxcS_RI2GpSyPTNb6jw" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/8245003de6d34278ab42e0dabe456818?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 79.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div><div class="MediaSlider-module-scss-module__XHbaKq__Slide MediaSlider-module-scss-module__XHbaKq__SlideHidden" role="tabpanel" aria-hidden="true" id="_R_7tanpfl5uivb_-panel-7" aria-labelledby="_R_7tanpfl5uivb_-tab-7"><figure class="MediaSlider-module-scss-module__XHbaKq__MediaContainer relative aspect-video overflow-hidden rounded-lg bg-sc-neutral-200" role="group" aria-label="Media content"><div class="relative h-full w-full cursor-pointer" role="button" tabindex="-1" aria-label="Play video: Customer story"><button class="undefined group w-full cursor-pointer border-none bg-transparent p-0 transition duration-500 " aria-label="Play Video" style="aspect-ratio: 1.77778 / 1;"><div class="overflow-hidden rounded"><img alt="SitecoreAI customer video thumbnail for BOK Financial modernising digital experience video" dam-content-type="Image" filename="sitecore-customer-video-bok-financial-modernising-digital-experince-thumbnail.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/433440/thumbnail" dam-id="YJAs34DvQOqJwF0L19YBWg" loading="lazy" width="1280" height="720" decoding="async" data-nimg="1" class="w-full rounded transition-transform duration-300 ease-out group-hover:scale-[1.02] group-focus-visible:scale-[1.02] undefined" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/efc51d605a1644598e8af3774f905734?t=sc1200" style="color: transparent;"></div><div class="absolute inset-0 flex items-center justify-center"><span class="icon-play-circle h-full w-1/6 min-w-16 max-w-24 transform-gpu leading-none text-white transition-transform duration-300 [button:focus_&amp;]:scale-[1.1] [button:hover_&amp;]:scale-[1.1]"></span></div></button><dialog class="z-10 m-0 transition-all duration-1000 backdrop:animate-fadeIn backdrop:bg-black backdrop:bg-opacity-40 backdrop:backdrop-blur-[3px] " style="top: 3270.08px; left: 79.9844px; width: 736px; max-width: 0px; aspect-ratio: 1.77778 / 1; opacity: 0; overflow: visible;"><button class="group absolute right-[-25px] top-[-50px] z-10 rounded-es-md bg-transparent p-4 text-white md:right-[-50px]" aria-label="Close video player"><img alt="Close menu" width="25" height="25" class="transition-[filter] duration-150 ease-out group-hover:brightness-0 group-hover:invert group-focus-visible:brightness-0 group-focus-visible:invert" src="/static/close-black.svg"></button><div></div></dialog></div></figure></div></div><div class="undefined mt-4 flex flex-wrap justify-center gap-x-4 gap-y-2 sm:mt-6 sm:gap-x-6 sm:gap-y-3" role="tablist" aria-label="Slide navigation"><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-0" aria-selected="true" aria-controls="_R_7tanpfl5uivb_-panel-0" tabindex="0" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          " aria-label="How ENMAX transformed their digital experience"><img alt="Enmax logo" dam-content-type="Image" filename="enmax-logo-color.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/429582/thumbnail" dam-id="qKpRjLU0QXC4neIOZpOKOQ" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 22px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/b96440d2b9a74eb09ed5cfe8feefa44b?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-sc-red-700" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-1" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-1" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Shriners Children’s modernized care through DX"><img alt="Shriner's children logo" dam-content-type="Image" filename="shriners-children-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432759/thumbnail" dam-id="EL45ip_LRyiShJrjPaLDew" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 24px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/9f1c469a57ec44aaa262536a0366f0e9?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-2" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-2" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="How GoTo Technologies modernized its digital experience"><img alt="GoTo Technologies logo" dam-content-type="Image" filename="goto-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432755/thumbnail" dam-id="Lz79UWTWRHuUtEmnN1QVuw" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 27px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4272c19c000b4500a1745357ce27eb8f?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-3" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-3" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="The backbone of AFL's martech stack"><img alt="AFL logo" dam-content-type="Image" filename="afl-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432760/thumbnail" dam-id="OFPg0gtIRbCGNvIlvBhobw" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 22px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/6b3ebe50dab04bc1b837ccd2bbe384f6?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-4" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-4" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Powering Atkore's digital growth"><img alt="Atkore logo" dam-content-type="Image" filename="Atkore-Logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/125107/thumbnail" dam-id="n-WDJuI1QreiD3o2GO9w2g" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 22px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4a7b290eec094d3c988f929765e4a6dc?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-5" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-5" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Hexagon’s digital transformation"><img alt="Hexagon logo" dam-content-type="Image" filename="hexagon-sitecore-customer-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/432655/thumbnail" dam-id="zh6nFy8yTMCIsrJ7Tc6XHw" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 22px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/6b5cc0d58c51452cac3db0e068f4c1cf?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-6" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-6" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Transforming the Travel Money experience"><img alt="Travel Money Group logo" dam-content-type="Image" filename="tmoz-light.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/427168/thumbnail" dam-id="uJ1vS1CpQVOaklM92E6LrQ" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 22px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/a1ba983e13e841378a963c1216735324?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-7" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-7" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton undefined 
+          group flex flex-col items-center justify-center transition-all duration-300
+          opacity-40 hover:opacity-100" aria-label="Modernizing BOK Financial's digital experience"><img alt="Sitecore customer BOK Financial logo" dam-content-type="Image" filename="bok-financial-logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/433469/thumbnail" dam-id="iuVCbUPhSzGLxDdUITAIIQ" loading="lazy" width="100" height="48" decoding="async" data-nimg="1" class="transition-all duration-300 w-auto" style="color: transparent; height: 22px; width: auto;" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/fd290c7afa7043d3bf8f743750fe60fd?t=sc96h"><span class="mt-1.5 h-1.5 w-1.5 rounded-full transition-all duration-200 sm:h-2 sm:w-2 bg-transparent" aria-hidden="true"></span></button></div></div><div class="flex w-full flex-col gap-2 lg:w-1/2 xl:w-[40%]"><nav class="undefined flex w-full flex-col gap-2" role="tablist" aria-label="Slide navigation"><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-0" aria-selected="true" aria-controls="_R_7tanpfl5uivb_-panel-0" tabindex="0" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText MediaSlider-module-scss-module__XHbaKq__NavButtonActive 
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          text-white"><h3 class="text-sm font-semibold sm:text-sc-body-m text-white">How ENMAX transformed their digital experience</h3></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-1" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-1" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText  
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          bg-white hover:bg-purple-50"><h3 class="text-sm font-semibold sm:text-sc-body-m text-gray-900">Shriners Children’s modernized care through DX</h3></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-2" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-2" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText  
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          bg-white hover:bg-purple-50"><h3 class="text-sm font-semibold sm:text-sc-body-m text-gray-900">How GoTo Technologies modernized its digital experience</h3></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-3" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-3" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText  
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          bg-white hover:bg-purple-50"><h3 class="text-sm font-semibold sm:text-sc-body-m text-gray-900">The backbone of AFL's martech stack</h3></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-4" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-4" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText  
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          bg-white hover:bg-purple-50"><h3 class="text-sm font-semibold sm:text-sc-body-m text-gray-900">Powering Atkore's digital growth</h3></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-5" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-5" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText  
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          bg-white hover:bg-purple-50"><h3 class="text-sm font-semibold sm:text-sc-body-m text-gray-900">Hexagon’s digital transformation</h3></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-6" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-6" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText  
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          bg-white hover:bg-purple-50"><h3 class="text-sm font-semibold sm:text-sc-body-m text-gray-900">Transforming the Travel Money experience</h3></button><button type="button" role="tab" id="_R_7tanpfl5uivb_-tab-7" aria-selected="false" aria-controls="_R_7tanpfl5uivb_-panel-7" tabindex="-1" class="MediaSlider-module-scss-module__XHbaKq__NavButton MediaSlider-module-scss-module__XHbaKq__NavButtonText  
+          group flex w-full items-center rounded-md px-3 py-2 text-left transition-[background-color,border-color] duration-300
+          bg-white hover:bg-purple-50"><h3 class="text-sm font-semibold sm:text-sc-body-m text-gray-900">Modernizing BOK Financial's digital experience</h3></button></nav><div class="mt-4 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:items-start !mt-4" data-component-name="CTASelection"><div class="cta-button w-fit  " data-component-name="CTA"><a title="" target="" class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaReverseBtn CTA-module-scss-module___ODA1q__ctaReverseArrow " locale="" href="/solutions/customers">See all customers</a></div></div></div></div></div></div></div></section><section class="sc-section asset-signpost-section sc-gradient-light-bg " data-component-name="AssetSignpost"><div class="container"><div class=" sc-grid !px-0 py-0"><div class="content-lockup flex w-full flex-col items-center text-center AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsLockup px-sc-grid-padding-x sm:max-w-full py-6 lg:py-8 xl:py-10"><div class="content-lockup__content ContentLockup-module-scss-module__E5Ta6q__ContentLockupContent flex flex-1 flex-col gap-4 text-left"><small class="content-lockup__content__eyebrow mx-auto text-center block max-w-5xl text-sc-eyebrow-m uppercase">Analyst recognition</small><h2 class="content-lockup__content__headline mx-auto text-center max-w-5xl text-sc-h4 !font-normal">How leading analysts rate Sitecore solutions</h2><div class="content-lockup__content__description ContentLockup-module-scss-module__E5Ta6q__ContentLockupContentDescription mx-auto text-center rich-text max-w-2xl"><p>Analyst firms Forrester, Gartner, and IDC consistently rank us highly in vendor assessments.</p></div></div></div><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsContainer asset-signpost"><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsGrid"><a title="" target="" class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCard" aria-label="Sitecore named a Leader in the 2026 Gartner® Magic Quadrant for Content Marketing Platforms™" href="/solutions/analyst-reports/gartner-magic-quadrant-content-marketing-leader"><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardLogo"><img alt="logo" dam-content-type="Image" filename="Gartner-Logo.jpg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/207428/thumbnail" dam-id="AzVmnXjnRreiZQzrfYLpgg" loading="lazy" width="350" height="0" decoding="async" data-nimg="1" class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostImage" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/e0e974312db94cf6ac19e5075164ea48?t=sc350" style="color: transparent;"></div><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardDivider" aria-hidden="true"></div><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardContent"><h3 class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardTitle">Sitecore named a Leader in the 2026 Gartner® Magic Quadrant for Content Marketing Platforms™</h3></div><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardCTA"><div class="cta-button w-fit  AssetSignpost-module-scss-module__L9lKYW__AssetSignpostCTA" data-component-name="CTA"><span class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaReverseBtn CTA-module-scss-module___ODA1q__ctaReverseArrow ">Download the report </span></div></div></a><a title="" target="_blank" class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCard" aria-label="Sitecore named a Leader in The Forrester Wave™: Digital Experience Platforms, Q4 2025" href="/solutions/analyst-reports/the-forrester-wave-digital-experience-platforms"><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardLogo"><img alt="lofo forrester" dam-content-type="Image" filename="Forrester_Research_logo.svg" thumbnailsrc="https://sitecore.sitecorecontenthub.cloud/api/gateway/207448/thumbnail" dam-id="UWMVfO02RpWh4ZWm8734Mg" loading="lazy" width="350" height="0" decoding="async" data-nimg="1" class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostImage" src="https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/4473eb12a9fb4e6e956c279e62940b87?t=sc350" style="color: transparent;"></div><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardDivider" aria-hidden="true"></div><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardContent"><h3 class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardTitle">Sitecore named a Leader in The Forrester Wave™: Digital Experience Platforms, Q4 2025</h3></div><div class="AssetSignpost-module-scss-module__L9lKYW__AssetSignpostAsCardsCardCTA"><div class="cta-button w-fit  AssetSignpost-module-scss-module__L9lKYW__AssetSignpostCTA" data-component-name="CTA"><span class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaReverseBtn CTA-module-scss-module___ODA1q__ctaReverseArrow ">Access the report</span></div></div></a></div><div class="mt-4 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:items-start justify-center md:pt-6" data-component-name="CTASelection"><div class="cta-button w-fit  " data-component-name="CTA"><a title="" target="" class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaReverseBtn CTA-module-scss-module___ODA1q__ctaReverseArrow " locale="" href="/solutions/analyst-reports">See all Analyst Reports</a></div></div></div></div></div></section><section class="sc-section content-promo-section sc-gradient-light-bg " data-component-name="ContentPromoSection"><div class="container"><div class=" sc-grid"><div class="content-lockup flex w-full flex-col items-center text-center content-promo-section__content-lockup undefined py-6 lg:py-8 xl:py-10"><div class="content-lockup__content ContentLockup-module-scss-module__E5Ta6q__ContentLockupContent flex flex-1 flex-col gap-4 text-left"><h2 class="content-lockup__content__headline mx-auto text-center max-w-5xl text-sc-h4 !font-normal">How does AI describe your brand?</h2><div class="content-lockup__content__description ContentLockup-module-scss-module__E5Ta6q__ContentLockupContentDescription mx-auto text-center rich-text max-w-2xl"><p>Most brands have never seen their own AI answers. Request a demo to get your free AI visibility snapshot and optimize how your brand appears across AI search.</p></div></div><div class="mt-4 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:items-start cta-selection mt-6" data-component-name="CTASelection"><div class="cta-button w-fit  " data-component-name="CTA"><a title="" target="" class="flex items-center rounded-full CTA-module-scss-module___ODA1q__ctaGradientBtn CTA-module-scss-module___ODA1q__ctaArrow " locale="" href="/request-a-demo-scrunch">Get your AI visibility snapshot</a></div></div></div></div></div></section><section class="sc-section content-section ContentSection-module-scss-module__A_jgya__ContentSection bg-white " data-component-name="ContentSection"><div class="container"><div class=" sc-grid"><div class="py-6 lg:py-8 xl:py-10 "><div class="rich-text max-w-5xl undefined mt-4"><style>
+
+/* PAGE BACKGROUND COLOR */
+body {
+  background-color: #fdfdff;
+  background-image:
+    radial-gradient(
+      700px circle at 50% 0%,
+      rgba(0, 0, 80, 0.035) 0%,
+      rgba(0, 10, 100, 0.015) 35%,
+      transparent 65%
+    ),
+    radial-gradient(
+      900px circle at 10% 72%,
+      rgba(255, 31, 56, 0.045) 0%,
+      rgba(255, 31, 56, 0.026) 16%,
+      rgba(255, 31, 56, 0.011) 32%,
+      rgba(255, 31, 56, 0.003) 48%,
+      transparent 66%
+    ),
+    radial-gradient(
+      950px circle at 90% 26%,
+      rgba(0, 0, 120, 0.065) 0%,
+      rgba(30, 60, 200, 0.036) 18%,
+      rgba(80, 110, 240, 0.016) 34%,
+      rgba(120, 140, 255, 0.004) 50%,
+      transparent 68%
+    ),
+    linear-gradient(
+      180deg,
+      #fdfdff 0%,
+      #fcfcfe 100%
+    );
+  background-repeat: no-repeat;
+  background-attachment: fixed, fixed, fixed;
+}
+
+
+/* ADJUST SECTION BACKGROUNDS AND GRID LINES */
+
+main section:not(.bg-sc-neutral-100) > .container > .sc-grid {
+  background: transparent !important;
+  border: unset !important;
+}
+
+
+/* HIDE STYLES CONTENT SECTION */
+
+section.content-section {
+  display: none !important;
+}
+
+
+/* CONTENT PROMO SECTION */
+
+section.sc-section.content-promo-section .content-lockup__content {
+  max-width: 900px;
+}
+
+
+/* H2 FOR CAPABILITIES TILES ON HERO */
+
+section#tiles-capabilities div.content-lockup {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+section#tiles-capabilities h2.content-lockup__content__headline {
+  text-transform: uppercase;
+  font-size: var(--sc-eyebrow-m);
+  line-height: var(--sc-eyebrow-m-lh);
+  letter-spacing: var(--sc-eyebrow-m-ls);
+  font-weight: 600 !important;
+}
+
+
+/* LOGO CAROUSEL */
+
+section.logo-carousel-section .sc-grid {
+  background: transparent !important;
+  border: unset;
+  padding: 2rem 0 3rem;
+}
+
+
+/* BE THE ANSWER SECTION */
+
+section#tiles-answer div.tiles__grid {
+  max-width: 1530px;
+}
+
+section#tiles-answer .content-lockup {
+  padding-top: 4rem;
+}
+
+
+/* ANALYST REPORTS */
+
+section.sc-section.asset-signpost-section div[data-component-name="CTASelection"] {
+  padding-top: 2rem;
+  margin: 0;
+}
+
+
+/* SCRUNCH SECTION */
+
+section#scrunch {
+  position: relative !important;
+  isolation: isolate;
+  overflow: hidden !important;
+  color: #ffffff !important;
+  background:
+    radial-gradient(
+      circle at 82% 20%,
+      rgba(119, 79, 255, 0.22),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 12% 88%,
+      rgba(255, 74, 109, 0.14),
+      transparent 28%
+    ),
+    linear-gradient(
+      135deg,
+      #06162f 0%,
+      #071b39 48%,
+      #051329 100%
+    ) !important;
+  padding-block: clamp(1.5rem, 4vw, 3rem) !important;
+}
+
+section#scrunch::before,
+section#scrunch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+section#scrunch::before {
+  opacity: 0.18;
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.16) 1px,
+      transparent 1px
+    );
+  background-size: 72px 72px;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 20%,
+    #000 85%,
+    transparent
+  );
+}
+
+section#scrunch::after {
+  inset: auto -12rem -24rem auto;
+  width: 46rem;
+  height: 46rem;
+  border: 1px solid rgba(175, 155, 255, 0.18);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 5rem rgba(175, 155, 255, 0.035),
+    0 0 0 10rem rgba(175, 155, 255, 0.025);
+}
+
+
+/* SCRUNCH CONTAINER */
+
+section#scrunch > .container {
+  position: relative !important;
+  z-index: 1;
+  width: min(100%, 1440px) !important;
+  max-width: 1440px !important;
+  margin-inline: auto !important;
+}
+
+
+/* SCRUNCH GRID */
+
+section#scrunch
+  > .container
+  > .sc-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  grid-template-areas:
+    "copy"
+    "ctas"
+    "media" !important;
+  gap: clamp(1.5rem, 4vw, 3rem) !important;
+  align-items: start !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding-inline: clamp(1.25rem, 4vw, 4rem) !important;
+  margin: 0 !important;
+}
+
+
+/* RESET DIRECT GRID CHILDREN */
+
+section#scrunch
+  > .container
+  > .sc-grid
+  > .content-lockup,
+section#scrunch
+  > .container
+  > .sc-grid
+  > .content-lockup
+  + div,
+section#scrunch
+  > .container
+  > .sc-grid
+  > [data-component-name="CTASelection"] {
+  position: relative !important;
+  inset: auto !important;
+  float: none !important;
+  clear: none !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+
+/* COPY */
+
+section#scrunch
+  > .container
+  > .sc-grid
+  > .content-lockup {
+  grid-area: copy !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  align-self: end !important;
+  order: 1 !important;
+  padding: 0 !important;
+}
+
+
+/* MEDIA */
+
+section#scrunch
+  > .container
+  > .sc-grid
+  > .content-lockup
+  + div {
+  grid-area: media !important;
+  align-self: center !important;
+  order: 3 !important;
+  padding: 0 !important;
+}
+
+
+/* CTA GROUP */
+
+section#scrunch
+  > .container
+  > .sc-grid
+  > [data-component-name="CTASelection"] {
+  grid-area: ctas !important;
+  display: flex !important;
+  flex-flow: row wrap !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  align-self: start !important;
+  order: 2 !important;
+  gap: 0.875rem !important;
+  padding: 0 !important;
+}
+
+
+/* CONTENT */
+
+section#scrunch
+  .content-lockup__content {
+  width: 100% !important;
+  max-width: 38rem !important;
+  gap: 1.25rem !important;
+}
+
+section#scrunch
+  .content-lockup__content__headline {
+  margin: 0 !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  text-wrap: balance;
+}
+
+section#scrunch
+  .content-lockup__content__description {
+  width: 100% !important;
+  max-width: 36rem !important;
+  margin: 0 !important;
+  color: rgb(250 250 251 / 91%) !important;
+  font-size: clamp(1rem, 1.2vw, 1.18rem) !important;
+  line-height: 1.65 !important;
+}
+
+section#scrunch
+  .content-lockup__content__description p {
+  margin: 0 !important;
+  color: inherit !important;
+}
+
+
+/* MEDIA FIGURE */
+
+section#scrunch
+  > .container
+  > .sc-grid
+  > .content-lockup
+  + div
+  > figure {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* MEDIA WRAPPER */
+
+section#scrunch
+  .media-content-wrapper {
+  aspect-ratio: 1.77778 / 1;
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  padding: 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: clamp(1rem, 2vw, 1.5rem);
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow:
+    0 2rem 5rem rgba(0, 0, 0, 0.34),
+    0 0 0 1px rgba(130, 104, 255, 0.08) inset;
+  overflow: hidden !important;
+}
+
+
+/* VIDEO BUTTON */
+
+section#scrunch
+  .media-content-wrapper
+  > button {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  border-radius: inherit !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  aspect-ratio: 16 / 9 !important;
+}
+
+section#scrunch
+  .media-content-wrapper
+  > button
+  > div:first-child {
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  border-radius: inherit !important;
+}
+
+section#scrunch
+  .media-content-wrapper
+  > button
+  img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  border-radius: inherit !important;
+}
+
+
+/* CTA ITEMS */
+
+section#scrunch
+  [data-component-name="CTASelection"]
+  > [data-component-name="CTA"] {
+  flex: 0 0 auto !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+
+/* CTA HOVER */
+
+section#scrunch
+  [data-component-name="CTASelection"]
+  > [data-component-name="CTA"]
+  > a:hover {
+  transform: translateY(-2px);
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+  section#scrunch
+    > .container
+    > .sc-grid {
+    grid-template-columns:
+      minmax(18rem, 0.82fr)
+      minmax(0, 1.18fr) !important;
+    grid-template-rows: auto auto !important;
+    grid-template-areas:
+      "copy media"
+      "ctas media" !important;
+    column-gap: clamp(3rem, 6vw, 7rem) !important;
+    row-gap: 1.75rem !important;
+    align-items: center !important;
+  }
+
+  section#scrunch
+    > .container
+    > .sc-grid
+    > .content-lockup {
+    grid-column: 1 / 2 !important;
+    grid-row: 1 / 2 !important;
+    align-self: end !important;
+  }
+
+  section#scrunch
+    > .container
+    > .sc-grid
+    > [data-component-name="CTASelection"] {
+    grid-column: 1 / 2 !important;
+    grid-row: 2 / 3 !important;
+    align-self: start !important;
+  }
+
+  section#scrunch
+    > .container
+    > .sc-grid
+    > .content-lockup
+    + div {
+    grid-column: 2 / 3 !important;
+    grid-row: 1 / 3 !important;
+    align-self: center !important;
+  }
+}
+
+
+/* TABLET */
+
+@media (max-width: 1023px) {
+  section#scrunch
+    > .container
+    > .sc-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    grid-template-areas:
+      "copy"
+      "ctas"
+      "media" !important;
+  }
+
+  section#scrunch
+    .content-lockup__content,
+  section#scrunch
+    .content-lockup__content__description {
+    max-width: 46rem !important;
+  }
+
+  section#scrunch
+    .content-lockup__content__headline {
+    font-size: var(--sc-h3) !important;
+  }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 639px) {
+  section#scrunch {
+    padding-block: 3.5rem !important;
+  }
+
+  section#scrunch
+    > .container
+    > .sc-grid {
+    gap: 1.5rem !important;
+    padding-inline: 1.25rem !important;
+  }
+
+  section.footer-signpost-section div[data-component-name="CTASelection"] {
+    align-items: flex-start;
+  }
+}
+
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+  section#scrunch *,
+  section#scrunch *::before,
+  section#scrunch *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+</style></div></div></div></div></section></div>

@@ -1,0 +1,20 @@
+---
+ID: "f7d3eb44-b77f-4aa0-a282-722c1822cdbc"
+Parent: "4cea5c90-f595-4495-a1ea-2abf3b84098a"
+Template: "aa86678e-2a77-4538-a423-065425a57eb8"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/IncludedFeatureItems/sitecore-com--platform-digital-asset-management-includedfeatureitem-27"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3b06530f-07a6-4110-86ee-a1dcd0bc76cb"
+      Hint: Title
+      Value: "Analytics"
+    - ID: "c53705a4-dde3-409a-9c82-5a362b3d16dd"
+      Hint: Description
+      Value: "Understand what works across the journey."
+    - ID: "85875cd0-21b7-435b-8f69-4aab0edcfd70"
+      Hint: Icon
+      Value: |
+        <image mediaid="ded3097e-441a-41ca-85c3-6faef2a411b4" />

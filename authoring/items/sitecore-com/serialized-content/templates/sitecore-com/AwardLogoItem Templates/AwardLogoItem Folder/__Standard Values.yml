@@ -1,0 +1,23 @@
+---
+ID: "b996e2a4-f482-4c0b-a0cc-17ba64a68ebc"
+Parent: "16891789-24a4-4d44-9e72-e953399fe0ab"
+Template: "16891789-24a4-4d44-9e72-e953399fe0ab"
+Path: "/sitecore/templates/Project/sitecore-com/AwardLogoItem Templates/AwardLogoItem Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {7CEF7497-9F8B-4C2D-8DC6-99D94E7D7A3F}
+    {16891789-24A4-4D44-9E72-E953399FE0AB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

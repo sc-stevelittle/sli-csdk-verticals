@@ -1,0 +1,23 @@
+---
+ID: "92decaa8-4502-4db3-bf63-df62e0545029"
+Parent: "c29c6b32-ab87-42fc-92fe-91937f4a24bd"
+Template: "c29c6b32-ab87-42fc-92fe-91937f4a24bd"
+Path: "/sitecore/templates/Project/sitecore-com/ProductHero Templates/ProductHero Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {1C4FA3BC-EEAE-4F1A-AD8B-596B9CEFB9FA}
+    {C29C6B32-AB87-42FC-92FE-91937F4A24BD}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

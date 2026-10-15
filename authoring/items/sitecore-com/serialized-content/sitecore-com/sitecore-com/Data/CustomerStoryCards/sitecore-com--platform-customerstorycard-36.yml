@@ -1,0 +1,27 @@
+---
+ID: "97497c7e-8983-4684-a806-8656b6383425"
+Parent: "eb687d66-80fb-49ae-9c9f-21cc0f4dc6e3"
+Template: "5cd41ad2-6160-4bbd-bc5e-039aee21e0d6"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryCards/sitecore-com--platform-customerstorycard-36"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "a903ad6e-4a05-4f90-a99e-aa6c36fd9950"
+      Hint: Image
+      Value: |
+        <image mediaid="8b95c277-aaec-486a-9992-01d205ba69db" />
+    - ID: "6d5579df-c03e-4d38-987d-91f1146ce7f6"
+      Hint: Industry
+      Value: "Travel"
+    - ID: "1fce674e-aebc-4572-bc9f-72c9bf1d071d"
+      Hint: Title
+      Value: "Content at global scale"
+    - ID: "a63eeee4-acdb-44f6-9658-16809020953e"
+      Hint: Description
+      Value: "A travel team made campaigns easier to manage."
+    - ID: "f9cdf85a-e9ac-4e30-97d0-0a257d0980a1"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{E7B8828A-D8E0-4D73-B3E6-DF1982F5A8B8}" anchor="" target="" title="" linktype="internal" text="Read the story" url="/solutions/customers" />

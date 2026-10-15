@@ -1,0 +1,20 @@
+---
+ID: "2f3ea127-f17a-4eea-a5a4-17879c7b2f94"
+Parent: "af1af32e-53e5-4368-8e3f-c7466f36a74c"
+Template: "a0cfe854-b4d8-43d6-ad1a-a9e96e5594c9"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/CustomerStoryCarousels/sitecore-com--platform-digital-asset-management-customerstorycarousel-34"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "62cdc625-4078-48f7-a3d2-0697d926577b"
+      Hint: Title
+      Value: "Customer stories"
+    - ID: "c441280d-1ab3-430d-834c-346d1be651d2"
+      Hint: Intro
+      Value: "See what teams are building with Sitecore."
+    - ID: "7747b491-eb0e-44b4-880a-b4bdab4f8dd6"
+      Hint: ViewAllLink
+      Value: |
+        <link class="" querystring="" id="{E7B8828A-D8E0-4D73-B3E6-DF1982F5A8B8}" anchor="" target="" title="" linktype="internal" text="See all customers" url="/solutions/customers" />

@@ -1,0 +1,17 @@
+---
+ID: "4185c453-5820-496c-9a10-df59fc68f3c6"
+Parent: "28aac974-af0c-42a7-9e32-3457cb0bb7a5"
+Template: "28aac974-af0c-42a7-9e32-3457cb0bb7a5"
+Path: "/sitecore/templates/Project/sitecore-com/ProductCapabilityTab Templates/ProductCapabilityTab/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,23 @@
+---
+ID: "5ae13ff6-7184-4e5f-a9c0-971ead2efb05"
+Parent: "c27a2a2e-456a-4c01-9adf-7221c6fb184f"
+Template: "c27a2a2e-456a-4c01-9adf-7221c6fb184f"
+Path: "/sitecore/templates/Project/sitecore-com/IncludedFeatureGrid Templates/IncludedFeatureGrid Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {B1E1E1B7-B4A2-4776-9360-5CBFC53917AE}
+    {C27A2A2E-456A-4C01-9ADF-7221C6FB184F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

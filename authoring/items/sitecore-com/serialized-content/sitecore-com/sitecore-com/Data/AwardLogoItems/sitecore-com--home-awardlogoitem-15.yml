@@ -1,0 +1,21 @@
+---
+ID: "72db4bce-a34c-41c2-a798-d1a4cb3b786b"
+Parent: "389efa66-d840-4042-93eb-ed8be8335d60"
+Template: "7cef7497-9f8b-4c2d-8dc6-99d94e7d7a3f"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/AwardLogoItems/sitecore-com--home-awardlogoitem-15"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "c441b258-5cfa-4d67-ad08-b85f7da1d978"
+      Hint: Image
+      Value: |
+        <image mediaid="c13dbe90-84f5-4478-8585-f00cfd83d3ea" />
+    - ID: "514a2b49-54f7-4390-82d5-7ef7fbaed2b5"
+      Hint: AltText
+      Value: "CMS Critic award badge"
+    - ID: "3225a141-0be6-4e9c-a16e-f48c369b1639"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{DF7C2832-85D2-4B17-A90F-D653AB3C49F6}" anchor="" target="" title="" linktype="internal" text="Award details" url="/company/newsroom" />

@@ -1,0 +1,31 @@
+---
+ID: "5870fa8f-b8f6-4e0c-b226-1b2fad9a95bd"
+Parent: "c1f619f1-0cd3-48ab-9f60-6231f136dd60"
+Template: "1c4fa3bc-eeae-4f1a-ad8b-596b9cefb9fa"
+Path: "/sitecore/content/sitecore-com/sitecore-com/Data/ProductHeros/sitecore-com--platform-producthero-5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "d07a9b49-2142-4e19-8f0d-ab8762fe3255"
+      Hint: ProductLabel
+      Value: "SitecoreAI platform"
+    - ID: "86867673-66e1-43cf-bc6a-97185668fd42"
+      Hint: Title
+      Value: "Turn every digital experience into a driver of growth"
+    - ID: "57d1f6e1-3fbf-4daf-bafb-14d24f375f03"
+      Hint: Body
+      Value: "A unified platform for content, data, and AI helps teams deliver connected customer experiences."
+    - ID: "48cca95f-ac0d-4948-abd8-107a3837121a"
+      Hint: Media
+      Value: |
+        <image mediaid="70b26f74-707f-4988-91c2-02c4dee73502" />
+    - ID: "7802e4d8-bc24-4bfa-b4dd-b1770cc0045f"
+      Hint: PrimaryLink
+      Value: |
+        <link class="" querystring="" id="{E954EFDF-5153-4C7E-8BEE-7BEBE65A139C}" anchor="" target="" title="" linktype="internal" text="Request a demo" url="/request-a-demo" />
+    - ID: "ec989c86-5782-4659-bf64-4d3c8c1cf8f3"
+      Hint: SecondaryLink
+      Value: |
+        <link class="" querystring="" id="{5CB1AAE2-0A31-459A-9E54-662B415BD4EE}" anchor="" target="" title="" linktype="internal" text="Explore the platform" url="/platform" />

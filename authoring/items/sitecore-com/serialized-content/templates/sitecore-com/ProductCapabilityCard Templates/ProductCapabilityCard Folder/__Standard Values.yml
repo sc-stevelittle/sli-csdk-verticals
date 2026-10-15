@@ -1,0 +1,23 @@
+---
+ID: "86af9151-7f65-4ec1-b8a4-86cc391982b6"
+Parent: "3c25f9f7-9dc4-400f-8209-0c49c9cbc9e9"
+Template: "3c25f9f7-9dc4-400f-8209-0c49c9cbc9e9"
+Path: "/sitecore/templates/Project/sitecore-com/ProductCapabilityCard Templates/ProductCapabilityCard Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {9295E16F-2C60-4D49-9B82-C49BAD78B0AB}
+    {3C25F9F7-9DC4-400F-8209-0C49C9CBC9E9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

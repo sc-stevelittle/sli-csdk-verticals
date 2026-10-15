@@ -1,0 +1,23 @@
+---
+ID: "58c2471c-bc42-4016-8396-f113b729bb80"
+Parent: "6e03c31f-a34d-48a1-8268-15e3c29b76ba"
+Template: "6e03c31f-a34d-48a1-8268-15e3c29b76ba"
+Path: "/sitecore/templates/Project/sitecore-com/CustomerStoryShowcase Templates/CustomerStoryShowcase Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {75C5EC8D-D97D-4752-9D7A-9A7E09D83363}
+    {6E03C31F-A34D-48A1-8268-15E3C29B76BA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260101T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
