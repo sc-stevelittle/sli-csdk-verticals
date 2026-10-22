@@ -1,5 +1,7 @@
 # SitecoreAI Industry Verticals Front End Sites
 
+Force Commit 
+
 ## Table of Contents
 
 - [Introduction](#introduction)
