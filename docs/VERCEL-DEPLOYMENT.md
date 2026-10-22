@@ -141,7 +141,7 @@ Sites with search also require:
 
 - Check the Vercel build logs for specific errors
 - Verify the root directory is set correctly
-- Ensure Node.js version compatibility (22.11.0+; `xmcloud.build.json` uses 24.18.0)
+- Ensure Node.js version compatibility (22.11.0+; `xmcloud.build.json` uses 24.x)
 - If the build fails resolving files above the app folder, enable **Include files outside the root directory in the Build Step**
 
 ---
